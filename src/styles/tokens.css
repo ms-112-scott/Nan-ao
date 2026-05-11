@@ -1,8 +1,87 @@
-/* Phase 0 stub — 完整版本在 Phase 2 補齊 */
+/*
+ * 南澳知識圖譜 — Design Tokens（紙質感）
+ * 依規劃 v2 §5 路線 A：sheet 顏色由前端覆寫為紙質風
+ */
+
 :root {
+  /* ─── 基底紙色 ─────────────────────────────── */
   --paper-bg: #f4eee0;
+  --paper-bg-deep: #e8dfcc;
+  --paper-edge: #d6c9b0;
+  --paper-shadow: rgba(95, 80, 50, 0.12);
+
+  /* ─── 墨色（文字 / 線條）─────────────────── */
   --ink-primary: #2a2620;
   --ink-secondary: #5c5448;
-  --font-serif: 'Source Han Serif TC', 'Noto Serif TC', 'Songti TC', serif;
-  --font-sans: 'Source Han Sans TC', 'Noto Sans TC', 'PingFang TC', sans-serif;
+  --ink-faint: #9c9180;
+  --ink-soft: rgba(42, 38, 32, 0.6);
+  --ink-line: rgba(42, 38, 32, 0.18);
+
+  /* ─── 7 個 meta_group 主色（與 Python 端同步）─ */
+  --cat-人物: #4a6b5b;
+  --cat-組織: #6b5b7b;
+  --cat-地景與聚落: #8b5a2b;
+  --cat-事件: #a8412b;
+  --cat-物質文化: #9b7b3f;
+  --cat-文獻: #7b6b5b;
+  --cat-計畫與行動: #5e7b8c;
+  --cat-其他: #9c9180;
+
+  /* ─── 5 個 meta_relation 邊色 ──────────────── */
+  --rel-spatial: #8b5a2b;
+  --rel-social: #4a6b5b;
+  --rel-causal: #a8412b;
+  --rel-creative: #6b5b7b;
+  --rel-documentary: #7b6b5b;
+  --rel-其他: #9c9180;
+
+  /* ─── 突破點 ──────────────────────────────── */
+  --breakthrough: #c9a227;
+  --breakthrough-soft: rgba(201, 162, 39, 0.18);
+  --breakthrough-glow: rgba(201, 162, 39, 0.45);
+
+  /* ─── 互動回饋 ────────────────────────────── */
+  --highlight: #c9a227;
+  --selected-ring: rgba(201, 162, 39, 0.55);
+  --hover-ring: rgba(42, 38, 32, 0.35);
+
+  /* ─── 字體 ────────────────────────────────── */
+  --font-serif:
+    'Noto Serif TC', 'Source Han Serif TC', 'PMingLiU', 'Songti TC',
+    'Times New Roman', serif;
+  --font-sans:
+    'Noto Sans TC', 'Source Han Sans TC', 'PingFang TC',
+    'Microsoft JhengHei', 'Helvetica Neue', sans-serif;
+  --font-num: 'EB Garamond', 'Cardo', 'Georgia', serif;
+
+  /* ─── 排版 ────────────────────────────────── */
+  --text-xs: 11px;
+  --text-sm: 13px;
+  --text-base: 15px;
+  --text-md: 17px;
+  --text-lg: 22px;
+  --text-xl: 28px;
+  --text-2xl: 36px;
+
+  /* ─── 間距 ────────────────────────────────── */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+
+  /* ─── 形狀 ────────────────────────────────── */
+  --radius-sm: 3px;
+  --radius-md: 6px;
+  --radius-lg: 10px;
+
+  /* ─── Z-index ────────────────────────────── */
+  --z-canvas: 1;
+  --z-labels: 5;
+  --z-minimap: 10;
+  --z-panels: 20;
+  --z-topbar: 30;
+  --z-modal: 40;
+  --z-tooltip: 50;
 }

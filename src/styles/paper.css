@@ -1,4 +1,191 @@
-/* Phase 0 stub — 完整版本在 Phase 2 補齊 */
+/*
+ * 紙質感視覺：噪點背景、墨痕陰影、襯線排版工具類
+ */
+
+/* ─── 紙紋背景 ───────────────────────────────────────── */
 .paper-bg {
   background: var(--paper-bg);
+  background-image:
+    /* 內陰影：紙張邊緣 */
+    radial-gradient(
+      ellipse at center,
+      transparent 60%,
+      rgba(95, 80, 50, 0.06) 100%
+    ),
+    /* 細噪點：用 SVG inline 模擬米紙 */
+      url("data:image/svg+xml;utf8,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.62  0 0 0 0 0.55  0 0 0 0 0.4  0 0 0 0.18 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size:
+    100% 100%,
+    180px 180px;
+}
+
+.paper-card {
+  background: var(--paper-bg-deep);
+  border: 1px solid var(--paper-edge);
+  border-radius: var(--radius-md);
+  box-shadow:
+    0 1px 0 rgba(255, 250, 235, 0.5) inset,
+    0 1px 4px var(--paper-shadow);
+}
+
+/* ─── 排版 ───────────────────────────────────────────── */
+.serif {
+  font-family: var(--font-serif);
+}
+.sans {
+  font-family: var(--font-sans);
+}
+.num {
+  font-family: var(--font-num);
+  font-feature-settings: 'lnum';
+}
+
+.title-1 {
+  font-family: var(--font-serif);
+  font-size: var(--text-xl);
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--ink-primary);
+}
+.title-2 {
+  font-family: var(--font-serif);
+  font-size: var(--text-lg);
+  font-weight: 600;
+  color: var(--ink-primary);
+}
+.body {
+  font-family: var(--font-serif);
+  font-size: var(--text-base);
+  line-height: 1.7;
+  color: var(--ink-primary);
+}
+.caption {
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  color: var(--ink-secondary);
+}
+.tiny {
+  font-family: var(--font-sans);
+  font-size: var(--text-xs);
+  color: var(--ink-faint);
+}
+
+/* ─── 元件 ───────────────────────────────────────────── */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-family: var(--font-sans);
+  font-size: var(--text-xs);
+  background: var(--paper-bg);
+  border: 1px solid var(--paper-edge);
+  color: var(--ink-secondary);
+  gap: 4px;
+}
+.chip-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: var(--radius-md);
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  background: var(--paper-bg);
+  border: 1px solid var(--paper-edge);
+  color: var(--ink-primary);
+  transition: background 0.15s ease;
+}
+.btn:hover {
+  background: var(--paper-bg-deep);
+}
+.btn.active {
+  background: var(--ink-primary);
+  color: var(--paper-bg);
+  border-color: var(--ink-primary);
+}
+.btn.icon-only {
+  padding: 6px;
+  width: 32px;
+  height: 32px;
+  justify-content: center;
+}
+
+.divider {
+  height: 1px;
+  background: var(--ink-line);
+  border: 0;
+}
+
+/* ─── 突破點通用樣式 ──────────────────────────────── */
+.breakthrough-frame {
+  border: 1.5px solid var(--breakthrough);
+  background: var(--breakthrough-soft);
+  border-radius: var(--radius-md);
+  padding: var(--space-3);
+}
+.breakthrough-star {
+  color: var(--breakthrough);
+  font-weight: 700;
+}
+
+/* ─── Scrollbar 紙質感 ─────────────────────────────── */
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+  background: var(--paper-edge);
+  border-radius: 4px;
+}
+*::-webkit-scrollbar-thumb:hover {
+  background: var(--ink-faint);
+}
+
+/* ─── 動畫 ──────────────────────────────────────────── */
+@keyframes slide-in-right {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.slide-in-right {
+  animation: slide-in-right 350ms cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.fade-in {
+  animation: fade-in 200ms ease-out;
+}
+
+/* ─── 突破點脈動 ─────────────────────────────────── */
+@keyframes breakthrough-pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 8px var(--breakthrough-glow);
+  }
+  50% {
+    box-shadow: 0 0 16px var(--breakthrough-glow);
+  }
 }
