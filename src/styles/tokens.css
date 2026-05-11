@@ -1,0 +1,8 @@
+/* Phase 0 stub — 完整版本在 Phase 2 補齊 */
+:root {
+  --paper-bg: #f4eee0;
+  --ink-primary: #2a2620;
+  --ink-secondary: #5c5448;
+  --font-serif: 'Source Han Serif TC', 'Noto Serif TC', 'Songti TC', serif;
+  --font-sans: 'Source Han Sans TC', 'Noto Sans TC', 'PingFang TC', sans-serif;
+}
