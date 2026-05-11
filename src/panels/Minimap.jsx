@@ -1,9 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react';
 
 /**
- * Minimap：縮圖 + 視窗方框。可拖移定位主圖。
+ * Minimap：純縮圖 + 視窗方框（無標題）。可拖移定位主圖。
  */
-export default function Minimap({ graph, width = 160, height = 110 }) {
+export default function Minimap({ graph, width = 160, height = 110, bottomOffset = 150 }) {
   const cvRef = useRef(null);
   const [collapsed, setCollapsed] = useState(false);
   const [, force] = useState(0);
@@ -67,7 +67,7 @@ export default function Minimap({ graph, width = 160, height = 110 }) {
     return (
       <button
         className="btn icon-only paper-card"
-        style={{ position: 'absolute', bottom: 80, right: 12, zIndex: 25 }}
+        style={{ position: 'absolute', bottom: bottomOffset, right: 12, zIndex: 25 }}
         onClick={() => setCollapsed(false)}
         title="展開縮圖"
       >🗺</button>
@@ -78,15 +78,20 @@ export default function Minimap({ graph, width = 160, height = 110 }) {
     <div
       className="paper-card"
       style={{
-        position: 'absolute', bottom: 80, right: 12, padding: 8, zIndex: 25,
+        position: 'absolute', bottom: bottomOffset, right: 12, padding: 4, zIndex: 25,
+        lineHeight: 0,
       }}
     >
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 4 }}>
-        <span className="tiny" style={{ color: 'var(--ink-faint)' }}>縮圖</span>
-        <button className="btn icon-only" onClick={() => setCollapsed(true)} style={{ width: 18, height: 18, padding: 0 }}>
-          —
-        </button>
-      </div>
+      <button
+        onClick={() => setCollapsed(true)}
+        title="收起縮圖"
+        style={{
+          position: 'absolute', top: 2, right: 2, zIndex: 1,
+          width: 16, height: 16, padding: 0, border: 0,
+          background: 'rgba(244,238,224,0.7)', color: 'var(--ink-secondary)',
+          borderRadius: 3, cursor: 'pointer', fontSize: 12, lineHeight: '14px',
+        }}
+      >×</button>
       <canvas ref={cvRef} style={{ display: 'block' }} />
     </div>
   );

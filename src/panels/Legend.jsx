@@ -1,51 +1,45 @@
 import React from 'react';
 
 /**
- * meta_group 圖例 + 「★ 只看突破點」 toggle。
- * 點擊 chip 切換該 group 的勾選。
+ * meta_group 圖例（chip 列）+ 「★ 只看突破點」 toggle。
+ * 預設使用 horizontal 模式（融入底部控制列）。
  */
-export default function Legend({ metaGroups, activeGroups, onToggleGroup, onlyBreakthrough, onToggleBreakthrough, breakthroughCount }) {
+export default function Legend({
+  metaGroups, activeGroups, onToggleGroup,
+  onlyBreakthrough, onToggleBreakthrough, breakthroughCount,
+}) {
   return (
-    <div
-      className="paper-card"
-      style={{
-        position: 'absolute', bottom: 100, right: 12, padding: 12, zIndex: 25,
-        display: 'flex', flexDirection: 'column', gap: 6, minWidth: 180,
-      }}
-    >
-      <div className="tiny" style={{ marginBottom: 4, color: 'var(--ink-faint)' }}>圖例（點即篩）</div>
+    <div style={{ display: 'flex', alignItems: 'center', gap: 4, flexWrap: 'wrap' }}>
       {metaGroups.map((g) => {
         const on = activeGroups.has(g.id);
         return (
           <button
             key={g.id}
-            className={'btn' + (on ? '' : '')}
+            className="btn"
             onClick={() => onToggleGroup(g.id)}
             style={{
-              justifyContent: 'flex-start', padding: '4px 8px', fontSize: 12,
+              padding: '2px 8px', fontSize: 11,
               opacity: on ? 1 : 0.4,
             }}
+            title={`${g.id}（${g.count}）`}
           >
             <span className="chip-dot" style={{ background: `var(--cat-${g.id})` }} />
-            <span style={{ flex: 1, textAlign: 'left' }}>{g.id}</span>
-            <span className="tiny num">{g.count}</span>
+            <span>{g.id}</span>
+            <span className="tiny num" style={{ marginLeft: 2 }}>{g.count}</span>
           </button>
         );
       })}
-
       {breakthroughCount > 0 && (
-        <>
-          <hr className="divider" style={{ margin: '4px 0' }} />
-          <button
-            className={'btn' + (onlyBreakthrough ? ' active' : '')}
-            onClick={onToggleBreakthrough}
-            style={{ padding: '4px 8px', fontSize: 12 }}
-          >
-            <span className="breakthrough-star">★</span>
-            <span style={{ flex: 1, textAlign: 'left' }}>只看突破點</span>
-            <span className="tiny num">{breakthroughCount}</span>
-          </button>
-        </>
+        <button
+          className={'btn' + (onlyBreakthrough ? ' active' : '')}
+          onClick={onToggleBreakthrough}
+          style={{ padding: '2px 8px', fontSize: 11, marginLeft: 4 }}
+          title="只看突破點"
+        >
+          <span className="breakthrough-star">★</span>
+          <span>只看突破</span>
+          <span className="tiny num" style={{ marginLeft: 2 }}>{breakthroughCount}</span>
+        </button>
       )}
     </div>
   );

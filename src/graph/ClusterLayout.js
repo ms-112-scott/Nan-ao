@@ -12,8 +12,8 @@ const ORDER = ['人物', '組織', '地景與聚落', '事件', '物質文化', 
 export function computeGroupCenters(width, height) {
   const cx = width / 2;
   const cy = height / 2;
-  // 半徑取較短邊的 30%
-  const R = Math.min(width, height) * 0.3;
+  // 半徑取較短邊的 42%（讓群間更開、給標籤留空間）
+  const R = Math.min(width, height) * 0.42;
   const centers = {};
   const ringGroups = ORDER.filter((g) => g !== '其他');
   const N = ringGroups.length; // 7

@@ -4,7 +4,7 @@ import React from 'react';
  * 右側節點詳情面板。
  * Props: node, onClose, onNodeClick(node), graph (for relations lookup)
  */
-export default function InfoCard({ node, onClose, onNodeClick, allLinks, allNodesById }) {
+export default function InfoCard({ node, onClose, onNodeClick, allLinks, allNodesById, width = 360, maxHeight = 'calc(100vh - 180px)', top = 80 }) {
   if (!node) return null;
 
   // 找相關節點，依 meta_relation 分組
@@ -31,19 +31,13 @@ export default function InfoCard({ node, onClose, onNodeClick, allLinks, allNode
     creative: '創作與設計', documentary: '紀錄與引用', 其他: '其他關係',
   };
 
-  const copyLink = () => {
-    const url = new URL(window.location.href);
-    url.searchParams.set('node', node.id);
-    navigator.clipboard?.writeText(url.toString());
-  };
-
   return (
     <div
       className="paper-card slide-in-right"
       style={{
-        position: 'absolute', top: 80, right: 12, width: 360,
+        position: 'absolute', top, right: 12, width,
         padding: 20, zIndex: 30,
-        maxHeight: 'calc(100vh - 180px)', overflowY: 'auto',
+        maxHeight, overflowY: 'auto',
       }}
     >
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: 8 }}>
@@ -55,9 +49,6 @@ export default function InfoCard({ node, onClose, onNodeClick, allLinks, allNode
               {node.meta_group}
             </span>
             <span className="chip">{node.node_Group}</span>
-            {node.sources?.length > 0 && (
-              <span className="chip">{node.sources.length} 來源</span>
-            )}
           </div>
         </div>
         <button className="btn icon-only" onClick={onClose} aria-label="關閉">✕</button>
@@ -123,17 +114,6 @@ export default function InfoCard({ node, onClose, onNodeClick, allLinks, allNode
         })}
       </div>
 
-      {node.sources?.length > 0 && (
-        <>
-          <hr className="divider" style={{ margin: '16px 0' }} />
-          <div className="tiny">來源 sheet：{node.sources.join('、')}</div>
-        </>
-      )}
-
-      <hr className="divider" style={{ margin: '16px 0' }} />
-      <button className="btn" onClick={copyLink} style={{ width: '100%' }}>
-        🔗 複製永久連結
-      </button>
     </div>
   );
 }

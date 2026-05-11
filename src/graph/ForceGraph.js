@@ -8,6 +8,28 @@ import { drawNode, drawEdge, assignCurveOffsets, nodeRadius } from './Renderer.j
 import { buildQuadtree, findNodeAt } from './Quadtree.js';
 import { resolveColor } from './EdgeStyles.js';
 
+/**
+ * 取得節點的標準 lon/lat（修正部分資料 lon/lat 對調）。
+ * 台灣 lon ~ 119–123，lat ~ 21–26。若 lon 落在 lat 範圍而 lat 落在 lon 範圍 → swap。
+ */
+function getNodeLonLat(n) {
+  if (n == null || n.lon == null || n.lat == null) return null;
+  let lon = n.lon, lat = n.lat;
+  if (lon < 30 && lat > 100) { const t = lon; lon = lat; lat = t; }
+  if (!isFinite(lon) || !isFinite(lat)) return null;
+  return { lon, lat };
+}
+
+/** 將 lon/lat 線性投影到畫面座標（小區域近似，無 mercator 變形）。*/
+function projectLatLon(lon, lat, bounds, width, height, margin = 80) {
+  const { minLon, maxLon, minLat, maxLat } = bounds;
+  const x = margin + ((lon - minLon) / (maxLon - minLon || 1)) * (width - margin * 2);
+  const y = margin + ((maxLat - lat) / (maxLat - minLat || 1)) * (height - margin * 2);
+  return { x, y };
+}
+
+export { getNodeLonLat };
+
 export class ForceGraph {
   constructor(container) {
     this.container = container;
@@ -33,6 +55,8 @@ export class ForceGraph {
     this.hoverId = null;
     this.highlightedIds = null;   // Set | null
     this.highlightedLinks = null; // Set "src|tgt|label"
+    this._spatialMode = false;
+    this._spatialBounds = null;
 
     // 事件
     this._listeners = { click: [], hover: [], transform: [], tick: [] };
@@ -111,8 +135,30 @@ export class ForceGraph {
   }
 
   setData(nodes, links) {
-    // 深拷貝避免污染
-    this.nodes = nodes.map((n) => ({ ...n }));
+    // 若節點 / 邊組合與目前完全相同，避免重啟模擬（會造成節點微跳）
+    const nextNodeIds = nodes.map((n) => n.id).sort().join('|');
+    const nextLinkKeys = links
+      .map((l) => {
+        const s = typeof l.source === 'object' ? l.source.id : l.source;
+        const t = typeof l.target === 'object' ? l.target.id : l.target;
+        return s + '>' + t + '#' + (l.label ?? '');
+      })
+      .sort()
+      .join('|');
+    if (nextNodeIds === this._lastNodeIds && nextLinkKeys === this._lastLinkKeys) {
+      return; // 無實質變化
+    }
+    this._lastNodeIds = nextNodeIds;
+    this._lastLinkKeys = nextLinkKeys;
+
+    // 保留既有節點位置（只對既有 id 沿用 x/y/vx/vy）
+    const prev = new Map((this.nodes || []).map((n) => [n.id, n]));
+    this.nodes = nodes.map((n) => {
+      const old = prev.get(n.id);
+      return old
+        ? { ...n, x: old.x, y: old.y, vx: old.vx, vy: old.vy }
+        : { ...n };
+    });
     const idMap = new Map(this.nodes.map((n) => [n.id, n]));
     // d3-force 會把 source/target 替換成 node ref
     this.links = links
@@ -123,31 +169,68 @@ export class ForceGraph {
       }))
       .filter((l) => l.source && l.target);
     assignCurveOffsets(this.links);
+
+    // 計算 degree (連結數)，給 Renderer 決定節點大小
+    const degree = new Map();
+    for (const l of this.links) {
+      const s = l.source.id; const t = l.target.id;
+      degree.set(s, (degree.get(s) || 0) + 1);
+      degree.set(t, (degree.get(t) || 0) + 1);
+    }
+    for (const n of this.nodes) n._degree = degree.get(n.id) || 0;
+
     this._restartLayout();
   }
 
   _restartLayout() {
     const centers = computeGroupCenters(this.width, this.height);
+    const bounds = this._spatialBounds;
+    const useSpatial = !!(this._spatialMode && bounds);
 
-    // 給節點初始位置（依群中心 + 隨機抖動）
+    // 計算每個節點的「目標 x/y」(geo 投影或群中心)
+    const targetX = (d) => {
+      const ll = useSpatial ? getNodeLonLat(d) : null;
+      if (ll) return projectLatLon(ll.lon, ll.lat, bounds, this.width, this.height).x;
+      return getGroupCenter(centers, d.meta_group).x;
+    };
+    const targetY = (d) => {
+      const ll = useSpatial ? getNodeLonLat(d) : null;
+      if (ll) return projectLatLon(ll.lon, ll.lat, bounds, this.width, this.height).y;
+      return getGroupCenter(centers, d.meta_group).y;
+    };
+    const targetStrength = (d) => {
+      const ll = useSpatial ? getNodeLonLat(d) : null;
+      if (ll) return 1.0;          // geo 節點：強錨定到投影位置
+      if (useSpatial) return 0.04; // spatial 開啟、無 geo：弱化群聚拉力
+      return 0.14;
+    };
+
+    // 重置 geo 節點到投影位置；非 geo 節點若無位置則給初始
     for (const n of this.nodes) {
-      const c = getGroupCenter(centers, n.meta_group);
-      if (n.x === undefined) n.x = c.x + (Math.random() - 0.5) * 100;
-      if (n.y === undefined) n.y = c.y + (Math.random() - 0.5) * 100;
+      const ll = useSpatial ? getNodeLonLat(n) : null;
+      if (ll) {
+        const p = projectLatLon(ll.lon, ll.lat, bounds, this.width, this.height);
+        n.x = p.x; n.y = p.y;
+        n.vx = 0; n.vy = 0;
+      } else if (n.x === undefined) {
+        const c = getGroupCenter(centers, n.meta_group);
+        n.x = c.x + (Math.random() - 0.5) * 100;
+        n.y = c.y + (Math.random() - 0.5) * 100;
+      }
     }
 
     if (this.simulation) this.simulation.stop();
     this.simulation = d3.forceSimulation(this.nodes)
-      .force('x', d3.forceX((d) => getGroupCenter(centers, d.meta_group).x).strength(0.18))
-      .force('y', d3.forceY((d) => getGroupCenter(centers, d.meta_group).y).strength(0.18))
-      .force('charge', d3.forceManyBody().strength(-180).distanceMax(400))
+      .force('x', d3.forceX(targetX).strength(targetStrength))
+      .force('y', d3.forceY(targetY).strength(targetStrength))
+      .force('charge', d3.forceManyBody().strength(-360).distanceMax(700))
       .force(
         'link',
         d3.forceLink(this.links).id((d) => d.id)
-          .distance((d) => (d.meta_relation === 'spatial' ? 60 : 110))
-          .strength(0.4),
+          .distance((d) => (d.meta_relation === 'spatial' ? 95 : 170))
+          .strength(useSpatial ? 0.18 : 0.35),
       )
-      .force('collide', d3.forceCollide().radius((d) => nodeRadius(d) + 4).strength(0.85))
+      .force('collide', d3.forceCollide().radius((d) => nodeRadius(d) + 14).strength(0.9))
       .alpha(0.9)
       .alphaDecay(0.03)
       .on('tick', () => {
@@ -170,6 +253,34 @@ export class ForceGraph {
     this.highlightedIds = nodeIds;     // Set | null
     this.highlightedLinks = linkKeys;  // Set | null
     this._needsDraw = true;
+  }
+
+  // 觸發一次重畫（不改變模擬狀態）
+  requestRedraw() { this._needsDraw = true; }
+
+  // 切換空間定位模式（geo 節點以 lat/lon 投影位置錨定）
+  setSpatialMode(on, bounds) {
+    this._spatialMode = !!on;
+    this._spatialBounds = bounds || null;
+    if (this.nodes.length) this._restartLayout();
+  }
+
+  // 動態調整節點斥力（charge.strength），輕量重啟讓變化生效
+  setChargeStrength(s) {
+    if (!this.simulation) return;
+    const f = this.simulation.force('charge');
+    if (!f) return;
+    f.strength(s);
+    this.simulation.alpha(0.3).restart();
+  }
+
+  // 重新套用 collide 半徑（節點大小變動後呼叫，避免重疊）
+  reapplyCollide() {
+    if (!this.simulation) return;
+    const f = this.simulation.force('collide');
+    if (!f) return;
+    f.initialize?.(this.simulation.nodes());
+    this.simulation.alpha(0.15).restart();
   }
 
   zoomToNode(id, scale = 1.5) {

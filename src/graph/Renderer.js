@@ -5,9 +5,20 @@
 import { getEdgeStyle, resolveColor } from './EdgeStyles.js';
 
 // ─── 節點半徑 ──────────────────────────────────
+// 依 degree（連結數）給予大小差異；無 degree 時退回 importance 或預設
+let _nodeSizeScale = 1;
+export function setNodeSizeScale(s) { _nodeSizeScale = Math.max(0.3, Math.min(3, s || 1)); }
+export function getNodeSizeScale() { return _nodeSizeScale; }
+
 export function nodeRadius(node) {
-  const imp = node.importance ?? 3;
-  return 7 + imp * 2.5;
+  let base;
+  if (node._degree != null) {
+    base = 6 + Math.sqrt(node._degree) * 2.4;
+  } else {
+    const imp = node.importance ?? 3;
+    base = 7 + imp * 1.6;
+  }
+  return base * _nodeSizeScale;
 }
 
 // ─── 節點形狀（依 meta_group）─────────────────
