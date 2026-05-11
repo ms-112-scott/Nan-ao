@@ -49,3 +49,6 @@ media/img/raw/
 # 不要把 Excel 來源檔放進版控以外的暫存
 data/*.bak.xlsx
 data/source_backup_*.xlsx
+
+# Git 倉庫還原檔（不需進版控）
+_git_recovery/

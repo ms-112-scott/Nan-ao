@@ -1,0 +1,24 @@
+# Default: detect text vs binary, normalize text to LF on commit and checkout
+* text=auto eol=lf
+
+# Explicit binary (skip line-ending normalization)
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.webp  binary
+*.ico   binary
+*.pdf   binary
+*.zip   binary
+*.gz    binary
+*.tar   binary
+*.xlsx  binary
+*.xls   binary
+*.docx  binary
+*.psd   binary
+*.tiff  binary
+*.woff  binary
+*.woff2 binary
+*.ttf   binary
+*.otf   binary
+*.eot   binary
