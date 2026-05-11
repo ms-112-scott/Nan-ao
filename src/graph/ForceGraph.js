@@ -1,0 +1,243 @@
+/*
+ * 主圖譜類 — Canvas + d3-force + 群聚佈局。
+ * 不直接吃 React state；對外提供 setData / setHighlight / setSelected / on('click'/'hover').
+ */
+import * as d3 from 'd3';
+import { computeGroupCenters, getGroupCenter } from './ClusterLayout.js';
+import { drawNode, drawEdge, assignCurveOffsets, nodeRadius } from './Renderer.js';
+import { buildQuadtree, findNodeAt } from './Quadtree.js';
+import { resolveColor } from './EdgeStyles.js';
+
+export class ForceGraph {
+  constructor(container) {
+    this.container = container;
+    this.canvas = document.createElement('canvas');
+    this.canvas.style.cssText =
+      'position:absolute;top:0;left:0;width:100%;height:100%;display:block;';
+    container.appendChild(this.canvas);
+    this.ctx = this.canvas.getContext('2d');
+
+    this.width = container.clientWidth || 800;
+    this.height = container.clientHeight || 600;
+    this.dpr = window.devicePixelRatio || 1;
+
+    // 視窗 transform
+    this.transform = d3.zoomIdentity;
+
+    // 狀態
+    this.nodes = [];
+    this.links = [];
+    this.simulation = null;
+    this.quadtree = null;
+    this.selectedId = null;
+    this.hoverId = null;
+    this.highlightedIds = null;   // Set | null
+    this.highlightedLinks = null; // Set "src|tgt|label"
+
+    // 事件
+    this._listeners = { click: [], hover: [], transform: [], tick: [] };
+
+    this._resize();
+    this._bindZoom();
+    this._bindMouse();
+    window.addEventListener('resize', this._resize);
+
+    this._raf = null;
+    this._needsDraw = true;
+    this._tick = this._tick.bind(this);
+    requestAnimationFrame(this._tick);
+  }
+
+  on(evt, fn) {
+    if (this._listeners[evt]) this._listeners[evt].push(fn);
+  }
+  _emit(evt, ...args) {
+    (this._listeners[evt] || []).forEach((f) => f(...args));
+  }
+
+  _resize = () => {
+    const w = this.container.clientWidth;
+    const h = this.container.clientHeight;
+    this.width = w;
+    this.height = h;
+    this.canvas.width = w * this.dpr;
+    this.canvas.height = h * this.dpr;
+    this.ctx.setTransform(this.dpr, 0, 0, this.dpr, 0, 0);
+    if (this.simulation) this._restartLayout();
+    this._needsDraw = true;
+  };
+
+  _bindZoom() {
+    this.zoom = d3.zoom()
+      .scaleExtent([0.15, 6])
+      .on('zoom', (event) => {
+        this.transform = event.transform;
+        this._needsDraw = true;
+        this._emit('transform', event.transform);
+      });
+    d3.select(this.canvas).call(this.zoom);
+  }
+
+  _bindMouse() {
+    this.canvas.addEventListener('click', (e) => {
+      const n = this._pick(e);
+      this._emit('click', n);
+    });
+    this.canvas.addEventListener('mousemove', (e) => {
+      const n = this._pick(e);
+      const id = n ? n.id : null;
+      if (id !== this.hoverId) {
+        this.hoverId = id;
+        this._needsDraw = true;
+        this._emit('hover', n, e);
+      }
+    });
+    this.canvas.addEventListener('mouseleave', () => {
+      if (this.hoverId !== null) {
+        this.hoverId = null;
+        this._needsDraw = true;
+        this._emit('hover', null, null);
+      }
+    });
+  }
+
+  _pick(event) {
+    const rect = this.canvas.getBoundingClientRect();
+    const px = event.clientX - rect.left;
+    const py = event.clientY - rect.top;
+    const wx = (px - this.transform.x) / this.transform.k;
+    const wy = (py - this.transform.y) / this.transform.k;
+    return findNodeAt(this.quadtree, wx, wy);
+  }
+
+  setData(nodes, links) {
+    // 深拷貝避免污染
+    this.nodes = nodes.map((n) => ({ ...n }));
+    const idMap = new Map(this.nodes.map((n) => [n.id, n]));
+    // d3-force 會把 source/target 替換成 node ref
+    this.links = links
+      .map((l) => ({
+        ...l,
+        source: idMap.get(typeof l.source === 'object' ? l.source.id : l.source),
+        target: idMap.get(typeof l.target === 'object' ? l.target.id : l.target),
+      }))
+      .filter((l) => l.source && l.target);
+    assignCurveOffsets(this.links);
+    this._restartLayout();
+  }
+
+  _restartLayout() {
+    const centers = computeGroupCenters(this.width, this.height);
+
+    // 給節點初始位置（依群中心 + 隨機抖動）
+    for (const n of this.nodes) {
+      const c = getGroupCenter(centers, n.meta_group);
+      if (n.x === undefined) n.x = c.x + (Math.random() - 0.5) * 100;
+      if (n.y === undefined) n.y = c.y + (Math.random() - 0.5) * 100;
+    }
+
+    if (this.simulation) this.simulation.stop();
+    this.simulation = d3.forceSimulation(this.nodes)
+      .force('x', d3.forceX((d) => getGroupCenter(centers, d.meta_group).x).strength(0.18))
+      .force('y', d3.forceY((d) => getGroupCenter(centers, d.meta_group).y).strength(0.18))
+      .force('charge', d3.forceManyBody().strength(-180).distanceMax(400))
+      .force(
+        'link',
+        d3.forceLink(this.links).id((d) => d.id)
+          .distance((d) => (d.meta_relation === 'spatial' ? 60 : 110))
+          .strength(0.4),
+      )
+      .force('collide', d3.forceCollide().radius((d) => nodeRadius(d) + 4).strength(0.85))
+      .alpha(0.9)
+      .alphaDecay(0.03)
+      .on('tick', () => {
+        this.quadtree = buildQuadtree(this.nodes);
+        this._needsDraw = true;
+        this._emit('tick');
+      })
+      .on('end', () => {
+        this.quadtree = buildQuadtree(this.nodes);
+        this._needsDraw = true;
+      });
+  }
+
+  setSelected(id) {
+    this.selectedId = id;
+    this._needsDraw = true;
+  }
+
+  setHighlight(nodeIds, linkKeys) {
+    this.highlightedIds = nodeIds;     // Set | null
+    this.highlightedLinks = linkKeys;  // Set | null
+    this._needsDraw = true;
+  }
+
+  zoomToNode(id, scale = 1.5) {
+    const n = this.nodes.find((x) => x.id === id);
+    if (!n) return;
+    const t = d3.zoomIdentity
+      .translate(this.width / 2 - n.x * scale, this.height / 2 - n.y * scale)
+      .scale(scale);
+    d3.select(this.canvas).transition().duration(700).call(this.zoom.transform, t);
+  }
+
+  zoomToFit() {
+    if (!this.nodes.length) return;
+    let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+    for (const n of this.nodes) {
+      if (n.x < minX) minX = n.x; if (n.y < minY) minY = n.y;
+      if (n.x > maxX) maxX = n.x; if (n.y > maxY) maxY = n.y;
+    }
+    const w = maxX - minX, h = maxY - minY;
+    const scale = Math.min(this.width / (w + 80), this.height / (h + 80), 1.5);
+    const tx = this.width / 2 - ((minX + maxX) / 2) * scale;
+    const ty = this.height / 2 - ((minY + maxY) / 2) * scale;
+    const t = d3.zoomIdentity.translate(tx, ty).scale(scale);
+    d3.select(this.canvas).transition().duration(700).call(this.zoom.transform, t);
+  }
+
+  _tick() {
+    if (this._needsDraw) {
+      this._draw();
+      this._needsDraw = false;
+    }
+    this._raf = requestAnimationFrame(this._tick);
+  }
+
+  _draw() {
+    const { ctx, width, height, transform } = this;
+    ctx.clearRect(0, 0, width, height);
+    ctx.save();
+    ctx.translate(transform.x, transform.y);
+    ctx.scale(transform.k, transform.k);
+
+    // 邊（zoom < 0.4 暫不畫，效能優化）
+    if (transform.k >= 0.4) {
+      for (const l of this.links) {
+        const key = (l.source.id || l.source) + '|' + (l.target.id || l.target) + '|' + l.label;
+        const dimmed = !!this.highlightedIds && !this.highlightedLinks?.has(key);
+        const highlighted = this.highlightedLinks?.has(key);
+        drawEdge(ctx, l, { dimmed, highlighted });
+      }
+    }
+
+    // 節點
+    for (const n of this.nodes) {
+      const dimmed = !!this.highlightedIds && !this.highlightedIds.has(n.id);
+      drawNode(ctx, n, {
+        selected: n.id === this.selectedId,
+        hover: n.id === this.hoverId,
+        dimmed,
+      });
+    }
+
+    ctx.restore();
+  }
+
+  destroy() {
+    if (this.simulation) this.simulation.stop();
+    if (this._raf) cancelAnimationFrame(this._raf);
+    window.removeEventListener('resize', this._resize);
+    if (this.canvas.parentNode) this.canvas.parentNode.removeChild(this.canvas);
+  }
+}

@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""
-南澳知識圖譜 — 本地資料管線。
-讀 data/source.xlsx -> 合併 -> 衝突偵測 -> 輸出 data/data.json + _build_report.json
-"""
+"""南澳知識圖譜 — Excel -> data.json (本地版)"""
 import json
 import re
 import sys
@@ -16,15 +13,12 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 SOURCE_XLSX = REPO_ROOT / "data" / "source.xlsx"
 OUT_JSON = REPO_ROOT / "data" / "data.json"
 REPORT_JSON = REPO_ROOT / "data" / "_build_report.json"
+PUBLIC_JSON = REPO_ROOT / "public" / "data.json"
 
 sys.path.insert(0, str(REPO_ROOT / "scripts"))
-from meta_mapping import (  # noqa: E402
-    META_GROUPS,
-    META_GROUP_COLORS,
-    META_RELATIONS,
-    META_RELATION_COLORS,
-    map_node_group,
-    map_link_label,
+from meta_mapping import (
+    META_GROUPS, META_GROUP_COLORS, META_RELATIONS, META_RELATION_COLORS,
+    map_node_group, map_link_label,
 )
 
 
@@ -110,12 +104,9 @@ def main():
 
     excluded = {"nodes_color", "links_color", "missing_node"}
     node_sheets = sorted([n for n in wb.sheetnames
-                          if (n.startswith("nodes_") or n.startswith("node_"))
-                          and n not in excluded])
+                          if (n.startswith("nodes_") or n.startswith("node_")) and n not in excluded])
     link_sheets = sorted([n for n in wb.sheetnames
-                          if (n.startswith("link_") or n.startswith("links_"))
-                          and n not in excluded])
-
+                          if (n.startswith("link_") or n.startswith("links_")) and n not in excluded])
     print("Node sheets: " + str(node_sheets))
     print("Link sheets: " + str(link_sheets))
 
@@ -155,20 +146,15 @@ def main():
                     existing["breakthrough_note"] = br
             else:
                 nodes_by_id[nid] = {
-                    "id": nid,
-                    "node_Group": grp,
-                    "start_year": sy,
-                    "end_year": ey,
-                    "Lon": lon,
-                    "Lat": lat,
-                    "breakthrough_note": br,
-                    "_sources": [],
+                    "id": nid, "node_Group": grp,
+                    "start_year": sy, "end_year": ey,
+                    "Lon": lon, "Lat": lat,
+                    "breakthrough_note": br, "_sources": [],
                 }
 
             if grp not in nodes_color_sheet and grp not in unknown_groups:
                 if map_node_group(grp) == "其他":
                     unknown_groups.add(grp)
-
             if info:
                 info_sources[nid].append((source_label, info))
             nodes_by_id[nid]["_sources"].append(source_label)
@@ -182,25 +168,19 @@ def main():
             merged_info = infos[0][1]
         else:
             merged_info = " ; ".join("[" + src + "] " + txt for src, txt in infos)
-
         meta_group = map_node_group(n["node_Group"])
-
-        node_out = {
-            "id": nid,
-            "node_Group": n["node_Group"],
-            "meta_group": meta_group,
+        out = {
+            "id": nid, "node_Group": n["node_Group"], "meta_group": meta_group,
             "info": merged_info,
-            "start_year": n["start_year"],
-            "end_year": n["end_year"],
-            "lon": n["Lon"],
-            "lat": n["Lat"],
+            "start_year": n["start_year"], "end_year": n["end_year"],
+            "lon": n["Lon"], "lat": n["Lat"],
             "breakthrough_note": n.get("breakthrough_note") or "",
             "sources": sorted(set(n["_sources"])),
         }
         if nid in group_conflicts:
-            node_out["_conflict"] = True
-            node_out["_conflict_groups"] = group_conflicts[nid]
-        final_nodes.append(node_out)
+            out["_conflict"] = True
+            out["_conflict_groups"] = group_conflicts[nid]
+        final_nodes.append(out)
 
     valid_ids = set(nodes_by_id.keys())
     seen_links = set()
@@ -210,15 +190,12 @@ def main():
 
     for sn in link_sheets:
         ws = wb[sn]
-        source_label = sn.split("_", 1)[1] if "_" in sn else sn
         for row_idx, row in iter_rows_dict(ws):
             a = split_id(row.get("Node_A"))
             b = split_id(row.get("Node_B"))
             label = (row.get("label") or "").strip() or "其他"
             info = (row.get("info") or "").strip()
-            date_v = row.get("Date")
-            year = parse_year(date_v) if date_v is not None else None
-
+            year = parse_year(row.get("Date"))
             if not a or not b:
                 continue
             if a not in valid_ids:
@@ -229,68 +206,62 @@ def main():
             if key in seen_links:
                 continue
             seen_links.add(key)
-            meta_relation = map_link_label(label)
-            if meta_relation == "其他" and label != "其他":
+            mr = map_link_label(label)
+            if mr == "其他" and label != "其他":
                 unknown_labels.add(label)
             final_links.append({
-                "source": a,
-                "target": b,
-                "label": label,
-                "meta_relation": meta_relation,
-                "info": info,
-                "year": year,
+                "source": a, "target": b, "label": label,
+                "meta_relation": mr, "info": info, "year": year,
             })
 
     valid_links = [l for l in final_links if l["source"] in valid_ids and l["target"] in valid_ids]
 
-    stats_by_meta_group = defaultdict(int)
+    sgroup = defaultdict(int)
     for n in final_nodes:
-        stats_by_meta_group[n["meta_group"]] += 1
-    stats_by_meta_relation = defaultdict(int)
+        sgroup[n["meta_group"]] += 1
+    srel = defaultdict(int)
     for l in valid_links:
-        stats_by_meta_relation[l["meta_relation"]] += 1
+        srel[l["meta_relation"]] += 1
 
     years = [n["start_year"] for n in final_nodes if n["start_year"]]
     years += [n["end_year"] for n in final_nodes if n["end_year"]]
     year_min = min(years) if years else 1850
     year_max = max(years) if years else 2030
-
     breakthroughs = sum(1 for n in final_nodes if n.get("breakthrough_note"))
 
     data = {
         "version": datetime.now(timezone.utc).strftime("%Y%m%d-%H%M%S"),
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "stats": {
-            "nodes": len(final_nodes),
-            "links": len(valid_links),
+            "nodes": len(final_nodes), "links": len(valid_links),
             "links_dropped": len(final_links) - len(valid_links),
             "breakthroughs": breakthroughs,
-            "by_meta_group": dict(stats_by_meta_group),
-            "by_meta_relation": dict(stats_by_meta_relation),
+            "by_meta_group": dict(sgroup), "by_meta_relation": dict(srel),
             "year_range": [year_min, year_max],
             "conflicts": len(group_conflicts),
             "missing_node_refs": len(missing_node_refs),
         },
         "meta_groups": [
-            {"id": g, "color": META_GROUP_COLORS[g], "count": stats_by_meta_group.get(g, 0)}
+            {"id": g, "color": META_GROUP_COLORS[g], "count": sgroup.get(g, 0)}
             for g in META_GROUPS
         ],
         "meta_relations": [
-            {"id": r, "color": META_RELATION_COLORS[r], "count": stats_by_meta_relation.get(r, 0)}
+            {"id": r, "color": META_RELATION_COLORS[r], "count": srel.get(r, 0)}
             for r in META_RELATIONS
         ],
         "node_groups": sorted({n["node_Group"] for n in final_nodes}),
-        "nodes": final_nodes,
-        "links": valid_links,
+        "nodes": final_nodes, "links": valid_links,
     }
 
     OUT_JSON.parent.mkdir(parents=True, exist_ok=True)
     with OUT_JSON.open("w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
+    PUBLIC_JSON.parent.mkdir(parents=True, exist_ok=True)
+    with PUBLIC_JSON.open("w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
 
     report = {
-        "generated_at": data["generated_at"],
-        "stats": data["stats"],
+        "generated_at": data["generated_at"], "stats": data["stats"],
         "group_conflicts": [{"id": nid, "alternatives": alts} for nid, alts in group_conflicts.items()],
         "missing_node_refs": missing_node_refs,
         "unknown_node_groups": sorted(unknown_groups),
@@ -308,24 +279,27 @@ def main():
     print("  year range: " + str(s['year_range'][0]) + "-" + str(s['year_range'][1]))
     print("  by meta_group:")
     for g in META_GROUPS:
-        n = stats_by_meta_group.get(g, 0)
+        n = sgroup.get(g, 0)
         if n:
             print("    " + g + ": " + str(n))
     print("  by meta_relation:")
     for r in META_RELATIONS:
-        n = stats_by_meta_relation.get(r, 0)
+        n = srel.get(r, 0)
         if n:
             print("    " + r + ": " + str(n))
     if unknown_groups:
-        sample = sorted(unknown_groups)[:10]
-        print("  WARN unmapped node_Group: " + str(sample) + (" ..." if len(unknown_groups) > 10 else ""))
+        sample = sorted(unknown_groups)[:8]
+        suffix = " ..." if len(unknown_groups) > 8 else ""
+        print("  WARN unmapped node_Group: " + str(sample) + suffix)
     if unknown_labels:
-        sample = sorted(unknown_labels)[:10]
-        print("  WARN unmapped link label: " + str(sample) + (" ..." if len(unknown_labels) > 10 else ""))
+        sample = sorted(unknown_labels)[:8]
+        suffix = " ..." if len(unknown_labels) > 8 else ""
+        print("  WARN unmapped link label: " + str(sample) + suffix)
     if missing_node_refs:
         print("  WARN missing-node refs: " + str(len(missing_node_refs)))
     print()
     print("wrote " + str(OUT_JSON.relative_to(REPO_ROOT)))
+    print("wrote " + str(PUBLIC_JSON.relative_to(REPO_ROOT)))
     print("wrote " + str(REPORT_JSON.relative_to(REPO_ROOT)))
 
 
