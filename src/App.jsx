@@ -1,9 +1,14 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { useGraphData } from './state/useGraphData.js';
 import { ForceGraph } from './graph/ForceGraph.js';
 import LabelLayer from './graph/LabelLayer.jsx';
 import HoverTooltip from './graph/HoverTooltip.jsx';
 import { computeNeighbors } from './utils/highlight.js';
+import InfoCard from './panels/InfoCard.jsx';
+import Search from './panels/Search.jsx';
+import Legend from './panels/Legend.jsx';
+import RelationFilter from './panels/RelationFilter.jsx';
+import GroupSidebar from './panels/GroupSidebar.jsx';
 
 export default function App() {
   const { data, loading, error } = useGraphData();
@@ -13,14 +18,51 @@ export default function App() {
   const [hover, setHover] = useState({ node: null, x: 0, y: 0 });
   const [vp, setVp] = useState({ w: window.innerWidth, h: window.innerHeight });
 
+  // 篩選 state（Phase 6 會接 URL）
+  const [activeGroups, setActiveGroups] = useState(null);    // null = 尚未初始化
+  const [activeRelations, setActiveRelations] = useState(null);
+  const [onlyBreakthrough, setOnlyBreakthrough] = useState(false);
+  const [collapsedGroups, setCollapsedGroups] = useState(new Set());
+
+  useEffect(() => {
+    if (!data) return;
+    if (activeGroups === null) {
+      setActiveGroups(new Set(data.meta_groups.filter((g) => g.count > 0).map((g) => g.id)));
+    }
+    if (activeRelations === null) {
+      setActiveRelations(new Set(data.meta_relations.filter((r) => r.count > 0).map((r) => r.id)));
+    }
+  }, [data, activeGroups, activeRelations]);
+
   useEffect(() => {
     const onResize = () => setVp({ w: window.innerWidth, h: window.innerHeight });
     window.addEventListener('resize', onResize);
     return () => window.removeEventListener('resize', onResize);
   }, []);
 
+  // 過濾後的節點與邊（Phase 6 會抽到 useFilters）
+  const filtered = useMemo(() => {
+    if (!data) return null;
+    const ag = activeGroups || new Set(data.meta_groups.map((g) => g.id));
+    const ar = activeRelations || new Set(data.meta_relations.map((r) => r.id));
+    const nodes = data.nodes.filter((n) => {
+      if (!ag.has(n.meta_group)) return false;
+      if (onlyBreakthrough && !n.breakthrough_note) return false;
+      return true;
+    });
+    const ids = new Set(nodes.map((n) => n.id));
+    const links = data.links.filter((l) => {
+      if (!ar.has(l.meta_relation)) return false;
+      const s = typeof l.source === 'object' ? l.source.id : l.source;
+      const t = typeof l.target === 'object' ? l.target.id : l.target;
+      return ids.has(s) && ids.has(t);
+    });
+    return { nodes, links };
+  }, [data, activeGroups, activeRelations, onlyBreakthrough]);
+
+  // 將篩選結果灌進 graph
   useEffect(() => {
-    if (!data || !containerRef.current) return;
+    if (!filtered || !containerRef.current) return;
     if (!graphRef.current) {
       graphRef.current = new ForceGraph(containerRef.current);
       graphRef.current.on('click', (n) => setSelected(n));
@@ -29,10 +71,9 @@ export default function App() {
         else setHover({ node: null, x: 0, y: 0 });
       });
     }
-    graphRef.current.setData(data.nodes, data.links);
-  }, [data]);
+    graphRef.current.setData(filtered.nodes, filtered.links);
+  }, [filtered]);
 
-  // 卸載清理
   useEffect(() => () => {
     if (graphRef.current) {
       graphRef.current.destroy();
@@ -40,7 +81,6 @@ export default function App() {
     }
   }, []);
 
-  // 選中變化 → 設 highlight
   useEffect(() => {
     const g = graphRef.current;
     if (!g) return;
@@ -49,16 +89,47 @@ export default function App() {
       g.setHighlight(null, null);
       return;
     }
-    const { nodeIds, linkKeys } = computeNeighbors(selected.id, g.links) || {};
-    g.setHighlight(nodeIds, linkKeys);
+    const r = computeNeighbors(selected.id, g.links);
+    g.setHighlight(r?.nodeIds, r?.linkKeys);
   }, [selected]);
 
-  // 永遠顯示選中與其鄰居的 label
-  const alwaysShowIds = React.useMemo(() => {
+  const alwaysShowIds = useMemo(() => {
     if (!selected || !graphRef.current) return null;
     const r = computeNeighbors(selected.id, graphRef.current.links);
     return r ? r.nodeIds : null;
-  }, [selected]);
+  }, [selected, filtered]);
+
+  const allNodesById = useMemo(() => {
+    if (!data) return new Map();
+    return new Map(data.nodes.map((n) => [n.id, n]));
+  }, [data]);
+
+  // helpers
+  const toggleGroup = (id) => {
+    const ns = new Set(activeGroups);
+    if (ns.has(id)) ns.delete(id); else ns.add(id);
+    setActiveGroups(ns);
+  };
+  const toggleRelation = (id) => {
+    const ns = new Set(activeRelations);
+    if (ns.has(id)) ns.delete(id); else ns.add(id);
+    setActiveRelations(ns);
+  };
+  const reset = () => {
+    if (!data) return;
+    setActiveGroups(new Set(data.meta_groups.filter((g) => g.count > 0).map((g) => g.id)));
+    setActiveRelations(new Set(data.meta_relations.filter((r) => r.count > 0).map((r) => r.id)));
+    setOnlyBreakthrough(false);
+    setSelected(null);
+    setCollapsedGroups(new Set());
+  };
+  const focusNodeGroup = (mg) => {
+    setActiveGroups(new Set([mg]));
+  };
+  const handleNodeClick = (node) => {
+    setSelected(node);
+    graphRef.current?.zoomToNode(node.id, 1.4);
+  };
 
   return (
     <div className="paper-bg fixed inset-0">
@@ -76,14 +147,12 @@ export default function App() {
       {/* Hover tooltip */}
       <HoverTooltip node={hover.node} x={hover.x} y={hover.y} />
 
-      {/* Loading */}
       {loading && (
         <div className="absolute inset-0 flex items-center justify-center fade-in" style={{ zIndex: 100 }}>
           <div className="caption">載入南澳資料中...</div>
         </div>
       )}
 
-      {/* Error */}
       {error && (
         <div className="absolute inset-0 flex items-center justify-center" style={{ zIndex: 100 }}>
           <div className="paper-card body" style={{ padding: 24, color: 'var(--cat-事件)' }}>
@@ -103,68 +172,79 @@ export default function App() {
           }}
         >
           <div className="title-2">南澳知識圖譜</div>
-          <div className="caption">— Klesan 群人文地景數位典藏</div>
-          <div style={{ marginLeft: 'auto', display: 'flex', gap: 12, alignItems: 'center' }}>
-            <span className="tiny">節點 {data.stats.nodes} ・ 關係 {data.stats.links} ・ 突破點 {data.stats.breakthroughs}</span>
-            <button
-              className="btn"
-              onClick={() => graphRef.current?.zoomToFit()}
-              title="縮放到符合畫面"
-            >
-              ⛶ 全覽
-            </button>
+          <div className="caption" style={{ borderRight: '1px solid var(--ink-line)', paddingRight: 16 }}>
+            — Klesan 群人文地景數位典藏
+          </div>
+          <Search
+            nodes={data.nodes}
+            links={data.links}
+            onSelectNode={handleNodeClick}
+          />
+          <div style={{ marginLeft: 'auto', display: 'flex', gap: 8, alignItems: 'center' }}>
+            <span className="tiny">
+              節點 {filtered?.nodes.length ?? 0}/{data.stats.nodes} ・
+              關係 {filtered?.links.length ?? 0}/{data.stats.links}
+            </span>
+            <button className="btn" onClick={() => graphRef.current?.zoomToFit()} title="全覽">⛶</button>
+            <button className="btn" onClick={reset} title="重置篩選">↺</button>
           </div>
         </div>
       )}
 
-      {/* 暫時的選中節點顯示 */}
-      {selected && (
+      {/* 左側 GroupSidebar */}
+      {data && (
+        <GroupSidebar
+          nodes={filtered?.nodes ?? data.nodes}
+          onPickNodeGroup={focusNodeGroup}
+          onPickNode={handleNodeClick}
+          collapsed={collapsedGroups}
+          setCollapsed={setCollapsedGroups}
+        />
+      )}
+
+      {/* 右側 Legend */}
+      {data && activeGroups && (
+        <Legend
+          metaGroups={data.meta_groups.filter((g) => g.count > 0)}
+          activeGroups={activeGroups}
+          onToggleGroup={toggleGroup}
+          onlyBreakthrough={onlyBreakthrough}
+          onToggleBreakthrough={() => setOnlyBreakthrough((v) => !v)}
+          breakthroughCount={data.stats.breakthroughs}
+        />
+      )}
+
+      {/* BottomBar：關係類型 toggle */}
+      {data && activeRelations && (
         <div
-          className="paper-card slide-in-right"
+          className="paper-card"
           style={{
-            position: 'absolute', top: 80, right: 12, width: 340,
-            padding: 20, zIndex: 30, maxHeight: 'calc(100vh - 100px)', overflowY: 'auto',
+            position: 'absolute', bottom: 12, left: 12, right: 12, height: 56,
+            display: 'flex', alignItems: 'center', padding: '0 20px', gap: 16,
+            zIndex: 25,
           }}
         >
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: 8 }}>
-            <div className="title-1" style={{ marginBottom: 4 }}>{selected.id}</div>
-            <button
-              className="btn icon-only"
-              onClick={() => setSelected(null)}
-              aria-label="關閉"
-            >✕</button>
+          <div className="caption" style={{ color: 'var(--ink-faint)' }}>關係類型</div>
+          <RelationFilter
+            metaRelations={data.meta_relations.filter((r) => r.count > 0)}
+            active={activeRelations}
+            onToggle={toggleRelation}
+          />
+          <div style={{ marginLeft: 'auto' }} className="tiny">
+            年份範圍 {data.stats.year_range[0]}–{data.stats.year_range[1]}（時間軸 Phase 6 加）
           </div>
-          <div style={{ marginBottom: 12 }}>
-            <span className="chip">
-              <span className="chip-dot" style={{ background: `var(--cat-${selected.meta_group})` }} />
-              {selected.meta_group} · {selected.node_Group}
-            </span>
-            {selected.sources?.length > 1 && (
-              <span className="chip" style={{ marginLeft: 6 }}>
-                {selected.sources.length} 個來源
-              </span>
-            )}
-          </div>
-          {(selected.start_year || selected.end_year) && (
-            <div className="caption num" style={{ marginBottom: 12 }}>
-              {selected.start_year ?? '?'} – {selected.end_year ?? selected.start_year ?? '?'}
-            </div>
-          )}
-          <div className="body">{selected.info}</div>
-          {selected.breakthrough_note && (
-            <div className="breakthrough-frame" style={{ marginTop: 16 }}>
-              <div className="caption breakthrough-star" style={{ marginBottom: 6 }}>
-                ★ 突破點
-              </div>
-              <div className="body">{selected.breakthrough_note}</div>
-            </div>
-          )}
-          {selected.sources?.length > 0 && (
-            <div className="tiny" style={{ marginTop: 16 }}>
-              來源：{selected.sources.join('、')}
-            </div>
-          )}
         </div>
+      )}
+
+      {/* InfoCard */}
+      {selected && (
+        <InfoCard
+          node={selected}
+          onClose={() => setSelected(null)}
+          onNodeClick={handleNodeClick}
+          allLinks={data?.links ?? []}
+          allNodesById={allNodesById}
+        />
       )}
     </div>
   );
