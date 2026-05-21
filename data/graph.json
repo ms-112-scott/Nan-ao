@@ -4159,9 +4159,9 @@
       "col": "#E9C46A"
     },
     {
-      "id": "testts",
+      "id": "test",
       "group": "事件",
-      "info": "",
+      "info": "測試用",
       "start_year": null,
       "end_year": null,
       "lon": null,
