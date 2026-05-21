@@ -1,0 +1,7836 @@
+{
+  "nodes": [
+    {
+      "id": "空間關係",
+      "group": "自動增加",
+      "sourceSheet": "links_color",
+      "sourceRow": 2,
+      "info": "(自動生成的關聯節點)",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#777777"
+    },
+    {
+      "id": "#E63946",
+      "group": "自動增加",
+      "sourceSheet": "links_color",
+      "sourceRow": 2,
+      "info": "(自動生成的關聯節點)",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#777777"
+    },
+    {
+      "id": "人際關係",
+      "group": "自動增加",
+      "sourceSheet": "links_color",
+      "sourceRow": 3,
+      "info": "(自動生成的關聯節點)",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#777777"
+    },
+    {
+      "id": "#457B9D",
+      "group": "自動增加",
+      "sourceSheet": "links_color",
+      "sourceRow": 3,
+      "info": "(自動生成的關聯節點)",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#777777"
+    },
+    {
+      "id": "政策推動",
+      "group": "自動增加",
+      "sourceSheet": "links_color",
+      "sourceRow": 4,
+      "info": "(自動生成的關聯節點)",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#777777"
+    },
+    {
+      "id": "#F4A261",
+      "group": "自動增加",
+      "sourceSheet": "links_color",
+      "sourceRow": 4,
+      "info": "(自動生成的關聯節點)",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#777777"
+    },
+    {
+      "id": "產業關聯",
+      "group": "自動增加",
+      "sourceSheet": "links_color",
+      "sourceRow": 5,
+      "info": "(自動生成的關聯節點)",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#777777"
+    },
+    {
+      "id": "活動/行動 參與",
+      "group": "自動增加",
+      "sourceSheet": "links_color",
+      "sourceRow": 6,
+      "info": "(自動生成的關聯節點)",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#777777"
+    },
+    {
+      "id": "人地關係",
+      "group": "自動增加",
+      "sourceSheet": "links_color",
+      "sourceRow": 7,
+      "info": "(自動生成的關聯節點)",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#777777"
+    },
+    {
+      "id": "組織關聯",
+      "group": "自動增加",
+      "sourceSheet": "links_color",
+      "sourceRow": 8,
+      "info": "(自動生成的關聯節點)",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#777777"
+    },
+    {
+      "id": "#2A9D8F",
+      "group": "自動增加",
+      "sourceSheet": "links_color",
+      "sourceRow": 8,
+      "info": "(自動生成的關聯節點)",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#777777"
+    },
+    {
+      "id": "事地關係",
+      "group": "自動增加",
+      "sourceSheet": "links_color",
+      "sourceRow": 9,
+      "info": "(自動生成的關聯節點)",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#777777"
+    },
+    {
+      "id": "#1D3557",
+      "group": "自動增加",
+      "sourceSheet": "links_color",
+      "sourceRow": 9,
+      "info": "(自動生成的關聯節點)",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#777777"
+    },
+    {
+      "id": "物件關聯",
+      "group": "自動增加",
+      "sourceSheet": "links_color",
+      "sourceRow": 10,
+      "info": "(自動生成的關聯節點)",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#777777"
+    },
+    {
+      "id": "#A8DADC",
+      "group": "自動增加",
+      "sourceSheet": "links_color",
+      "sourceRow": 10,
+      "info": "(自動生成的關聯節點)",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#777777"
+    },
+    {
+      "id": "瑞岩部落",
+      "group": "空間",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 2,
+      "info": "位於南投仁愛鄉，泰雅族公認的起源地 Pinsbkan，族群遷徙的起點",
+      "start_year": null,
+      "end_year": null,
+      "lon": 121.234,
+      "lat": 24.073,
+      "col": "#2A9D8F"
+    },
+    {
+      "id": "賽考列克（Seqoleq）",
+      "group": "族群",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 2,
+      "info": "泰雅族兩大語系之一，自瑞岩部落往西遷徙，分布於新北、桃園、新竹尖石、台中和平等地",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "澤敖列兩群（Tseole）",
+      "group": "族群",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 3,
+      "info": "泰雅族兩大語系之一，自瑞岩部落往東遷徙，分布於新竹五峰、苗栗泰安、南投仁愛、宜蘭大同與南澳",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "思源埡口",
+      "group": "空間",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 4,
+      "info": "位於宜蘭大同與台中和平交界，泰雅族族群分散點，是向東/向西遷徙的分水嶺",
+      "start_year": null,
+      "end_year": null,
+      "lon": 121.427240034784,
+      "lat": 24.4903264445878,
+      "col": "#2A9D8F"
+    },
+    {
+      "id": "新竹縣五峰鄉",
+      "group": "空間",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 5,
+      "info": "賽考列克語系往西遷徙後的主要定居地之一",
+      "start_year": null,
+      "end_year": null,
+      "lon": 121.094,
+      "lat": 24.588,
+      "col": "#2A9D8F"
+    },
+    {
+      "id": "宜蘭縣南澳鄉",
+      "group": "自動增加",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 6,
+      "info": "(自動生成的關聯節點)",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#777777"
+    },
+    {
+      "id": "新北市烏來區",
+      "group": "空間",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 7,
+      "info": "賽考列克語系往西遷徙後的分布地",
+      "start_year": null,
+      "end_year": null,
+      "lon": 121.551,
+      "lat": 24.865,
+      "col": "#2A9D8F"
+    },
+    {
+      "id": "桃園市復興區",
+      "group": "空間",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 8,
+      "info": "賽考列克語系往西遷徙後的分布地",
+      "start_year": null,
+      "end_year": null,
+      "lon": 121.353,
+      "lat": 24.821,
+      "col": "#2A9D8F"
+    },
+    {
+      "id": "新竹縣尖石鄉",
+      "group": "空間",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 9,
+      "info": "賽考列克/澤敖列兩群往西遷徙後的分布地",
+      "start_year": null,
+      "end_year": null,
+      "lon": 121.198,
+      "lat": 24.708,
+      "col": "#2A9D8F"
+    },
+    {
+      "id": "台中市和平區",
+      "group": "空間",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 10,
+      "info": "賽考列克/澤敖列兩群往西遷徙後的分布地",
+      "start_year": null,
+      "end_year": null,
+      "lon": 121.001,
+      "lat": 24.293,
+      "col": "#2A9D8F"
+    },
+    {
+      "id": "苗栗縣泰安鄉",
+      "group": "空間",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 13,
+      "info": "澤敖列兩群往東遷徙後的分布地",
+      "start_year": null,
+      "end_year": null,
+      "lon": 120.998,
+      "lat": 24.422,
+      "col": "#2A9D8F"
+    },
+    {
+      "id": "南投縣仁愛鄉",
+      "group": "空間",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 15,
+      "info": "泰雅族起源瑞岩部落所在，澤敖列兩群分布地之一",
+      "start_year": null,
+      "end_year": null,
+      "lon": 121.164,
+      "lat": 24.1253464798111,
+      "col": "#2A9D8F"
+    },
+    {
+      "id": "宜蘭縣大同鄉",
+      "group": "自動增加",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 16,
+      "info": "(自動生成的關聯節點)",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#777777"
+    },
+    {
+      "id": "KLESAN群",
+      "group": "族群",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 18,
+      "info": "泰雅族南澳群（寒溪群），由思源埡口向東分支而來，定居宜蘭南澳一帶，包括金洋、武塔、碧侯、金岳等部落",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "Meya Box",
+      "group": "人物",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 20,
+      "info": "瑞岩部落領導人，指派四位青年翻越思源埡口往東尋找新生地",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "Takun Bato",
+      "group": "人物",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 21,
+      "info": "瑞岩部落青年，自思源埡口往東，定居於金洋社",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "Wasao Payas",
+      "group": "人物",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 22,
+      "info": "瑞岩部落青年，自思源埡口往東，定居於武塔社",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "Bato Naui",
+      "group": "人物",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 23,
+      "info": "瑞岩部落青年，自思源埡口往東，定居於碧侯村一帶",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "Məbako",
+      "group": "人物",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 24,
+      "info": "瑞岩部落青年，自思源埡口往東，定居於大同村",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "金洋社",
+      "group": "自動增加",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 29,
+      "info": "(自動生成的關聯節點)",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#777777"
+    },
+    {
+      "id": "武塔社",
+      "group": "自動增加",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 30,
+      "info": "(自動生成的關聯節點)",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#777777"
+    },
+    {
+      "id": "碧侯村",
+      "group": "空間",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 31,
+      "info": "南澳鄉行政村，早期分支定居地，現仍為重要聚落",
+      "start_year": null,
+      "end_year": null,
+      "lon": 121.787881205571,
+      "lat": 24.4769382422554,
+      "col": "#2A9D8F"
+    },
+    {
+      "id": "大同村",
+      "group": "空間",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 32,
+      "info": "宜蘭大同鄉行政村，早期分支定居地之一",
+      "start_year": null,
+      "end_year": null,
+      "lon": 121.596,
+      "lat": 24.676,
+      "col": "#2A9D8F"
+    },
+    {
+      "id": "佐久間左馬太",
+      "group": "人物",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 34,
+      "info": "日治時期臺灣總督",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "五年理蕃計畫",
+      "group": "事件",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 34,
+      "info": "1910–1915，佐久間左馬太總督推動武力討伐與隘勇線推進，為殖民政府進入台灣山地的關鍵政策",
+      "start_year": 1910,
+      "end_year": 1915,
+      "lon": null,
+      "lat": null,
+      "col": "#E9C46A"
+    },
+    {
+      "id": "日本政府",
+      "group": "政府機關",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 35,
+      "info": "日治時期推動集團移住政策，強制部落遷村",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#FF8E8E"
+    },
+    {
+      "id": "南澳蕃討伐",
+      "group": "事件",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 36,
+      "info": "1910 年代後期至 1920 年代，日本殖民政府陸續對南澳 KLESAN 群展開武力鎮壓與繳械",
+      "start_year": 1917,
+      "end_year": 1925,
+      "lon": null,
+      "lat": null,
+      "col": "#E9C46A"
+    },
+    {
+      "id": "南澳理蕃道路開鑿",
+      "group": "事件",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 37,
+      "info": "1920 年代，闢建連結各舊社的警備道與理蕃道路，為其後集團移住打下路線基礎",
+      "start_year": 1920,
+      "end_year": 1930,
+      "lon": null,
+      "lat": null,
+      "col": "#E9C46A"
+    },
+    {
+      "id": "戰後復舊與監管延續",
+      "group": "自動增加",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 38,
+      "info": "(自動生成的關聯節點)",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#777777"
+    },
+    {
+      "id": "山地平地化政策",
+      "group": "事件",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 38,
+      "info": "1950–1960 年代，推動山地原住民人口平地化、經濟開發與定耕定居",
+      "start_year": 1951,
+      "end_year": 1970,
+      "lon": null,
+      "lat": null,
+      "col": "#E9C46A"
+    },
+    {
+      "id": "國民政府",
+      "group": "政府機關",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 39,
+      "info": "戰後延續集團移住，推動部落遷併與現代化",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#FF8E8E"
+    },
+    {
+      "id": "碧候舊社遷村",
+      "group": "事件",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 41,
+      "info": "1954 年居民自和平北溪舊部落集體遷到南澳北溪現址，成為今日碧侯村",
+      "start_year": 1954,
+      "end_year": 1954,
+      "lon": 121.781,
+      "lat": 24.489,
+      "col": "#E9C46A"
+    },
+    {
+      "id": "武塔社遷村",
+      "group": "事件",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 42,
+      "info": "1954 年武塔舊社 35 戶 214 人在政府輔助下由山上舊社遷至現址，形成今武塔村",
+      "start_year": 1954,
+      "end_year": 1954,
+      "lon": 121.782,
+      "lat": 24.463,
+      "col": "#E9C46A"
+    },
+    {
+      "id": "金洋社遷村",
+      "group": "事件",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 43,
+      "info": "1963 年舊金洋社最後 53 戶遷至現址，與奎諾斯社合併，正式形成今日金洋村",
+      "start_year": 1964,
+      "end_year": 1964,
+      "lon": 121.749,
+      "lat": 24.4258,
+      "col": "#E9C46A"
+    },
+    {
+      "id": "金岳社遷村",
+      "group": "事件",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 44,
+      "info": "1957 年流興社 Ryohen 全部 45 戶遷至 Ropwe，政府將新聚落命名為「金岳」",
+      "start_year": 1957,
+      "end_year": 1957,
+      "lon": 121.8,
+      "lat": 24.505,
+      "col": "#E9C46A"
+    },
+    {
+      "id": "澳花社遷村",
+      "group": "事件",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 45,
+      "info": "1922 年莫瑤社舉社遷至澳花村，自此廢社",
+      "start_year": 1922,
+      "end_year": 1922,
+      "lon": null,
+      "lat": null,
+      "col": "#E9C46A"
+    },
+    {
+      "id": "Ryohen（流興）部落",
+      "group": "空間",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 47,
+      "info": "舊金岳部落，金岳村族人遷村前的山上故鄉，是金岳尋根活動的核心地點",
+      "start_year": null,
+      "end_year": null,
+      "lon": 121.641712333889,
+      "lat": 24.452325038607,
+      "col": "#2A9D8F"
+    },
+    {
+      "id": "金岳村",
+      "group": "地點",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 47,
+      "info": "南澳鄉人口最少的村落，以金岳瀑布聞名，維持著傳統的段木香菇栽培技術。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "Rekinos（奎諾斯社）部落",
+      "group": "空間",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 48,
+      "info": "舊金洋部落，位於和平北溪上游山區，金洋國小入山尋根的目的地",
+      "start_year": null,
+      "end_year": null,
+      "lon": 121.573629607639,
+      "lat": 24.4084210796855,
+      "col": "#2A9D8F"
+    },
+    {
+      "id": "金洋村",
+      "group": "地點",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 48,
+      "info": "南澳鄉段木香菇產量最高的村落，由金洋社等移住組成，自然環境極適合菌絲生長。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "比亞豪社",
+      "group": "空間",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 49,
+      "info": "舊碧侯部落，碧侯村尚未遷至平地前的山上故鄉，也是族人回顧遷徙歷程與重建部落記憶的關鍵場域。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#2A9D8F"
+    },
+    {
+      "id": "哈卡巴里斯",
+      "group": "空間",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 50,
+      "info": "舊武塔部落，末代頭目哈勇帶領族人徒步七日返回的祖靈之地",
+      "start_year": null,
+      "end_year": null,
+      "lon": 121.610713810056,
+      "lat": 24.4592475610555,
+      "col": "#2A9D8F"
+    },
+    {
+      "id": "武塔村",
+      "group": "地點",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 50,
+      "info": "位於大南澳南溪旁，設有北迴鐵路車站，周邊林地是段木香菇的重要生長環境。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "Kumuyaw（莫瑤社）",
+      "group": "空間",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 51,
+      "info": "舊澳花部落群中的代表聚落，莫瑤社族人自山區遷往大濁水河口一帶後，逐漸形成今日澳花村的族群原鄉。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#2A9D8F"
+    },
+    {
+      "id": "澳花村",
+      "group": "地點",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 51,
+      "info": "位於南澳鄉最南端，以澳花瀑布著稱，具備豐富民族植物資源與段木香菇種植傳統。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "陳芃伶",
+      "group": "人物",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 54,
+      "info": "金岳遷村後第二代青年，創立金岳社區發展協會，舉辦多場舊部落尋根活動與文化傳承計畫",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "金岳社區發展協會",
+      "group": "空間",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 56,
+      "info": "子寧專員執行社群服務與協作的核心場域",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#2A9D8F"
+    },
+    {
+      "id": "回Ryohen（流興）部落尋根之旅",
+      "group": "行動/活動",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 57,
+      "info": "2005 年起，金岳部落青壯輩每年帶領晚輩回到舊流興部落，延續家族與遷徙記憶",
+      "start_year": 2005,
+      "end_year": 2026,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "回yaki＆yutas 家",
+      "group": "行動/活動",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 58,
+      "info": "耆老帶領青年體驗舊流興部落生活、述說歷史與族群故事，加深對文化的認同",
+      "start_year": 2006,
+      "end_year": 2006,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "直升機圓夢計畫",
+      "group": "行動/活動",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 59,
+      "info": "以直升機協助行動不便的耆老返回Ryohen（流興），圓其思鄉之夢",
+      "start_year": 2010,
+      "end_year": 2010,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "追憶流星（Ryohen）的跨時空感動分享會",
+      "group": "行動/活動",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 60,
+      "info": "耆老於會中述說舊部落生活與遷徙故事，跨世代分享記憶",
+      "start_year": 2017,
+      "end_year": 2017,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "夢一樣的流興─舊部落文化之旅",
+      "group": "行動/活動",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 62,
+      "info": "金岳社區發展協會舉辦，走訪舊部落地點、耕地、獵徑，於舊社紮營煮食、分享家族故事",
+      "start_year": 2023,
+      "end_year": 2023,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "金岳國小",
+      "group": "政府機構",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 68,
+      "info": "金岳村在地國小，以畢業典禮結合回流興舊社，帶領學生透過生態、文史踏查與族譜編纂尋找祖源",
+      "start_year": null,
+      "end_year": null,
+      "lon": 121.780270054828,
+      "lat": 24.4719338551093,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "金岳國小畢業典禮尋根",
+      "group": "行動/活動",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 69,
+      "info": "2009 年起金岳國小將畢業典禮結合回流興舊社，畢業生透過生態、文史踏查與族譜編纂尋找曾祖",
+      "start_year": 2009,
+      "end_year": 2009,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "傳統家屋夜宿",
+      "group": "自動增加",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 71,
+      "info": "(自動生成的關聯節點)",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#777777"
+    },
+    {
+      "id": "江旺生",
+      "group": "人物",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 72,
+      "info": "金洋耆老獵人，長期參與金洋國小尋根活動，在山徑上講解舊部落生活、獵徑與山林經驗",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "傳統家屋",
+      "group": "物件",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 73,
+      "info": "泰雅族傳統建築形式，象徵文化復振與生活方式。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "哈勇（Hayon）",
+      "group": "人物",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 75,
+      "info": "武塔村哈卡巴里斯部落末代頭目，帶領部落後輩徒步七天翻山越嶺回到祖靈之地",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "袁緒虎",
+      "group": "人物",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 78,
+      "info": "紀錄片《哈卡巴里斯》導演，拍攝武塔族人回舊部落的七天路程",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "紀錄片《哈卡巴里斯》",
+      "group": "物件",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 78,
+      "info": "袁緒虎執導紀錄片，記錄哈勇頭目帶領族人七天回舊部落的過程",
+      "start_year": 2010,
+      "end_year": 2011,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "武塔國小",
+      "group": "政府機構",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 81,
+      "info": "以舊部落尋根之旅為課程主軸，用 20 節課帶學生了解部落遷徙歷史",
+      "start_year": null,
+      "end_year": null,
+      "lon": 121.779665817804,
+      "lat": 24.4464937587216,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "舊武塔3天2夜尋根之旅",
+      "group": "行動/活動",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 82,
+      "info": "武塔國小以舊部落尋根為課程主軸，20 節課帶領學生了解部落遷徙歷史，並實地走路、過溪、紮營",
+      "start_year": 2024,
+      "end_year": 2024,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "武塔泰雅家屋共作假期",
+      "group": "行動/活動",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 85,
+      "info": "韋文豪以「共作假期」號召百位跨族群志工，以傳統技術與武塔在地建材打造一棟泰雅家屋",
+      "start_year": 2016,
+      "end_year": 2016,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "武塔泰雅家屋",
+      "group": "物件",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 85,
+      "info": "韋文豪主導以武塔在地建材、依傳統技術打造的泰雅家屋",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "韋文豪",
+      "group": "人物",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 87,
+      "info": "部落獵人、現任武塔國小教師，曾參與《哈卡巴里斯》拍攝，積極推動傳統家屋與文物返鄉展",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "比穗·保羅",
+      "group": "人物",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 87,
+      "info": "韋文豪伴侶，泰雅織布文化的愛好者與傳授者，與韋文豪共同訪問耆老辨識文物",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "《獵與織》重逢半世紀─泰雅族KLESAN群文物返鄉特展",
+      "group": "行動/活動",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 91,
+      "info": "展出已失傳的傳統手作；韋文豪與比穗・保羅於假日拿文物圖檔走訪耆老，請他們指認文物並解說脈絡",
+      "start_year": 2018,
+      "end_year": 2018,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "金洋國小",
+      "group": "政府機構",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 96,
+      "info": "與耆老合作帶學生入山尋根，並於創校 100 週年辦理 3 天入山尋根活動",
+      "start_year": null,
+      "end_year": null,
+      "lon": 121.752487177553,
+      "lat": 24.4266601681594,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "舊金洋尋根之旅",
+      "group": "行動/活動",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 97,
+      "info": "金洋國小帶領學生走進舊獵場與舊家屋，學習山林路徑、狩獵知識與 1960 年代遷村前的生活故事",
+      "start_year": 2001,
+      "end_year": 2001,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "金洋國小100週年入山尋根",
+      "group": "行動/活動",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 98,
+      "info": "2021 年金洋國小創校 100 週年，安排高年級學生由耆老帶領，從和平北溪入山 3 天、橫渡野溪 30 多次抵達舊金洋",
+      "start_year": 2021,
+      "end_year": 2021,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "Rgayung青年文化傳承團",
+      "group": "非營利組織",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 104,
+      "info": "澳花村青年組織，透過文化課程、營隊與活動推動文化傳承與青年凝聚。",
+      "start_year": 2015,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#4CC9F0"
+    },
+    {
+      "id": "Rgayung文化成長營",
+      "group": "行動/活動",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 106,
+      "info": "透過文化課程與活動培養青年與孩童的族群認同。",
+      "start_year": 2024,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "wakil 弓織課程",
+      "group": "行動/活動",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 107,
+      "info": "Rgayung 文化成長營手作課程，實際操作弓織並認識泰雅圖紋意義",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "tminun 織布課程",
+      "group": "行動/活動",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 108,
+      "info": "Rgayung 文化成長營手作課程，傳授傳統織布技術",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "rusa 陷阱課程",
+      "group": "行動/活動",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 109,
+      "info": "Rgayung 文化成長營由耆老帶領，學習陷阱原理、山林痕跡與狩獵規範",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "myugi 樂舞課程",
+      "group": "行動/活動",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 110,
+      "info": "Rgayung 文化成長營課程，透過音樂與舞蹈傳遞族人智慧",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "南澳文化健康站",
+      "group": "政府機關",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 112,
+      "info": "服務 70–80 歲為主的部落長輩，提供手工藝、編織、繪畫、軟陶、烙畫、族語等課程",
+      "start_year": null,
+      "end_year": null,
+      "lon": 121.803113625218,
+      "lat": 24.4703855432845,
+      "col": "#FF8E8E"
+    },
+    {
+      "id": "南澳村",
+      "group": "地點",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 112,
+      "info": "鄉內人口最多的村落，位於大南澳溪下游，為行政中心所在地及香菇產銷班活躍區域。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "菈娃·屬宴",
+      "group": "人物",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 113,
+      "info": "南澳文化健康站駐站員，負責規劃手工藝、編織、軟陶、族語等課程，串聯長輩與尋根傳承",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "原民手工藝/編織課程",
+      "group": "行動/活動",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 114,
+      "info": "南澳文化健康站課程，規劃原住民風格編織包、錢包等手工藝，受阿嬤歡迎",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "軟陶課程",
+      "group": "行動/活動",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 115,
+      "info": "南澳文化健康站課程，照服員受訓後回站帶領長輩創作",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "烙畫/板畫課程",
+      "group": "行動/活動",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 116,
+      "info": "南澳文化健康站課程，長輩於木板上烙畫鳥、孔雀、松鼠等作品",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "族語文化課程",
+      "group": "行動/活動",
+      "sourceSheet": "link_雅柔",
+      "sourceRow": 117,
+      "info": "配合當地學校族語課程，鼓勵長輩用族語述說記憶中的用語與故事",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "天然林全面禁伐政策",
+      "group": "事件",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 2,
+      "info": "1991年政府實施禁伐政策，導致段木來源受限且價格上漲，迫使大量菇農轉型或進入林班地秘密耕種。",
+      "start_year": 1991,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E9C46A"
+    },
+    {
+      "id": "段木香菇",
+      "group": "產業",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 2,
+      "info": "南澳具百年歷史的特色產業，由日本人傳入技術，以天然段木培育，具有高度文化傳承意義。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#A8DADC"
+    },
+    {
+      "id": "尤幹 (Yukan)",
+      "group": "人物",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 3,
+      "info": "南澳部落文化人與資深獵人，對高山環境極為熟悉，是比亞豪尋根活動的關鍵嚮導。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "碧候村",
+      "group": "地點",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 3,
+      "info": "又稱比亞豪部落，位於南澳北溪旁，以泰雅族人為主，擁有豐富自然資源與溫泉。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "比亞豪尋根活動",
+      "group": "自動增加",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 4,
+      "info": "(自動生成的關聯節點)",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#777777"
+    },
+    {
+      "id": "尤慕斯·舒漾",
+      "group": "人物",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 5,
+      "info": "國立宜蘭大學研究生，從經濟學角度深入分析大南澳地區段木香菇產業的發展潛力。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "大南澳地區段木香菇產業發展之可能性分析-經濟學觀點",
+      "group": "物件",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 5,
+      "info": "論文",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "王鴻文",
+      "group": "人物",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 7,
+      "info": "金洋村菇農，專業生產優質段木香菇，獲得2025年南澳鄉段木香菇評鑑競賽冠軍。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "段木香菇巴萊（Papak Khoni Balay）評鑑競賽",
+      "group": "行動/活動",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 8,
+      "info": "由南澳鄉公所主辦的年度賽事，旨在建立南澳香菇品牌識別，並獎勵生產與烘乾技術表現優異的菇農。",
+      "start_year": 2021,
+      "end_year": "現今",
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "台灣世界展望會",
+      "group": "非營利組織",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 9,
+      "info": "長期深耕南澳部落，協助當地菇農收購並推廣乾香菇，是菇農依賴的穩定銷售管道。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#4CC9F0"
+    },
+    {
+      "id": "李勝雄",
+      "group": "人物",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 10,
+      "info": "現任南澳鄉鄉長，積極推動段木香菇評鑑競賽與地方特色產業行銷。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "南澳鄉公所",
+      "group": "政府機關",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 10,
+      "info": "南澳鄉最高行政機關，下設農政等課室，負責編印統計年報並主辦段木香菇評鑑競賽。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#FF8E8E"
+    },
+    {
+      "id": "杜英",
+      "group": "物件",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 11,
+      "info": "杜英是一種台灣原生常綠喬木，學名 Elaeocarpus decipiens，高可達20-25公尺，常見於低海拔常綠闊葉林。常用作段木香菇栽培的樹種，其木材適合香菇菌絲生長。",
+      "start_year": null,
+      "end_year": null,
+      "lon": 24.43341,
+      "lat": 121.78799,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "谷久牧藝農社",
+      "group": "私人企業",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 12,
+      "info": "由林桂珍經營，結合段木香菇產銷與泰雅織布文化，開發泰雅鞋品牌並提供風味料理與文化體驗。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#F4A261"
+    },
+    {
+      "id": "赤楊",
+      "group": "物件",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 13,
+      "info": "赤楊（Alnus formosana）是台灣原生速生闊葉樹種，高可達20-30公尺，常見於河岸濕地、低海拔溪谷及次生林，具固氮能力。在南澳鄉廣泛分布，尤其溪畔及山坡濕潤地帶，與楓香、杜英形成混交林，是當地林下經濟重要樹種。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "宜蘭縣泰雅族原住民林業暨勞動合作社",
+      "group": "非營利組織",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 14,
+      "info": "由高勇偉擔任理事長，致力於媒合部落勞動力與林業資源，並協助段木香菇產銷。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#4CC9F0"
+    },
+    {
+      "id": "東岳村",
+      "group": "地點",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 15,
+      "info": "位於南澳鄉最北端，擁有著名景點東澳湧泉，是段木香菇的重要栽植與推廣區域之一。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "東澳湧泉",
+      "group": "地點",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 15,
+      "info": "位於東岳村的冷泉景點，全年恆溫約攝氏16度，是當地夏季重要的觀光與水資源指標。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "松亞倫",
+      "group": "人物",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 16,
+      "info": "南澳村菇農，基於對長輩種植經驗的記憶投入產業，參與產銷班共同行銷。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "林桂珍",
+      "group": "人物",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 17,
+      "info": "段木香菇菇農、谷久牧負責人、林務局退休員工",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "谷久牧",
+      "group": "自動增加",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 17,
+      "info": "(自動生成的關聯節點)",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#777777"
+    },
+    {
+      "id": "林業及自然保育署",
+      "group": "政府機關",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 18,
+      "info": "前身為林務局，主管國有林地管理，2019年發布「林下經濟」政策開放林地栽培香菇。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#FF8E8E"
+    },
+    {
+      "id": "林班地衝突",
+      "group": "事件",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 19,
+      "info": "早期原住民在林務局管理的「林班地」種植香菇曾屬不合法行為，常發生菇農與執法人員衝突",
+      "start_year": "1950s",
+      "end_year": "2010s",
+      "lon": null,
+      "lat": null,
+      "col": "#E9C46A"
+    },
+    {
+      "id": "林業",
+      "group": "產業",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 20,
+      "info": "管理南澳廣大森林資源，過去以木材採伐為主，禁伐後轉型為資源保育及提供段木來源。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#A8DADC"
+    },
+    {
+      "id": "林業署宜蘭分署",
+      "group": "政府機關",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 21,
+      "info": "前身為羅東林區管理處，轄管南澳林區，與地方菇農合作推廣林下經濟標章與疏伐木標售。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#FF8E8E"
+    },
+    {
+      "id": "林下經濟政策發布",
+      "group": "事件",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 22,
+      "info": "2019年農委會正式開放「林下經濟」經營申請，容許在林地內合法栽培段木香菇，開啟產業合法化轉型。",
+      "start_year": 2019,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E9C46A"
+    },
+    {
+      "id": "南澳工作站",
+      "group": "政府機關",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 23,
+      "info": "隸屬林業署宜蘭分署，直接管理南澳在地林務，提供林木資源供應並查緝不法墾殖。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#FF8E8E"
+    },
+    {
+      "id": "林萬輝",
+      "group": "人物",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 24,
+      "info": "碧候村資深菇農，提供研究場域並指導傳統柴燒熱風乾燥設備的技術與經驗。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "花菇",
+      "group": "物件",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 26,
+      "info": "花菇是高品質的香菇，乾冷低溫且有風的環境，可產出有裂紋的花菇，其菇傘表面呈現自然裂紋如雪花或菊花瓣狀，質地厚實、硬淨。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "神秘湖",
+      "group": "地點",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 28,
+      "info": "位於金洋村的高山湖泊，終年雲霧繚繞，屬南澳闊葉樹林自然保留區，具高生態價值。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "青剛櫟",
+      "group": "物件",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 30,
+      "info": "青剛櫟（Cyclobalanopsis glauca）是台灣原生常綠喬木，高可達20公尺，常見於低中海拔闊葉林。泰雅族稱之為「bwebala」或「ryuk」，具文化意義。南澳鄉泰雅族常用青剛櫟作為段木香菇栽培基材，與台灣赤楊、楓香並列，其木質適合菌絲生長，促進林下經濟發展。",
+      "start_year": null,
+      "end_year": null,
+      "lon": 24.41,
+      "lat": 121.66,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "南湖大山",
+      "group": "地點",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 31,
+      "info": "南澳鄉西側界山，海拔達3,742公尺，是泰雅族人早期進入南澳的遷徙路線起源。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "南澳鄉",
+      "group": "自動增加",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 31,
+      "info": "(自動生成的關聯節點)",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#777777"
+    },
+    {
+      "id": "南澳生態旅遊聯盟",
+      "group": "非營利組織",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 34,
+      "info": "積極推動在地生態旅遊，透過維護古道與文化導覽，促進南澳經濟發展與環境永續。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#4CC9F0"
+    },
+    {
+      "id": "生態旅遊業",
+      "group": "產業",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 34,
+      "info": "利用南澳自然資源如溫泉、瀑布及泰雅文化，發展體驗活動與古道導覽，帶動地方創生。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#A8DADC"
+    },
+    {
+      "id": "南澳各社區發展協會",
+      "group": "非營利組織",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 35,
+      "info": "全鄉共有7個，辦理社區建設、老人福利與技藝培訓，是部落與政府間的溝通平台。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#4CC9F0"
+    },
+    {
+      "id": "醫療保健及社會工作服務業",
+      "group": "產業",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 35,
+      "info": "提供鄉民健康照護與社福服務，包含衛生所診所及部落文健站的長者照護。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#A8DADC"
+    },
+    {
+      "id": "漁業",
+      "group": "產業",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 37,
+      "info": "南澳設有漁戶，包含遠洋、近海及沿岸漁業，以沿岸漁戶人口佔比最高。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#A8DADC"
+    },
+    {
+      "id": "大南澳溪",
+      "group": "自動增加",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 38,
+      "info": "(自動生成的關聯節點)",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#777777"
+    },
+    {
+      "id": "南澳鄉民代表會",
+      "group": "政府機關",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 39,
+      "info": "地方民意機關，由選民選出代表組成，負責監督鄉公所施政、預算審議及地方發展建議。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#FF8E8E"
+    },
+    {
+      "id": "南澳香菇野餐節",
+      "group": "行動/活動",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 41,
+      "info": "南澳鄉舉辦的在地特色活動，以段木香菇為主題，結合野餐形式推廣地方農產與飲食文化。活動包含香菇料理、市集攤位、體驗活動及表演節目",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "南澳鄉香菇產銷班第一班",
+      "group": "非營利組織",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 42,
+      "info": "凝聚南澳在地菇農，進行技術交流與共同行銷，並定期舉辦段木香菇評鑑競賽。",
+      "start_year": 2020,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#4CC9F0"
+    },
+    {
+      "id": "南澳農場",
+      "group": "地點",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 43,
+      "info": "鄉內著名遊憩景點，提供露營與農業體驗，與地方休閒農業轉型密切相關。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "住宿及餐飲業",
+      "group": "產業",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 43,
+      "info": "結合在地食材如段木香菇、刺蔥與馬告，提供風味料理與露營體驗，服務觀光客群。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#A8DADC"
+    },
+    {
+      "id": "農業及畜牧業",
+      "group": "產業",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 44,
+      "info": "包含水稻、雜糧及果品生產。特色農產有枇杷、文旦、生薑，是部落重要的經濟來源之一。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#A8DADC"
+    },
+    {
+      "id": "范守臣",
+      "group": "人物",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 45,
+      "info": "金洋村資深菇農，提供其林地作為段木香菇生長環境研究場域，曾獲評鑑競賽優等。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "原住民族委員會",
+      "group": "政府機關",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 46,
+      "info": "掌管全國原住民事務，包含部落更名核定、原住民保留地管理及文化產業振興政策。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#FF8E8E"
+    },
+    {
+      "id": "徐秋霖",
+      "group": "人物",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 47,
+      "info": "1945-1960年間南澳段木香菇栽培的重要推手，編寫栽培手冊並將技術正式推廣至民間。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "高勇偉",
+      "group": "人物",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 48,
+      "info": "南澳泰雅族人，宜大碩士，研究段木香菇生產，曾任香菇產銷班書記及林業合作社理事長。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "高裕仁",
+      "group": "人物",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 49,
+      "info": "東岳村菇農，南澳香菇產銷班第一班班長，擁有超過25年段木香菇種植經驗。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "生長環境與乾燥處理對宜蘭縣南澳鄉段木香菇生產之影響",
+      "group": "物件",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 51,
+      "info": "論文",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "張黃玉琴",
+      "group": "人物",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 57,
+      "info": "金洋村菇農，提供段木香菇樣本供學術研究，曾獲南澳鄉香菇評鑑競賽優等獎項。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "許彧",
+      "group": "人物",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 58,
+      "info": "磐石生活科技有限公司董事長，創辦「野.山菇」品牌，在南澳經營香菇巴萊體驗館。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "磐石生活科技有限公司",
+      "group": "私人企業",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 58,
+      "info": "由許彧擔任董事長，創辦「野.山菇」品牌，在南澳經營原食餐廳與體驗館，推廣生態旅遊",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#F4A261"
+    },
+    {
+      "id": "菌種 101",
+      "group": "物件",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 59,
+      "info": "南澳段木香菇栽培中使用的香菇菌株編號之一，與426、108等菌株並列比較，屬於影響菌絲生長與出菇表現的重要品系。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "菌種 426",
+      "group": "物件",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 60,
+      "info": "香菇菌種代號",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "菌種 505",
+      "group": "物件",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 61,
+      "info": "可在22–28°C出菇的品系，能耐寒流、表現穩定，常被南澳這類山區段木香菇栽培拿來使用。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "菌種 農林1號",
+      "group": "物件",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 62,
+      "info": "作為常見菌種使用，生長穩定、適應力佳",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "楓香",
+      "group": "物件",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 63,
+      "info": "楓香（Liquidambar formosana）是台灣常見落葉喬木，高可達30公尺，葉掌狀五裂，秋葉轉紅，廣布低海拔次生林與河岸。楓香是南澳段木香菇首選樹種之一，常與杜英、青剛櫟搭配栽培，產期可達2-3年。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "豊添福",
+      "group": "人物",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 64,
+      "info": "金岳村資深菇農，擁有35年種植經驗，是部落中堅持傳統段木香菇農法的代表。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "農業部農業試驗所",
+      "group": "政府機關",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 65,
+      "info": "負責菌種研發與制定「香菇採收及烘乾分級標準」，是評定乾香菇品質等級的官方依據。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#FF8E8E"
+    },
+    {
+      "id": "比亞豪溫泉",
+      "group": "地點",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 67,
+      "info": "位於碧候村南澳北溪旁，屬弱鹼性碳酸泉，目前正由部落會議討論委外經營規劃。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "蔡淑真",
+      "group": "人物",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 69,
+      "info": "南澳村菇農，致力於段木香菇栽培，榮獲2025年南澳鄉段木香菇評鑑競賽亞軍。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "鄭瀚彥",
+      "group": "人物",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 71,
+      "info": "南澳村菇農，參與地方農業競賽，獲得2025年南澳鄉段木香菇評鑑競賽季軍。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "營建工程業",
+      "group": "產業",
+      "sourceSheet": "link_竺庭",
+      "sourceRow": 74,
+      "info": "涉及南澳鄉內基礎設施建設與維護，如蘇花改工程及社區公共工程建設。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#A8DADC"
+    },
+    {
+      "id": "羅大春",
+      "group": "人物",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 2,
+      "info": "貴州人，1874年8月2日抵達台灣，赴任後完成開通宜蘭到花蓮的道路",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "蘇花古道",
+      "group": "地點",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 2,
+      "info": "牡丹社事件後清廷推動「開山撫番」，羅大春負責開闢蘇花古道",
+      "start_year": null,
+      "end_year": null,
+      "lon": 24.2658773775495,
+      "lat": 121.74043804388,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "羅大春開路紀念碑",
+      "group": "物件",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 3,
+      "info": "詳實記載了清廷為強化東部統治而開闢北路（今蘇花公路前身）的歷程",
+      "start_year": null,
+      "end_year": null,
+      "lon": 24.4634053774405,
+      "lat": 121.806593396122,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "荷恩",
+      "group": "人物",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 4,
+      "info": "9 世紀活躍於台灣的冒險家與商人，曾率領噶瑪蘭族人進入當時清廷治權外的大南澳地區進行拓墾並建立防禦設施，是引發清末主權爭議「大南澳事件」的關鍵核心人物",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "美利士",
+      "group": "人物",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 4,
+      "info": "19 世紀與荷恩合作的德國商人，他利用外交手段遊走法律邊緣取得開墾許可，與荷恩共同主導大南澳的拓墾計畫",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "大南澳侵墾事件",
+      "group": "事件",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 5,
+      "info": "19世紀中葉，西方商人荷恩與美利士利用清廷治理不及大南澳的空隙，率領噶瑪蘭人前往拓墾，引發了一場涉及國際外交與領土主權爭議的大南澳事件，最終在清廷強硬干預與荷恩意外罹難下宣告落幕",
+      "start_year": 1868,
+      "end_year": 1869,
+      "lon": null,
+      "lat": null,
+      "col": "#E9C46A"
+    },
+    {
+      "id": "段木香菇巴萊體驗館",
+      "group": "自動增加",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 7,
+      "info": "(自動生成的關聯節點)",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#777777"
+    },
+    {
+      "id": "段木香菇巴萊評鑑競賽",
+      "group": "行動/活動",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 8,
+      "info": "增進宜蘭縣南澳鄉段木香菇農之產品行銷及推廣，並推廣在地觀光、林下經濟及國產材多元應用的競賽活動",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "南澳觀音像",
+      "group": "物件",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 9,
+      "info": "設立於2004年，背有著一段感人的母子情深故事",
+      "start_year": 2004,
+      "end_year": null,
+      "lon": 24.4692599678638,
+      "lat": 121.81005478561,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "南澳車站",
+      "group": "空間",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 9,
+      "info": "南澳交通節點，南澳島孵基地位於其周邊老宿舍群。",
+      "start_year": null,
+      "end_year": null,
+      "lon": 24.4636253151803,
+      "lat": 121.801528036413,
+      "col": "#2A9D8F"
+    },
+    {
+      "id": "南澳鄉綜合體育場",
+      "group": "空間",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 10,
+      "info": "位於南澳高中後方，曾辦理96年全國原住民運動會、100-109年南澳鄉鄉運、103年全國泰雅族運動會",
+      "start_year": null,
+      "end_year": null,
+      "lon": 24.4657544467812,
+      "lat": 121.799404903317,
+      "col": "#2A9D8F"
+    },
+    {
+      "id": "南澳鄉全民運動會",
+      "group": "自動增加",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 10,
+      "info": "(自動生成的關聯節點)",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#777777"
+    },
+    {
+      "id": "陳宥儒",
+      "group": "人物",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 14,
+      "info": "那山那谷創辦人之一，返鄉青年，帶動金洋村觀光與體驗產業發展。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "那山那谷",
+      "group": "私人企業",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 14,
+      "info": "2014年創立，位於宜蘭縣南澳鄉金洋村，占地約3甲，結合露營、溯溪、漂漂河等體驗活動，並推出啤酒、汽水與帳篷等自有品牌商品。",
+      "start_year": 2014,
+      "end_year": null,
+      "lon": 24.4367351756092,
+      "lat": 121.74982041103,
+      "col": "#F4A261"
+    },
+    {
+      "id": "陳安明",
+      "group": "人物",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 15,
+      "info": "那山那谷共同創辦人，與陳宥儒共同經營金洋村露營與體驗產業。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "部落裡的電影節",
+      "group": "行動/活動",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 16,
+      "info": "2025年10月於南澳那山那谷舉辦，結合部落走讀、青年影像創作分享與烤火交流的文化活動。",
+      "start_year": 2025,
+      "end_year": 2025,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "SYAX 夏和光文化制作",
+      "group": "私人企業",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 17,
+      "info": "參與「部落裡的電影節」策劃與執行的文化製作團隊。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#F4A261"
+    },
+    {
+      "id": "金洋（Kinyan）",
+      "group": "空間",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 18,
+      "info": "南澳鄉金洋村部落地名，為部落走讀活動路線之一。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#2A9D8F"
+    },
+    {
+      "id": "奎諾斯（Rekinus）",
+      "group": "空間",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 19,
+      "info": "南澳地區部落地名，為走讀活動路線之一，由部落長者導覽。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#2A9D8F"
+    },
+    {
+      "id": "宜蘭縣金洋社區發展協會",
+      "group": "非營利組織",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 20,
+      "info": "推動金洋村社區營造與地方發展的組織，包含活動策劃、文化推廣與社區願景規劃。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#4CC9F0"
+    },
+    {
+      "id": "水舞雅韻山水季",
+      "group": "行動/活動",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 20,
+      "info": "2025年由金洋青年發起的文化活動，結合部落神話、創意表演、風味餐與市集，展現部落文化與生活。",
+      "start_year": 2025,
+      "end_year": 2025,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "社造4.0計畫",
+      "group": "行動/活動",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 21,
+      "info": "金洋社區透過資源盤點與公民會議推動社區願景，提出林業、封溪護魚、文化資產盤點與獵人文化傳承等方案。",
+      "start_year": 2025,
+      "end_year": "現在",
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "Aynomi 愛南澳",
+      "group": "私人企業",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 24,
+      "info": "由陳芃伶推動的在地品牌，以深度旅遊結合文化體驗與部落產業發展。",
+      "start_year": 2018,
+      "end_year": "現在",
+      "lon": null,
+      "lat": null,
+      "col": "#F4A261"
+    },
+    {
+      "id": "陳銘裕",
+      "group": "人物",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 25,
+      "info": "陳芃伶父親，推動原民產業進駐蘭陽原創館，成立品牌店鋪。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "醒來吧‧SINRAMAT",
+      "group": "私人企業",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 25,
+      "info": "位於蘭陽原創館的原民文化品牌店，提供工藝展示、手作課程與部落美食。",
+      "start_year": 2021,
+      "end_year": "現在",
+      "lon": null,
+      "lat": null,
+      "col": "#F4A261"
+    },
+    {
+      "id": "林月英",
+      "group": "人物",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 26,
+      "info": "陳芃伶母親，學習並傳承泰雅族傳統編織工藝，為工藝師與教學者。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "蘭陽原創館",
+      "group": "空間",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 27,
+      "info": "宜蘭縣文化產業空間，提供原住民品牌進駐與展示平台。",
+      "start_year": null,
+      "end_year": null,
+      "lon": 24.7523297070709,
+      "lat": 121.754142606111,
+      "col": "#2A9D8F"
+    },
+    {
+      "id": "羊角勾織法",
+      "group": "產業",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 28,
+      "info": "泰雅族傳統編織技術，透過地方創生計畫進行推廣與傳承。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#A8DADC"
+    },
+    {
+      "id": "一米地有限公司",
+      "group": "私人企業",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 31,
+      "info": "推動「南澳島孵」計畫的公司，參與蘭陽老屋計畫並進行空間活化。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#F4A261"
+    },
+    {
+      "id": "南澳島孵",
+      "group": "私人企業",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 31,
+      "info": "南澳青年創業與共創基地，由老屋活化而成，支持青年創新、生活實驗與地方發展。",
+      "start_year": null,
+      "end_year": null,
+      "lon": 24.462571866124,
+      "lat": 121.807837247842,
+      "col": "#F4A261"
+    },
+    {
+      "id": "蔡山",
+      "group": "人物",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 32,
+      "info": "南澳島孵執行者，具澳洲農場與多地經驗，推動永續農業、自然建築與青年返鄉實踐。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "蘭陽老屋計畫",
+      "group": "行動/活動",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 33,
+      "info": "推動老屋活化與地方創生的計畫，促成南澳島孵基地成立。",
+      "start_year": 2019,
+      "end_year": "現在",
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "山小日子",
+      "group": "私人企業",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 35,
+      "info": "南澳島孵團隊經營的影音平台，記錄青年下鄉、建築與生活實驗過程。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#F4A261"
+    },
+    {
+      "id": "陳宇",
+      "group": "人物",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 40,
+      "info": "比亞豪部落（碧候村）青年，就讀東華大學民族語言與傳播學系，透過語言學習與推廣找回部落文化。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "比亞豪部落（Pyahaw）",
+      "group": "空間",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 40,
+      "info": "位於南澳鄉碧候村的泰雅族部落。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#2A9D8F"
+    },
+    {
+      "id": "東華大學民族語言與傳播學系",
+      "group": "自動增加",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 41,
+      "info": "(自動生成的關聯節點)",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#777777"
+    },
+    {
+      "id": "語言文化推廣",
+      "group": "自動增加",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 42,
+      "info": "(自動生成的關聯節點)",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#777777"
+    },
+    {
+      "id": "林凱恩（Piho Yuhaw）",
+      "group": "人物",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 43,
+      "info": "碧候部落泰雅族青年，關注原住民族文化、土地與產業發展，發起南澳布拉格雞品牌。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "南澳布拉格雞",
+      "group": "行動/活動",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 43,
+      "info": "2021年由部落小農共同成立的品牌，以小農養雞模式結合原民文化、生活經驗與地方產業發展。",
+      "start_year": 2021,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "青年社區參與行動2.0 Changemaker計畫",
+      "group": "行動/活動",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 47,
+      "info": "2025年Rgayung青年文化傳承團參與青年社區參與行動2.0 Changemaker計畫。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "楓樹下音樂會",
+      "group": "行動/活動",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 50,
+      "info": "結合音樂與文化的部落活動，促進社群交流與文化展演。",
+      "start_year": 2025,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "金洋青年會",
+      "group": "自動增加",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 51,
+      "info": "(自動生成的關聯節點)",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#777777"
+    },
+    {
+      "id": "金洋青年之夜",
+      "group": "自動增加",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 51,
+      "info": "(自動生成的關聯節點)",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#777777"
+    },
+    {
+      "id": "來自未來的聲音",
+      "group": "行動/活動",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 55,
+      "info": "2018年結合沙韻之鐘主題的文化活動，融合音樂與文化體驗。",
+      "start_year": 2018,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "莎韻之鐘",
+      "group": "物件",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 56,
+      "info": "南澳重要文化象徵，與歷史故事與空間記憶相關。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "普及中小企業數位寬頻應用計畫",
+      "group": "行動/活動",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 57,
+      "info": "結合科技、文化與音樂的跨域計畫，串聯藝術與數位應用。",
+      "start_year": 2018,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "張巧融",
+      "group": "人物",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 57,
+      "info": "參與數位寬頻應用計畫的相關人員。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "黃凱盈",
+      "group": "人物",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 58,
+      "info": "旅美鋼琴家，參與南澳文化活動與音樂合作。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "米路哈勇",
+      "group": "人物",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 59,
+      "info": "泰雅族藝術家，參與文化與藝術跨域合作。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "WeWish App",
+      "group": "物件",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 60,
+      "info": "蒐集流星任務的數位應用，結合地方文化與互動體驗。",
+      "start_year": 2018,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "流星少女彩繪鋼琴",
+      "group": "物件",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 62,
+      "info": "透過App啟動的互動藝術裝置，結合音樂與文化體驗。",
+      "start_year": 2018,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "WILDERLAND",
+      "group": "行動/活動",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 63,
+      "info": "三天兩夜山海野遊祭典，與品牌合作推動戶外文化活動，與Timberland合作，，在那山那谷舉辦。",
+      "start_year": 2021,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "馬告精釀啤酒",
+      "group": "產業",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 65,
+      "info": "融合泰雅香料馬告的在地精釀商品。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#A8DADC"
+    },
+    {
+      "id": "Apple Watch錶帶",
+      "group": "物件",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 66,
+      "info": "融入原住民族文化元素的設計商品。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "Ryohen（流興）舊部落",
+      "group": "空間",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 69,
+      "info": "金岳部落舊部落所在地，承載重要文化記憶與歷史。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#2A9D8F"
+    },
+    {
+      "id": "回Yaki＆Yutas的家",
+      "group": "行動/活動",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 70,
+      "info": "金岳部落舉辦的舊部落尋根活動，由耆老帶領認識文化與歷史。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "不打烊體驗文化",
+      "group": "事件",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 74,
+      "info": "發展在地深度文化旅遊的計畫，結合教育與體驗。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E9C46A"
+    },
+    {
+      "id": "伊柚部落（東岳村）",
+      "group": "空間",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 74,
+      "info": "位於東岳村的泰雅族部落，具山海資源特色。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#2A9D8F"
+    },
+    {
+      "id": "飛魚季",
+      "group": "事件",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 75,
+      "info": "4–6月季節性文化活動，包含飛魚製作與體驗。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E9C46A"
+    },
+    {
+      "id": "飛魚乾製作技術",
+      "group": "產業",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 76,
+      "info": "泰雅族傳統食物保存技術，包含醃製與烘烤工序。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#A8DADC"
+    },
+    {
+      "id": "飛魚辣椒",
+      "group": "產業",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 77,
+      "info": "以飛魚加工製成的在地特色產品。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#A8DADC"
+    },
+    {
+      "id": "綠色博覽會",
+      "group": "行動/活動",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 78,
+      "info": "2015年宜蘭大型活動，其中有設置泰雅族傳統家屋。",
+      "start_year": 2015,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "夏曉萱",
+      "group": "人物",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 79,
+      "info": "金岳部落相關專案經理人，參與地方發展計畫。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "陳潔瑤",
+      "group": "人物",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 80,
+      "info": "原住民族導演，拍攝部落文化相關紀錄片。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "你還記得流星嗎",
+      "group": "物件",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 80,
+      "info": "記錄耆老回舊部落文化行動的紀錄片。",
+      "start_year": 2012,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "不一樣的月光",
+      "group": "物件",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 82,
+      "info": "與南澳文化相關的影視作品。",
+      "start_year": 2011,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "林慶台",
+      "group": "人物",
+      "sourceSheet": "link_文化活動",
+      "sourceRow": 82,
+      "info": "泰雅族牧師與演員，參與拍攝不一樣的月光。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "鄭惠觀",
+      "group": "人物",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 2,
+      "info": "教案設計者，負責編撰泰雅生態智慧與健康飲食系列教案",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "泰雅我的健康餐盤",
+      "group": "物件",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 2,
+      "info": "結合泰雅傳統食材與六大類營養比例建議的實體教材",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "泰雅健康飲食歌",
+      "group": "物件",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 3,
+      "info": "結合泰雅語口訣與舞蹈動作，用於強化健康記憶的教學歌曲",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "陽明交通大學 USR",
+      "group": "自動增加",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 4,
+      "info": "(自動生成的關聯節點)",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#777777"
+    },
+    {
+      "id": "小米醃肉",
+      "group": "物件",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 5,
+      "info": "泰雅傳統料理，由五花肉、小米與鹽製作",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "醃漬罐",
+      "group": "物件",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 6,
+      "info": "製作小米醃肉不可或缺的傳統發酵與保存工具",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "煎馬告豬肉",
+      "group": "物件",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 7,
+      "info": "泰雅風味料理，教案利用「馬告」的民族植物特性作為減鹽教學重點",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "刺蔥",
+      "group": "物件",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 7,
+      "info": "泰雅傳統天然調味料，教案建議以此取代鹽巴或味精以降低鈉含量",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "昭和草",
+      "group": "物件",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 8,
+      "info": "泰雅傳統採集野菜（常用於川燙或炒食），教案中的在地蔬菜範例",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "高血壓",
+      "group": "健康議題",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 9,
+      "info": "教案旨在防治的慢性疾病之一",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "糖尿病",
+      "group": "健康議題",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 11,
+      "info": "與睡眠不足、節律失調與代謝異常相關。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "泰雅歌舞動起來",
+      "group": "物件",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 12,
+      "info": "結合部落律動與體能訓練的影音教學工具",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "彭培恩",
+      "group": "人物",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 15,
+      "info": "陽明交大研究生，規劃並執行坐式泰雅傳統歌舞運動訓練介入方案",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "坐式泰雅傳統歌舞運動訓練",
+      "group": "行動/活動",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 15,
+      "info": "結合泰雅傳統舞步、族語歌曲與現代運動知識設計的 12 週訓練方案",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "廖珍琴",
+      "group": "人物",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 16,
+      "info": "泰雅舞蹈老師，指導方案中傳統舞步之發展與動作設計",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "比亞豪部落",
+      "group": "空間",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 18,
+      "info": "本研究實際進行收案與運動介入的南澳鄉部落場域之一",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#2A9D8F"
+    },
+    {
+      "id": "武塔部落",
+      "group": "空間",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 19,
+      "info": "南澳鄉研究場域，進行光復能與健康促進計畫",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#2A9D8F"
+    },
+    {
+      "id": "金岳部落",
+      "group": "空間",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 20,
+      "info": "本研究實際進行收案與運動介入的南澳鄉部落場域之一",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#2A9D8F"
+    },
+    {
+      "id": "金洋部落",
+      "group": "空間",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 21,
+      "info": "本研究實際進行收案與運動介入的南澳鄉部落場域之一",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#2A9D8F"
+    },
+    {
+      "id": "偏鄉智慧健康研究中心",
+      "group": "組織",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 23,
+      "info": "整合大學資源與智慧科技，長期投入南澳等偏鄉地區健康照護研究的核心單位",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "部落之星計畫",
+      "group": "行動/活動",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 23,
+      "info": "教育部USR計畫，深耕宜蘭南澳泰雅部落，由護理學院劉影梅特聘教授帶領，結合數位科技、醫學與教育資源",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "原民 3D 口罩",
+      "group": "物件",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 24,
+      "info": "針對原民長者臉型設計，並印有織布圖騰的防護工具，展現文化適切性與防疫結合",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "偏鄉醫學體驗營",
+      "group": "行動/活動",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 25,
+      "info": "邀請部落青少年參與，透過體驗活動啟發其對醫學與健康照護的興趣，培養在地人才",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "劉影梅",
+      "group": "人物",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 26,
+      "info": "陽明交大護理學院特聘教授",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "泰雅獵人",
+      "group": "人物",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 28,
+      "info": "代表遵循 Gaga 規範與自然線索（早起早歸）的傳統生活型態",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "Gaga",
+      "group": "自動增加",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 28,
+      "info": "(自動生成的關聯節點)",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#777777"
+    },
+    {
+      "id": "狩獵季",
+      "group": "行動/活動",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 29,
+      "info": "每年 10 月至次年 3 月，獵人高度規律入山的年度週期",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "早起早歸模式",
+      "group": "行動/活動",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 30,
+      "info": "獵人典型的每日週期，凌晨 5-6 點出發，下午 2-3 點返回",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "陷阱巡視",
+      "group": "行動/活動",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 31,
+      "info": "獵人在山上每日的核心任務，需全神貫注以維持安全與收獲",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "吳子寧",
+      "group": "人物",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 32,
+      "info": "金岳社區發展協會專員，代表受社群責任與社會時鐘驅動的部落青年",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "感覺式節律",
+      "group": "物件",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 33,
+      "info": "子寧專員提出的觀點，指以「心安、身安、吃得下、睡得著」為核心的和諧狀態",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "陳明仁",
+      "group": "自動增加",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 34,
+      "info": "(自動生成的關聯節點)",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#777777"
+    },
+    {
+      "id": "碧候部落",
+      "group": "空間",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 34,
+      "info": "陳明仁大哥居住與進行文化傳承的泰雅族部落場域",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#2A9D8F"
+    },
+    {
+      "id": "藤編勞動週期",
+      "group": "行動/活動",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 35,
+      "info": "完成一個背簍約需七天的規律進程，形成工藝師穩定的個人節律",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "藤編背簍",
+      "group": "物件",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 36,
+      "info": "工藝師勞動的具體產出，承載著性別分工與傳統文化的物質媒介",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "小米酒",
+      "group": "物件",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 37,
+      "info": "陳明仁大哥提及具備「養生」功能的傳統飲品，與社交節律相關",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "日夜節律",
+      "group": "物件",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 38,
+      "info": "人體內在時間系統，影響睡眠、代謝與心理健康",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "週期性",
+      "group": "自動增加",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 38,
+      "info": "(自動生成的關聯節點)",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#777777"
+    },
+    {
+      "id": "內外互動性",
+      "group": "物件",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 39,
+      "info": "內在生理機制與外在環境線索（如日照、氣溫、社會時鐘）的交互作用",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "山林智慧",
+      "group": "物件",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 41,
+      "info": "獵人依據自然線索（如濕氣、動物習性）調整入山時機的決策依據",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "自然線索 (日照/溫度)",
+      "group": "物件",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 41,
+      "info": "引導獵人與族人切換活動節律的外在環境訊號",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "教會活動 (禮拜天)",
+      "group": "行動/活動",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 42,
+      "info": "獵人與部落族人每週回歸部落的精神寄託，標示著「勞動」與「休息」的分界",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "採藤",
+      "group": "行動/活動",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 43,
+      "info": "工藝師配合季節與體力進行的戶外採集工作",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "失眠",
+      "group": "健康議題",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 46,
+      "info": "日夜節律失調可能造成的睡眠問題。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "白天嗜睡",
+      "group": "健康議題",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 47,
+      "info": "日夜節律失調可能造成的日間功能問題。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "憂鬱症",
+      "group": "健康議題",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 48,
+      "info": "與日夜節律失調相關，光照療法可作為非藥物輔助治療。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "焦慮",
+      "group": "健康議題",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 49,
+      "info": "與睡眠品質與節律失衡相關的心理健康問題。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "肥胖",
+      "group": "健康議題",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 50,
+      "info": "長期節律失調、睡眠不足或夜班工作可能增加的慢性病風險。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "心血管疾病",
+      "group": "健康議題",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 52,
+      "info": "日夜節律失調與夜班工作可能增加其風險。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "癌症",
+      "group": "健康議題",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 53,
+      "info": "長期夜班與日夜節律破壞可能提高部分癌症風險。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "代謝症候群",
+      "group": "健康議題",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 54,
+      "info": "與夜班、睡眠不足與節律失衡相關。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "夜班工作",
+      "group": "行動/活動",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 55,
+      "info": "長期干擾日夜節律的工作型態，與多種慢性疾病與職業健康問題相關。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "職業倦怠",
+      "group": "健康議題",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 56,
+      "info": "護理人員長期輪班與夜班可能導致的健康與工作問題。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "社會時差",
+      "group": "健康議題",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 59,
+      "info": "個人內在時鐘與社會作息不一致所造成的節律失調狀態。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "光照療法",
+      "group": "行動/活動",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 60,
+      "info": "使用晨間強光或特定波長光線改善節律失調、憂鬱症狀、睡眠障礙與認知功能。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "失智症",
+      "group": "健康議題",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 62,
+      "info": "光復能與晨間光照可改善失智長者睡眠障礙、認知與神經精神症狀。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "光復能",
+      "group": "行動/活動",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 63,
+      "info": "透過光照介入調節日夜節律，改善睡眠、情緒與認知功能，應用於原鄉健康促進",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "晨間光照",
+      "group": "行動/活動",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 66,
+      "info": "用於調節生理時鐘、改善睡眠、情緒與認知功能的光照介入。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "情緒狀態",
+      "group": "自動增加",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 68,
+      "info": "(自動生成的關聯節點)",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#777777"
+    },
+    {
+      "id": "健康照明",
+      "group": "行動/活動",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 69,
+      "info": "將光環境設計應用於健康促進、長照、醫療與公共空間。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "長照環境",
+      "group": "自動增加",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 70,
+      "info": "(自動生成的關聯節點)",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#777777"
+    },
+    {
+      "id": "好眠燈",
+      "group": "物件",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 71,
+      "info": "光復能相關產品，用於改善長者夜間睡眠與情緒狀態。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "快樂燈",
+      "group": "物件",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 73,
+      "info": "光復能相關產品，用於情緒改善與健康促進。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "兒童與青少年",
+      "group": "群體",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 75,
+      "info": "戶外光暴露不足與近視、睡眠不足相關的重要公共衛生對象。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "近視",
+      "group": "健康議題",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 75,
+      "info": "兒童與青少年戶外光暴露不足與近視發生、進展相關。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "失智長者",
+      "group": "群體",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 77,
+      "info": "光復能與晨間光照介入的重要對象。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "泰雅族",
+      "group": "族群",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 79,
+      "info": "以自然節律生活為文化基礎的原住民族群",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "日出而作、日落而息",
+      "group": "行動/活動",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 79,
+      "info": "亞洲傳統與原住民族文化中順應自然光暗週期的生活智慧。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "清晨勞作儀式",
+      "group": "行動/活動",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 80,
+      "info": "台灣原住民族生活中與自然節律同步的文化實踐。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "健康作息運動",
+      "group": "行動/活動",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 81,
+      "info": "社區層級推廣規律作息、減少人工光干擾與提升節律健康的行動。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "社區健康照護研究所",
+      "group": "大學",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 83,
+      "info": "國立陽明交通大學所屬研究所，與社區健康照護、護理與健康促進相關。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#A8DABB"
+    },
+    {
+      "id": "台灣大學護理學研究所",
+      "group": "大學",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 85,
+      "info": "劉影梅博士學位來源。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#A8DABB"
+    },
+    {
+      "id": "睡眠品質不佳",
+      "group": "健康議題",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 90,
+      "info": "原鄉長者常見問題之一",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "日夜節律失調",
+      "group": "健康議題",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 91,
+      "info": "因光照不足與作息不規律造成的健康問題",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "原鄉健康促進",
+      "group": "行動/活動",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 92,
+      "info": "針對原住民族社區進行健康改善的行動",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "節律健康促進模式",
+      "group": "行動/活動",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 93,
+      "info": "結合文化與科學的健康促進策略",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "光照不足",
+      "group": "健康議題",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 96,
+      "info": "長者每日有效光照時間過低的現象",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "室內活動為主",
+      "group": "行動/活動",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 99,
+      "info": "長者多數時間停留室內的生活型態",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "長時間看電視",
+      "group": "行動/活動",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 100,
+      "info": "晚間光刺激影響褪黑激素分泌的行為",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "文化健康站",
+      "group": "空間",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 101,
+      "info": "南澳部落長者接受照光介入與健康促進之主要場域",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#2A9D8F"
+    },
+    {
+      "id": "文健站長者",
+      "group": "群體",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 101,
+      "info": "光復能與節律健康介入的主要研究對象",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "獵光基地",
+      "group": "空間",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 103,
+      "info": "文化健康站與教會作為光復能應用據點",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#2A9D8F"
+    },
+    {
+      "id": "武塔日光角 Nanu-Wagi",
+      "group": "空間",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 104,
+      "info": "以光復能為核心打造之原鄉健康促進據點",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#2A9D8F"
+    },
+    {
+      "id": "光環境量測",
+      "group": "行動/活動",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 107,
+      "info": "蒐集社區室內外照度與環境資料",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "小學生",
+      "group": "群體",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 115,
+      "info": "日夜節律健康教育與教材應用對象",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "日夜節律手冊（小學生版）",
+      "group": "物件",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 115,
+      "info": "針對學童設計之節律教育教材",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "日夜節律手冊（長者版）",
+      "group": "物件",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 116,
+      "info": "針對長者設計之節律健康教育教材",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "衛教宣導影片",
+      "group": "物件",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 117,
+      "info": "將日夜節律與光復能轉譯為可理解內容之影音教材",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "光照地圖",
+      "group": "物件",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 119,
+      "info": "標示社區有效光照地點之工具",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "紫外線變色吊飾照片",
+      "group": "物件",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 121,
+      "info": "用於光照偵測與教育之工具",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "畫出我的一天",
+      "group": "行動/活動",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 122,
+      "info": "記錄居民作息與光照暴露之調查工具",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "社區光環境資料",
+      "group": "物件",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 123,
+      "info": "四季光照與居民作息統計資料",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "健康照明設計",
+      "group": "行動/活動",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 125,
+      "info": "將光環境應用於健康促進與生活改善",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "光復能評估量表",
+      "group": "物件",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 128,
+      "info": "評估日夜節律與光照需求之工具",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "南澳數位發展中心",
+      "group": "政府機關",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 132,
+      "info": "負責教材數位化與健康資源推廣保存",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#FF8E8E"
+    },
+    {
+      "id": "教會",
+      "group": "空間",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 135,
+      "info": "原鄉社區活動與光照介入場域之一",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#2A9D8F"
+    },
+    {
+      "id": "自助集點卡",
+      "group": "物件",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 137,
+      "info": "鼓勵居民參與光照活動的機制工具",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "原鄉新生四重奏計畫",
+      "group": "行動/活動",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 141,
+      "info": "結合AI與HI推動復能、節律、教育與健康之整合型研究計畫",
+      "start_year": 2025,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "人因智慧光復能計畫",
+      "group": "行動/活動",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 141,
+      "info": "以光復能照光介入改善原鄉長者健康與日夜節律之研究子計畫",
+      "start_year": 2025,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "宜蘭縣南澳鄉武塔社區發展協會",
+      "group": "非營利組織",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 143,
+      "info": "協助推動南澳武塔部落健康促進與研究執行",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#4CC9F0"
+    },
+    {
+      "id": "照顧服務員",
+      "group": "群體",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 146,
+      "info": "參與照光介入並觀察健康效果之族群",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "團體照光介入",
+      "group": "行動/活動",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 147,
+      "info": "於文健站進行之標準化光照治療流程（每日1小時）",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "個人化照光介入",
+      "group": "行動/活動",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 148,
+      "info": "依個體節律特性調整光照時間與強度之介入方式",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "褪黑激素",
+      "group": "物件",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 153,
+      "info": "調控睡眠與節律的重要生理激素",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "睡眠品質",
+      "group": "健康議題",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 154,
+      "info": "受日夜節律與光照影響的重要健康指標",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "憂鬱",
+      "group": "健康議題",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 156,
+      "info": "與光照不足與節律失衡相關的心理健康問題",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "血糖異常",
+      "group": "健康議題",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 157,
+      "info": "與節律失調與代謝相關的健康指標",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "失能風險",
+      "group": "健康議題",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 158,
+      "info": "長者功能退化相關健康問題",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#CCCCCC"
+    },
+    {
+      "id": "健康促進",
+      "group": "行動/活動",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 170,
+      "info": "透過環境與行為介入提升整體健康狀態",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "睡眠日誌",
+      "group": "物件",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 171,
+      "info": "記錄每日睡眠狀態與作息之工具",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "睡眠活動紀錄器",
+      "group": "物件",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 172,
+      "info": "量測睡眠與活動節律之穿戴裝置",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "照度計",
+      "group": "物件",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 173,
+      "info": "測量光照強度與環境光暴露之工具",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "心律頻譜",
+      "group": "物件",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 174,
+      "info": "評估自律神經功能之生理指標工具",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "節律健康調整",
+      "group": "行動/活動",
+      "sourceSheet": "link_總計畫",
+      "sourceRow": 177,
+      "info": "透過光照與作息調整恢復日夜節律",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "武塔文化健康站",
+      "group": "政府機關",
+      "info": "武塔村的文健站，提供長輩活動與課程空間",
+      "start_year": null,
+      "end_year": null,
+      "lon": 121.788664669595,
+      "lat": 24.4452304152353,
+      "col": "#FF8E8E"
+    },
+    {
+      "id": "東岳文健站",
+      "group": "政府機關",
+      "info": "金洋村的文健站，提供長輩活動與課程空間",
+      "start_year": null,
+      "end_year": null,
+      "lon": 121.832240774399,
+      "lat": 24.5197740048503,
+      "col": "#FF8E8E"
+    },
+    {
+      "id": "南澳鄉行政建制",
+      "group": "事件",
+      "info": "1946 年國民政府劃定南澳鄉行政區，包含金岳、武塔、金洋、碧候、澳花、南澳、東岳等村",
+      "start_year": 1946,
+      "end_year": 1946,
+      "lon": null,
+      "lat": null,
+      "col": "#E9C46A"
+    },
+    {
+      "id": "鐘文明",
+      "group": "人物",
+      "info": "金洋村菇農，產銷班成員，積極參與地方香菇產業活動，曾獲評鑑競賽優等。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "批發及零售業",
+      "group": "產業",
+      "info": "負責南澳農產品與日常用品流通，包含中盤商收購乾香菇或透過在地商行販售。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#A8DADC"
+    },
+    {
+      "id": "maraho",
+      "group": "人物",
+      "info": "品格優良、戰績輝煌、受人尊崇的泰雅族部落領袖",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "磐石生活科技有限公司宜蘭分公司",
+      "group": "私人企業",
+      "info": "主要致力於宜蘭南澳的農業、旅遊產業設有，發展「野.山菇」品牌與段木香菇巴萊體驗館",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#F4A261"
+    },
+    {
+      "id": " Aynomi 愛南澳",
+      "group": "私人企業",
+      "info": "以深度旅遊的方式帶動地方產業發展的跨部落旅遊品牌，同時守護環境生態與文化傳承。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#F4A261"
+    },
+    {
+      "id": "南澳鄉段木香菇巴萊體驗館",
+      "group": "空間",
+      "info": "結合泰雅文化、農業體驗與觀光餐飲的地方文化館",
+      "start_year": 2024,
+      "end_year": null,
+      "lon": 24.4401513667588,
+      "lat": 121.765472712822,
+      "col": "#2A9D8F"
+    },
+    {
+      "id": "莎韻紀念公園",
+      "group": "空間",
+      "info": "女沙韻．哈勇的紀念公園",
+      "start_year": null,
+      "end_year": null,
+      "lon": 24.4488709985234,
+      "lat": 121.778911649973,
+      "col": "#2A9D8F"
+    },
+    {
+      "id": "南澳鄉泰雅文化館\r",
+      "group": "空間",
+      "info": "以泰雅族為主的文化館，是為一座具有鄉土、民俗色彩的地方博物館",
+      "start_year": null,
+      "end_year": null,
+      "lon": 24.4665232378585,
+      "lat": 121.803826689533,
+      "col": "#2A9D8F"
+    },
+    {
+      "id": "大南澳震安宮",
+      "group": "空間",
+      "info": "源於清末漢人移墾初期的土地公小祠，歷經 1924 年擴建與二戰末期美軍空襲損毀，於戰後重建並改奉媽祖為主神",
+      "start_year": null,
+      "end_year": null,
+      "lon": 24.4636741434108,
+      "lat": 121.807120442167,
+      "col": "#2A9D8F"
+    },
+    {
+      "id": "東岳部落",
+      "group": "空間",
+      "info": "以東岳湧泉、文旦柚以及優質養殖香魚聞名",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#2A9D8F"
+    },
+    {
+      "id": "獻馘碑",
+      "group": "物件",
+      "info": "宜蘭仕紳為了紀念不再受泰雅族人獵頭威脅而立碑，底下埋有泰雅族獻出的武器&頭骨\n",
+      "start_year": null,
+      "end_year": null,
+      "lon": 24.7531815063841,
+      "lat": 121.753953695098,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "南澳神社",
+      "group": "物件",
+      "info": "日治時期「一街一庄一神社」政策下於 1936 年建立的皇民化象徵，主體建築在戰後已毀",
+      "start_year": null,
+      "end_year": null,
+      "lon": 24.4679908236721,
+      "lat": 121.798757001216,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "南澳鄉全民運動會暨傳統技藝競賽",
+      "group": "行動/活動",
+      "info": "增進南澳鄉民身心健康、提高運動技能，並結合地方產業，傳承泰雅原住民傳統技藝&文化活動的體育賽事",
+      "start_year": 2022,
+      "end_year": "現在",
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "南澳野FUN祭",
+      "group": "行動/活動",
+      "info": "由南澳泰雅族青年許彧（Yougan）結合南澳鄉公所一起推展在地的泰雅原民文化活動",
+      "start_year": 2025,
+      "end_year": "現在",
+      "lon": null,
+      "lat": null,
+      "col": "#9D4EDD"
+    },
+    {
+      "id": "生活改進運動\r",
+      "group": "事件",
+      "info": "以改善山地人民生活為主軸，透過衛生、教育、住屋、飲食、服裝等多面向改造原住民日常生活",
+      "start_year": 1950,
+      "end_year": 1960,
+      "lon": null,
+      "lat": null,
+      "col": "#E9C46A"
+    },
+    {
+      "id": "定律農業(定耕農業)運動",
+      "group": "事件",
+      "info": "官方認為刀耕火種會造成水土流失與山崩、淹水等災害，且不利統計與稅收，故以治山治水與穩定產量為理由推動定耕，把原本遷徙式的刀耕火種與輪耕，改為在特定區域固定耕作，建立穩定農田與產量的政策",
+      "start_year": 1950,
+      "end_year": 1960,
+      "lon": null,
+      "lat": null,
+      "col": "#E9C46A"
+    },
+    {
+      "id": "育苗造林運動",
+      "group": "事件",
+      "info": "鼓勵山地居民「育苗」與「造林」，大規模種植林木以達成保安林 (負責保護國家土地的林木)、水土保持與木材供給等多重目的",
+      "start_year": 1950,
+      "end_year": 1960,
+      "lon": null,
+      "lat": null,
+      "col": "#E9C46A"
+    },
+    {
+      "id": "原民寶尤幹瓦旦獵人學校",
+      "group": "私人企業",
+      "info": "位於金岳村的體驗型文化場域，提供獵人技能體驗與原民飲食文化活動。",
+      "start_year": null,
+      "end_year": null,
+      "lon": 24.4654115965267,
+      "lat": 121.774550525134,
+      "col": "#F4A261"
+    },
+    {
+      "id": "國立陽明交通大學",
+      "group": "大學",
+      "info": "教案開發與推廣單位，產出健康餐盤、有聲書等教學媒介",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#A8DABB"
+    },
+    {
+      "id": "泰雅我的餐盤有聲書",
+      "group": "物件",
+      "info": "以泰雅語與國語介紹傳統食材分類與攝取建議的數位教材",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "小米",
+      "group": "物件",
+      "info": "泰雅傳統主食，教案提醒其在醃肉中屬於全穀雜糧類來源",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "Yaki",
+      "group": "人物",
+      "info": "住在南澳武塔部落的泰雅族長者，高齡且長期服用多種慢性病藥物。Yaki在泰雅語裡是對於年長者女性的尊稱",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "陳明仁 ",
+      "group": "人物",
+      "info": "碧候部落藤編工藝師與文化保存者，將傳統工藝週期融入日常生活",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#E63946"
+    },
+    {
+      "id": "日夜節律 ",
+      "group": "物件",
+      "info": "由內在生理時鐘主導，受外在環境訊號、文化價值及社群責任共同調節的作息週期",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "Gaga ",
+      "group": "物件",
+      "info": "影響獵人「早起早歸」及「季節性保育」的核心文化動機與節律前因",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "週期性 ",
+      "group": "物件",
+      "info": "節律的核心特徵，展現於每日、每週、及每年的循環特徵",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "社群同步性",
+      "group": "物件",
+      "info": "個體作息受部落互動、社會責任（如長輩呼喚）及集體分工所調節的特性",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "文化節律",
+      "group": "物件",
+      "info": "包含「什麼時間屬於生火、交際、陪伴或遵循禁忌」等受文化意義賦予的時間安排",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#83C5BE"
+    },
+    {
+      "id": "譫妄",
+      "group": "健康議題",
+      "info": "ICU或住院環境中因日夜節律破壞可能出現的急性認知問題。",
+      "start_year": null,
+      "end_year": null,
+      "lon": null,
+      "lat": null,
+      "col": "#CCCCCC"
+    }
+  ],
+  "links": [
+    {
+      "source": "空間關係",
+      "target": "#E63946",
+      "group": "",
+      "label": "空間－空間",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "人際關係",
+      "target": "#457B9D",
+      "group": "",
+      "label": "人－人",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "政策推動",
+      "target": "#F4A261",
+      "group": "",
+      "label": "人－政策",
+      "info": "組織－政策",
+      "color": "#999999"
+    },
+    {
+      "source": "產業關聯",
+      "target": "#E63946",
+      "group": "",
+      "label": "產業－物件",
+      "info": "產業－組織",
+      "color": "#999999"
+    },
+    {
+      "source": "活動/行動 參與",
+      "target": "#F4A261",
+      "group": "",
+      "label": "人－活動",
+      "info": "組織－活動",
+      "color": "#999999"
+    },
+    {
+      "source": "人地關係",
+      "target": "#F4A261",
+      "group": "",
+      "label": "人－空間",
+      "info": "組織－空間",
+      "color": "#999999"
+    },
+    {
+      "source": "組織關聯",
+      "target": "#2A9D8F",
+      "group": "",
+      "label": "人－組織",
+      "info": "組織－組織",
+      "color": "#999999"
+    },
+    {
+      "source": "事地關係",
+      "target": "#1D3557",
+      "group": "",
+      "label": "活動－空間",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "物件關聯",
+      "target": "#A8DADC",
+      "group": "",
+      "label": "物件－物件",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "瑞岩部落",
+      "target": "賽考列克（Seqoleq）",
+      "group": "人地關係",
+      "label": "自瑞岩部落衍生的語系之一，往西遷徙",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "瑞岩部落",
+      "target": "澤敖列兩群（Tseole）",
+      "group": "人地關係",
+      "label": "自瑞岩部落衍生的語系之一，往東遷徙",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "瑞岩部落",
+      "target": "思源埡口",
+      "group": "空間關係",
+      "label": "自瑞岩部落翻越思源埡口展開東西分支",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "思源埡口",
+      "target": "新竹縣五峰鄉",
+      "group": "空間關係",
+      "label": "賽考列克語系往西遷徙後的分布地",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "思源埡口",
+      "target": "宜蘭縣南澳鄉",
+      "group": "空間關係",
+      "label": "澤敖列兩群 KLESAN 群往東遷徙後的主要分布區",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "賽考列克（Seqoleq）",
+      "target": "新北市烏來區",
+      "group": "人地關係",
+      "label": "往西遷徙後的分布地",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "賽考列克（Seqoleq）",
+      "target": "桃園市復興區",
+      "group": "人地關係",
+      "label": "往西遷徙後的分布地",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "賽考列克（Seqoleq）",
+      "target": "新竹縣尖石鄉",
+      "group": "人地關係",
+      "label": "往西遷徙後的分布地",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "賽考列克（Seqoleq）",
+      "target": "台中市和平區",
+      "group": "人地關係",
+      "label": "往西遷徙後的分布地",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "澤敖列兩群（Tseole）",
+      "target": "新竹縣五峰鄉",
+      "group": "人地關係",
+      "label": "往東遷徙後的分布地",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "澤敖列兩群（Tseole）",
+      "target": "新竹縣尖石鄉",
+      "group": "人地關係",
+      "label": "往東遷徙後的分布地",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "澤敖列兩群（Tseole）",
+      "target": "苗栗縣泰安鄉",
+      "group": "人地關係",
+      "label": "往東遷徙後的分布地",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "澤敖列兩群（Tseole）",
+      "target": "台中市和平區",
+      "group": "人地關係",
+      "label": "往東遷徙後的分布地",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "澤敖列兩群（Tseole）",
+      "target": "南投縣仁愛鄉",
+      "group": "人地關係",
+      "label": "往東遷徙後的分布地",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "澤敖列兩群（Tseole）",
+      "target": "宜蘭縣大同鄉",
+      "group": "人地關係",
+      "label": "往東遷徙後的分布地",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "澤敖列兩群（Tseole）",
+      "target": "宜蘭縣南澳鄉",
+      "group": "人地關係",
+      "label": "往東遷徙後的分布地",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "澤敖列兩群（Tseole）",
+      "target": "KLESAN群",
+      "group": "社會關聯",
+      "label": "澤敖列兩群之下的南澳群（寒溪群）",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "Meya Box",
+      "target": "瑞岩部落",
+      "group": "人地關係",
+      "label": "瑞岩部落領導人，指派青年往東探路",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "Meya Box",
+      "target": "Takun Bato",
+      "group": "人際關係",
+      "label": "指派青年往思源埡口方向尋找新生地",
+      "info": "",
+      "color": "#457B9D"
+    },
+    {
+      "source": "Meya Box",
+      "target": "Wasao Payas",
+      "group": "人際關係",
+      "label": "指派青年往思源埡口方向尋找新生地",
+      "info": "",
+      "color": "#457B9D"
+    },
+    {
+      "source": "Meya Box",
+      "target": "Bato Naui",
+      "group": "人際關係",
+      "label": "指派青年往思源埡口方向尋找新生地",
+      "info": "",
+      "color": "#457B9D"
+    },
+    {
+      "source": "Meya Box",
+      "target": "Məbako",
+      "group": "人際關係",
+      "label": "指派青年往思源埡口方向尋找新生地",
+      "info": "",
+      "color": "#457B9D"
+    },
+    {
+      "source": "Takun Bato",
+      "target": "思源埡口",
+      "group": "人地關係",
+      "label": "自瑞岩翻越思源埡口往東",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "Wasao Payas",
+      "target": "思源埡口",
+      "group": "人地關係",
+      "label": "自瑞岩翻越思源埡口往東",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "Bato Naui",
+      "target": "思源埡口",
+      "group": "人地關係",
+      "label": "自瑞岩翻越思源埡口往東",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "Məbako",
+      "target": "思源埡口",
+      "group": "人地關係",
+      "label": "自瑞岩翻越思源埡口往東",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "Takun Bato",
+      "target": "金洋社",
+      "group": "人地關係",
+      "label": "於舊金洋一帶定居，開枝散葉",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "Wasao Payas",
+      "target": "武塔社",
+      "group": "人地關係",
+      "label": "於武塔山區（哈卡巴里斯）一帶定居",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "Bato Naui",
+      "target": "碧侯村",
+      "group": "人地關係",
+      "label": "於碧侯一帶定居",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "Məbako",
+      "target": "大同村",
+      "group": "人地關係",
+      "label": "於宜蘭大同一帶定居",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "佐久間左馬太",
+      "target": "五年理蕃計畫",
+      "group": "政策推動",
+      "label": "由佐久間總督親自主導",
+      "info": 1910,
+      "color": "#F4A261"
+    },
+    {
+      "source": "日本政府",
+      "target": "五年理蕃計畫",
+      "group": "政策推動",
+      "label": "由殖民政府全面推動",
+      "info": 1910,
+      "color": "#F4A261"
+    },
+    {
+      "source": "日本政府",
+      "target": "南澳蕃討伐",
+      "group": "政策推動",
+      "label": "由殖民政府主導軍事鎮壓",
+      "info": 1917,
+      "color": "#F4A261"
+    },
+    {
+      "source": "日本政府",
+      "target": "南澳理蕃道路開鑿",
+      "group": "政策推動",
+      "label": "為便於管理而開鑿",
+      "info": 1920,
+      "color": "#F4A261"
+    },
+    {
+      "source": "戰後復舊與監管延續",
+      "target": "山地平地化政策",
+      "group": "政策推動",
+      "label": "國民政府推動的平地化方案",
+      "info": 1951,
+      "color": "#F4A261"
+    },
+    {
+      "source": "國民政府",
+      "target": "山地平地化政策",
+      "group": "政策推動",
+      "label": "國民政府推動的平地化",
+      "info": 1951,
+      "color": "#F4A261"
+    },
+    {
+      "source": "山地平地化政策",
+      "target": "碧候舊社遷村",
+      "group": "政策推動",
+      "label": "碧候舊部落部分族人下遷到現在的碧候村",
+      "info": 1954,
+      "color": "#F4A261"
+    },
+    {
+      "source": "山地平地化政策",
+      "target": "武塔社遷村",
+      "group": "政策推動",
+      "label": "武塔舊部落部分族人下遷到武塔村",
+      "info": 1954,
+      "color": "#F4A261"
+    },
+    {
+      "source": "山地平地化政策",
+      "target": "金洋社遷村",
+      "group": "政策推動",
+      "label": "金洋舊部落部分族人下遷金洋村",
+      "info": 1963,
+      "color": "#F4A261"
+    },
+    {
+      "source": "山地平地化政策",
+      "target": "金岳社遷村",
+      "group": "政策推動",
+      "label": "金岳舊落部分族人下遷金岳村",
+      "info": 1957,
+      "color": "#F4A261"
+    },
+    {
+      "source": "山地平地化政策",
+      "target": "澳花社遷村",
+      "group": "政策推動",
+      "label": "里腦社族人下遷至現澳花村",
+      "info": 1922,
+      "color": "#F4A261"
+    },
+    {
+      "source": "Ryohen（流興）部落",
+      "target": "金岳村",
+      "group": "空間關係",
+      "label": "自流興舊社遷出至金岳村",
+      "info": 1957,
+      "color": "#E63946"
+    },
+    {
+      "source": "Rekinos（奎諾斯社）部落",
+      "target": "金洋村",
+      "group": "空間關係",
+      "label": "自奎諾斯社遷出至金洋村定居",
+      "info": 1963,
+      "color": "#E63946"
+    },
+    {
+      "source": "比亞豪社",
+      "target": "碧侯村",
+      "group": "空間關係",
+      "label": "自比亞豪社遷出至碧侯村定居",
+      "info": 1954,
+      "color": "#E63946"
+    },
+    {
+      "source": "哈卡巴里斯",
+      "target": "武塔村",
+      "group": "空間關係",
+      "label": "自哈卡巴里斯社遷出至武塔村定居",
+      "info": 1954,
+      "color": "#E63946"
+    },
+    {
+      "source": "Kumuyaw（莫瑤社）",
+      "target": "澳花村",
+      "group": "空間關係",
+      "label": "自莫瑤社社遷至現澳花村",
+      "info": 1922,
+      "color": "#E63946"
+    },
+    {
+      "source": "陳芃伶",
+      "target": "金岳村",
+      "group": "人地關係",
+      "label": "遷村後的第二代，在金岳村長大",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "陳芃伶",
+      "target": "Ryohen（流興）部落",
+      "group": "人地關係",
+      "label": "阿公阿嬤以前待的舊部落",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "陳芃伶",
+      "target": "金岳社區發展協會",
+      "group": "組織關聯",
+      "label": "創立協會並規劃對內對外文化活動",
+      "info": "",
+      "color": "#2A9D8F"
+    },
+    {
+      "source": "陳芃伶",
+      "target": "回Ryohen（流興）部落尋根之旅",
+      "group": "活動/行動 參與",
+      "label": "自 2005 年起每年帶隊回舊部落",
+      "info": 2005,
+      "color": "#F4A261"
+    },
+    {
+      "source": "陳芃伶",
+      "target": "回yaki＆yutas 家",
+      "group": "活動/行動 參與",
+      "label": "由耆老帶年青人實地走訪舊部落",
+      "info": 2006,
+      "color": "#F4A261"
+    },
+    {
+      "source": "陳芃伶",
+      "target": "直升機圓夢計畫",
+      "group": "活動/行動 參與",
+      "label": "協助耆老以直升機返回舊部落",
+      "info": 2010,
+      "color": "#F4A261"
+    },
+    {
+      "source": "陳芃伶",
+      "target": "追憶流星（Ryohen）的跨時空感動分享會",
+      "group": "活動/行動 參與",
+      "label": "邀耆老述說舊部落生活與遷徙故事",
+      "info": 2017,
+      "color": "#F4A261"
+    },
+    {
+      "source": "金岳社區發展協會",
+      "target": "金岳村",
+      "group": "人地關係",
+      "label": "服務金岳部落在地社群",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "金岳社區發展協會",
+      "target": "夢一樣的流興─舊部落文化之旅",
+      "group": "活動/行動 參與",
+      "label": "帶族人重回祖靈居所、紮營煮食、分享故事",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "金岳社區發展協會",
+      "target": "Ryohen（流興）部落",
+      "group": "人地關係",
+      "label": "舊部落文化之旅的目的地",
+      "info": 2023,
+      "color": "#F4A261"
+    },
+    {
+      "source": "回Ryohen（流興）部落尋根之旅",
+      "target": "Ryohen（流興）部落",
+      "group": "活動/行動 參與",
+      "label": "尋根活動抵達之舊部落",
+      "info": 2005,
+      "color": "#F4A261"
+    },
+    {
+      "source": "回yaki＆yutas 家",
+      "target": "Ryohen（流興）部落",
+      "group": "活動/行動 參與",
+      "label": "走訪舊部落活動空間",
+      "info": 2006,
+      "color": "#F4A261"
+    },
+    {
+      "source": "直升機圓夢計畫",
+      "target": "Ryohen（流興）部落",
+      "group": "活動/行動 參與",
+      "label": "以直升機帶耆老回舊部落",
+      "info": 2010,
+      "color": "#F4A261"
+    },
+    {
+      "source": "金岳國小",
+      "target": "金岳村",
+      "group": "人地關係",
+      "label": "金岳部落在地國小",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "金岳國小",
+      "target": "金岳國小畢業典禮尋根",
+      "group": "活動/行動 參與",
+      "label": "將畢業典禮結合回流興舊社",
+      "info": 2009,
+      "color": "#F4A261"
+    },
+    {
+      "source": "金岳國小畢業典禮尋根",
+      "target": "Ryohen（流興）部落",
+      "group": "活動/行動 參與",
+      "label": "透過生態、文史踏查、族譜編纂尋找曾祖",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "金岳國小",
+      "target": "傳統家屋夜宿",
+      "group": "活動/行動 參與",
+      "label": "畢業生與族人共同搭建傳統家屋並夜宿一晚",
+      "info": 2020,
+      "color": "#F4A261"
+    },
+    {
+      "source": "金岳國小",
+      "target": "江旺生",
+      "group": "組織關聯",
+      "label": "由江旺生帶領學生回到舊部落",
+      "info": "",
+      "color": "#2A9D8F"
+    },
+    {
+      "source": "金岳國小",
+      "target": "傳統家屋",
+      "group": "活動/行動 參與",
+      "label": "夜宿場域為族人跟學生一起合力搭建的傳統家屋",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "哈勇（Hayon）",
+      "target": "武塔村",
+      "group": "人地關係",
+      "label": "武塔村哈卡巴里斯部落末代頭目",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "哈勇（Hayon）",
+      "target": "哈卡巴里斯",
+      "group": "人地關係",
+      "label": "帶領部落後輩徒步八小時、翻山越嶺七天走回祖靈之地",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "袁緒虎",
+      "target": "紀錄片《哈卡巴里斯》",
+      "group": "活動/行動 參與",
+      "label": "以旁觀者與同行者的角色拍攝族人回舊部落的七天路程",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "紀錄片《哈卡巴里斯》",
+      "target": "哈勇（Hayon）",
+      "group": "活動/行動 參與",
+      "label": "紀錄片聚焦哈勇頭目帶隊返鄉",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "紀錄片《哈卡巴里斯》",
+      "target": "哈卡巴里斯",
+      "group": "空間關係",
+      "label": "紀錄片主要場景為武塔舊部落",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "武塔國小",
+      "target": "武塔村",
+      "group": "空間關係",
+      "label": "武塔部落在地國小",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "武塔國小",
+      "target": "舊武塔3天2夜尋根之旅",
+      "group": "活動/行動 參與",
+      "label": "20 節課程帶學生了解部落遷徙歷史並實地入山",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "舊武塔3天2夜尋根之旅",
+      "target": "哈卡巴里斯",
+      "group": "活動/行動 參與",
+      "label": "實地走路、過溪、紮營，體會祖先生活環境",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "武塔泰雅家屋共作假期",
+      "target": "武塔泰雅家屋",
+      "group": "活動/行動 參與",
+      "label": "活動打造完成的在地建材泰雅家屋",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "武塔泰雅家屋",
+      "target": "武塔村",
+      "group": "空間關係",
+      "label": "家屋位於武塔村，建材來自武塔在地",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "韋文豪",
+      "target": "比穗·保羅",
+      "group": "人際關係",
+      "label": "共同訪問耆老辨識文物",
+      "info": "",
+      "color": "#457B9D"
+    },
+    {
+      "source": "韋文豪",
+      "target": "武塔國小",
+      "group": "組織關聯",
+      "label": "現任武塔國小教師，整合尋根課程",
+      "info": "",
+      "color": "#2A9D8F"
+    },
+    {
+      "source": "韋文豪",
+      "target": "紀錄片《哈卡巴里斯》",
+      "group": "活動/行動 參與",
+      "label": "曾參與拍攝回到武塔舊部落",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "韋文豪",
+      "target": "武塔泰雅家屋共作假期",
+      "group": "活動/行動 參與",
+      "label": "以共作假期號召志工依傳統技術打造泰雅家屋",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "韋文豪",
+      "target": "《獵與織》重逢半世紀─泰雅族KLESAN群文物返鄉特展",
+      "group": "活動/行動 參與",
+      "label": "平日拿文物圖檔走訪各村請耆老指認並解說",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "比穗·保羅",
+      "target": "《獵與織》重逢半世紀─泰雅族KLESAN群文物返鄉特展",
+      "group": "活動/行動 參與",
+      "label": "泰雅織布文化的愛好者與傳授者",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "《獵與織》重逢半世紀─泰雅族KLESAN群文物返鄉特展",
+      "target": "KLESAN群",
+      "group": "活動/行動 參與",
+      "label": "以 KLESAN 群為主體的文物返鄉展",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "金洋國小",
+      "target": "金洋村",
+      "group": "空間關係",
+      "label": "金洋部落在地國小",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "金洋國小",
+      "target": "舊金洋尋根之旅",
+      "group": "活動/行動 參與",
+      "label": "帶學生走進山區舊獵場與舊家屋，學習山林與狩獵知識",
+      "info": 2001,
+      "color": "#F4A261"
+    },
+    {
+      "source": "金洋國小",
+      "target": "金洋國小100週年入山尋根",
+      "group": "活動/行動 參與",
+      "label": "2021 年創校 100 週年辦理 3 天入山尋根",
+      "info": 2021,
+      "color": "#F4A261"
+    },
+    {
+      "source": "舊金洋尋根之旅",
+      "target": "Rekinos（奎諾斯社）部落",
+      "group": "活動/行動 參與",
+      "label": "1960 年代遷村前的金洋舊部落",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "金洋國小100週年入山尋根",
+      "target": "Rekinos（奎諾斯社）部落",
+      "group": "空間關係",
+      "label": "3 天入山抵達舊金洋",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "江旺生",
+      "target": "舊金洋尋根之旅",
+      "group": "活動/行動 參與",
+      "label": "在尋根路上講解舊部落生活、獵徑與山林經驗",
+      "info": 2001,
+      "color": "#F4A261"
+    },
+    {
+      "source": "江旺生",
+      "target": "金洋村",
+      "group": "人地關係",
+      "label": "金洋耆老獵人",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "Rgayung青年文化傳承團",
+      "target": "澳花村",
+      "group": "人地關係",
+      "label": "澳花部落青年自發成立，關注青年族群認同議題",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "Rgayung青年文化傳承團",
+      "target": "澳花村",
+      "group": "人地關係",
+      "label": "澳花青年自組社群",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "Rgayung青年文化傳承團",
+      "target": "Rgayung文化成長營",
+      "group": "活動/行動 參與",
+      "label": "每年舉辦的文化成長營，以營隊形式讓兒少建立泰雅文化認同",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "Rgayung文化成長營",
+      "target": "wakil 弓織課程",
+      "group": "活動/行動 參與",
+      "label": "實際操作弓織並學習圖紋意義",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "Rgayung文化成長營",
+      "target": "tminun 織布課程",
+      "group": "活動/行動 參與",
+      "label": "傳授傳統織布技術",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "Rgayung文化成長營",
+      "target": "rusa 陷阱課程",
+      "group": "活動/行動 參與",
+      "label": "由耆老帶領學習陷阱原理、山林痕跡與狩獵規範",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "Rgayung文化成長營",
+      "target": "myugi 樂舞課程",
+      "group": "活動/行動 參與",
+      "label": "透過音樂與舞蹈傳遞族人智慧",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "南澳文化健康站",
+      "target": "南澳村",
+      "group": "空間關係",
+      "label": "位於南澳村，服務部落長輩",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "菈娃·屬宴",
+      "target": "南澳文化健康站",
+      "group": "人地關係",
+      "label": "負責規劃社區活動與課程",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "南澳文化健康站",
+      "target": "原民手工藝/編織課程",
+      "group": "活動/行動 參與",
+      "label": "原住民風格手工藝與編織包、錢包課程",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "南澳文化健康站",
+      "target": "軟陶課程",
+      "group": "活動/行動 參與",
+      "label": "照服員先外出受訓再回站帶領長輩創作",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "南澳文化健康站",
+      "target": "烙畫/板畫課程",
+      "group": "活動/行動 參與",
+      "label": "於木板上以燒熱金屬烙畫",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "南澳文化健康站",
+      "target": "族語文化課程",
+      "group": "活動/行動 參與",
+      "label": "配合學校族語課程，鼓勵長輩以族語說故事",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "天然林全面禁伐政策",
+      "target": "段木香菇",
+      "group": "產業關聯",
+      "label": "1991 年禁伐政策後導致段木取得困難，造成產業一度萎縮。",
+      "info": "空間關係",
+      "color": "#E63946"
+    },
+    {
+      "source": "尤幹 (Yukan)",
+      "target": "碧候村",
+      "group": "人地關係",
+      "label": "尤幹為比亞豪部落文化人，對當地山區環境與遷徙史極為熟悉。",
+      "info": "人際關係",
+      "color": "#F4A261"
+    },
+    {
+      "source": "尤幹 (Yukan)",
+      "target": "比亞豪尋根活動",
+      "group": "活動/行動 參與",
+      "label": "在 2019 年尋根之旅中擔任關鍵嚮導角色。",
+      "info": "政策推動",
+      "color": "#F4A261"
+    },
+    {
+      "source": "尤慕斯·舒漾",
+      "target": "大南澳地區段木香菇產業發展之可能性分析-經濟學觀點",
+      "group": "物件關聯",
+      "label": "從經濟學觀點深入分析大南澳段木香菇產業之碩士論文作者。",
+      "info": "產業關聯",
+      "color": "#A8DADC"
+    },
+    {
+      "source": "段木香菇",
+      "target": "大南澳地區段木香菇產業發展之可能性分析-經濟學觀點",
+      "group": "產業關聯",
+      "label": "",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "王鴻文",
+      "target": "金洋村",
+      "group": "人地關係",
+      "label": "居住於金洋村，專業生產優質段木香菇。",
+      "info": "活動/行動 參與",
+      "color": "#F4A261"
+    },
+    {
+      "source": "王鴻文",
+      "target": "段木香菇巴萊（Papak Khoni Balay）評鑑競賽",
+      "group": "活動/行動 參與",
+      "label": "獲得 2025 年南澳鄉段木香菇評鑑競賽冠軍殊榮。",
+      "info": "人地關係",
+      "color": "#F4A261"
+    },
+    {
+      "source": "台灣世界展望會",
+      "target": "段木香菇",
+      "group": "活動/行動 參與",
+      "label": "長期深耕南澳部落，是菇農依賴的穩定乾香菇收購管道。",
+      "info": "組織關聯",
+      "color": "#F4A261"
+    },
+    {
+      "source": "李勝雄",
+      "target": "南澳鄉公所",
+      "group": "組織關聯",
+      "label": "現任南澳鄉鄉長，主導地方行政。",
+      "info": "事地關係",
+      "color": "#2A9D8F"
+    },
+    {
+      "source": "杜英",
+      "target": "段木香菇",
+      "group": "產業關聯",
+      "label": "南澳常用段木樹種，優點為材質耐用、使用壽命長。",
+      "info": "物件關聯",
+      "color": "#E63946"
+    },
+    {
+      "source": "谷久牧藝農社",
+      "target": "段木香菇",
+      "group": "產業關聯",
+      "label": "結合香菇產銷與泰雅織布文化，開發在地特色品牌。",
+      "info": "社會關聯",
+      "color": "#E63946"
+    },
+    {
+      "source": "赤楊",
+      "target": "段木香菇",
+      "group": "產業關聯",
+      "label": "木質輕且有利菌絲走菌，是菇農喜愛的樹種。",
+      "info": "健康議題關係",
+      "color": "#E63946"
+    },
+    {
+      "source": "宜蘭縣泰雅族原住民林業暨勞動合作社",
+      "target": "段木香菇",
+      "group": "產業關聯",
+      "label": "媒合部落勞動力並協助菇農進行段木香菇的收購與產銷。",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "東岳村",
+      "target": "東澳湧泉",
+      "group": "空間關係",
+      "label": "位於東岳村的冷泉景點，是南澳著名的觀光地標。",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "松亞倫",
+      "target": "南澳村",
+      "group": "人地關係",
+      "label": "南澳村菇農，基於長輩經驗投入產業並參與產銷班共同行銷。",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "林桂珍",
+      "target": "谷久牧",
+      "group": "組織關聯",
+      "label": "經營在地品牌「谷久牧」，推廣段木香菇與泰雅文化。",
+      "info": "",
+      "color": "#2A9D8F"
+    },
+    {
+      "source": "林桂珍",
+      "target": "林業及自然保育署",
+      "group": "組織關聯",
+      "label": "曾於林務局（現林保署）造林組服務長達 26 年。",
+      "info": "",
+      "color": "#2A9D8F"
+    },
+    {
+      "source": "林班地衝突",
+      "target": "林業及自然保育署",
+      "group": "事地關係",
+      "label": "早期菇農於林班地種植香菇曾與林務執法人員發生行政衝突。",
+      "info": "",
+      "color": "#1D3557"
+    },
+    {
+      "source": "林業",
+      "target": "林業及自然保育署",
+      "group": "產業關聯",
+      "label": "負責管理南澳森林資源，並提供段木資源供應與保育。",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "林業及自然保育署",
+      "target": "林業署宜蘭分署",
+      "group": "組織關聯",
+      "label": "宜蘭分署為林業署下轄機構，負責管理南澳地區的國有林區。",
+      "info": "",
+      "color": "#2A9D8F"
+    },
+    {
+      "source": "林業及自然保育署",
+      "target": "林下經濟政策發布",
+      "group": "政策推動",
+      "label": "2019 年正式發布政策，容許在林地內合法栽培段木香菇。",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "林業署宜蘭分署",
+      "target": "南澳工作站",
+      "group": "組織關聯",
+      "label": "南澳工作站負責直接執行南澳林區之林務與標售業務。",
+      "info": "",
+      "color": "#2A9D8F"
+    },
+    {
+      "source": "林萬輝",
+      "target": "碧候村",
+      "group": "人地關係",
+      "label": "提供碧候村菇場進行環境監測，並指導傳統乾燥技術。",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "武塔村",
+      "target": "段木香菇",
+      "group": "產業關聯",
+      "label": "周邊林地為段木香菇的重要生長環境。",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "花菇",
+      "target": "段木香菇",
+      "group": "產業關聯",
+      "label": "於乾冷且有風的特定環境下，菇傘龜裂形成的最高級品。",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "金岳村",
+      "target": "段木香菇",
+      "group": "產業關聯",
+      "label": "人口密度最低，仍維持傳統段木香菇栽培與農事。",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "金洋村",
+      "target": "神秘湖",
+      "group": "空間關係",
+      "label": "神秘湖位於金洋村高山山區，為重要之自然保留區。",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "金洋村",
+      "target": "段木香菇",
+      "group": "產業關聯",
+      "label": "全鄉段木香菇產量最高且種植戶數最多的村落。",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "青剛櫟",
+      "target": "段木香菇",
+      "group": "產業關聯",
+      "label": "木質堅硬，雖然生長較慢但產出之香菇厚實耐收。",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "南湖大山",
+      "target": "南澳鄉",
+      "group": "空間關係",
+      "label": "南湖大山為泰雅族人早期進入南澳遷徙路線之起源地。",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "南澳工作站",
+      "target": "林業署宜蘭分署",
+      "group": "組織關聯",
+      "label": "隸屬宜蘭分署，直接管理南澳林務並提供疏伐木資源。",
+      "info": "",
+      "color": "#2A9D8F"
+    },
+    {
+      "source": "南澳工作站",
+      "target": "碧候村",
+      "group": "組織關聯",
+      "label": "辦公地點位於碧候村周邊，直接管理南澳各村林班地。",
+      "info": "",
+      "color": "#2A9D8F"
+    },
+    {
+      "source": "南澳生態旅遊聯盟",
+      "target": "生態旅遊業",
+      "group": "產業關聯",
+      "label": "透過古道導覽與泰雅文化體驗，促進南澳經濟永續發展。",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "南澳各社區發展協會",
+      "target": "醫療保健及社會工作服務業",
+      "group": "產業關聯",
+      "label": "辦理之文健站為鄉民照護的重要場所，提供長者服務。",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "南澳各社區發展協會",
+      "target": "南澳村",
+      "group": "人地關係",
+      "label": "行政重心位於南澳村，負責推動各類社區建設與福利。",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "南澳村",
+      "target": "漁業",
+      "group": "產業關聯",
+      "label": "南澳漁戶主要集中於沿岸區域，多數居住於南澳村。",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "南澳村",
+      "target": "大南澳溪",
+      "group": "空間關係",
+      "label": "位於溪流下游三角洲，為南澳行政中心所在地。",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "南澳鄉公所",
+      "target": "南澳鄉民代表會",
+      "group": "組織關聯",
+      "label": "鄉民代表會負責監督鄉公所施政、預算審議及地方發展建議。",
+      "info": "",
+      "color": "#2A9D8F"
+    },
+    {
+      "source": "南澳鄉公所",
+      "target": "段木香菇巴萊（Papak Khoni Balay）評鑑競賽",
+      "group": "活動/行動 參與",
+      "label": "鄉公所為建立品牌識別，主辦年度段木香菇品質評鑑賽事。",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "南澳鄉公所",
+      "target": "南澳香菇野餐節",
+      "group": "活動/行動 參與",
+      "label": "結合野餐形式推廣段木香菇料理與在地飲食文化。",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "南澳鄉香菇產銷班第一班",
+      "target": "段木香菇",
+      "group": "產業關聯",
+      "label": "凝聚南澳菇農進行技術交流，並共同參與地方品牌行銷。",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "南澳農場",
+      "target": "住宿及餐飲業",
+      "group": "產業關聯",
+      "label": "提供露營與農業體驗，帶動地方休閒旅遊轉型。",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "段木香菇",
+      "target": "農業及畜牧業",
+      "group": "產業關聯",
+      "label": "根據統計年報，段木香菇被歸類於農業中的特用作物項目。",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "范守臣",
+      "target": "金洋村",
+      "group": "人地關係",
+      "label": "提供金洋村林地作為段木香菇生長環境之研究場域。",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "原住民族委員會",
+      "target": "碧候村",
+      "group": "人地關係",
+      "label": "負責核定部落名稱更名及管理原住民保留地之中央機關。",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "徐秋霖",
+      "target": "段木香菇",
+      "group": "產業關聯",
+      "label": "1945-1960 年間編寫栽培手冊，是推動台灣段木香菇栽培的關鍵。",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "高勇偉",
+      "target": "林桂珍",
+      "group": "人際關係",
+      "label": "高勇偉與林桂珍為夫妻，共同經營谷久牧品牌並投入香菇研究。",
+      "info": "",
+      "color": "#457B9D"
+    },
+    {
+      "source": "高勇偉",
+      "target": "高裕仁",
+      "group": "人際關係",
+      "label": "高勇偉作為研究者，曾訪談並指導產銷班長高裕仁相關產業事務。",
+      "info": "",
+      "color": "#457B9D"
+    },
+    {
+      "source": "高勇偉",
+      "target": "宜蘭縣泰雅族原住民林業暨勞動合作社",
+      "group": "組織關聯",
+      "label": "擔任理事長，致力於媒合部落勞動力與林業資源。",
+      "info": "",
+      "color": "#2A9D8F"
+    },
+    {
+      "source": "高勇偉",
+      "target": "生長環境與乾燥處理對宜蘭縣南澳鄉段木香菇生產之影響",
+      "group": "物件關聯",
+      "label": "完成關於南澳段木香菇生產與生長環境之碩士論文。",
+      "info": "",
+      "color": "#A8DADC"
+    },
+    {
+      "source": "段木香菇",
+      "target": "生長環境與乾燥處理對宜蘭縣南澳鄉段木香菇生產之影響",
+      "group": "產業關聯",
+      "label": "",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "高勇偉",
+      "target": "南澳鄉香菇產銷班第一班",
+      "group": "組織關聯",
+      "label": "曾任該產銷班書記，負責產業紀錄與班務協調。",
+      "info": "",
+      "color": "#2A9D8F"
+    },
+    {
+      "source": "高裕仁",
+      "target": "尤慕斯·舒漾",
+      "group": "人際關係",
+      "label": "尤慕斯·舒漾在論文研究中深度訪談高裕仁，獲取栽培經驗。",
+      "info": "",
+      "color": "#457B9D"
+    },
+    {
+      "source": "高裕仁",
+      "target": "東岳村",
+      "group": "人地關係",
+      "label": "居住於東岳村，為當地段木香菇產業的核心人物。",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "高裕仁",
+      "target": "南澳鄉香菇產銷班第一班",
+      "group": "組織關聯",
+      "label": "擔任產銷班班長，擁有超過 25 年種植經驗。",
+      "info": "",
+      "color": "#2A9D8F"
+    },
+    {
+      "source": "張黃玉琴",
+      "target": "金洋村",
+      "group": "人地關係",
+      "label": "金洋村菇農，提供研究樣本並曾獲評鑑競賽優等獎。",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "許彧",
+      "target": "磐石生活科技有限公司",
+      "group": "組織關聯",
+      "label": "創辦「野.山菇」品牌，在南澳經營香菇巴萊體驗館與餐廳。",
+      "info": "",
+      "color": "#2A9D8F"
+    },
+    {
+      "source": "菌種 101",
+      "target": "段木香菇",
+      "group": "產業關聯",
+      "label": "來源資料中提及之特定菌種品系之一。",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "菌種 426",
+      "target": "段木香菇",
+      "group": "產業關聯",
+      "label": "南澳最受歡迎的四季菇菌種，出菇型態與產量穩定。",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "菌種 505",
+      "target": "段木香菇",
+      "group": "產業關聯",
+      "label": "菇農常用之夏菇菌種代號，適合較高溫時期生長。",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "菌種 農林1號",
+      "target": "段木香菇",
+      "group": "產業關聯",
+      "label": "鄉內使用之新興菌種品系，供農民選擇栽培。",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "楓香",
+      "target": "段木香菇",
+      "group": "產業關聯",
+      "label": "南澳常用栽培樹種之一，其產量表現相對穩定。",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "豊添福",
+      "target": "金岳村",
+      "group": "人地關係",
+      "label": "金岳村資深菇農，擁有超過 35 年之段木香菇栽培經驗。",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "農業部農業試驗所",
+      "target": "段木香菇",
+      "group": "產業關聯",
+      "label": "負責制定「香菇採收及烘乾分級標準」作為官方評定依據。",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "漁業",
+      "target": "南澳村",
+      "group": "產業關聯",
+      "label": "南澳漁戶主要集中於沿岸區域，多居住於南澳村。",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "碧候村",
+      "target": "比亞豪溫泉",
+      "group": "空間關係",
+      "label": "溫泉位於碧候村南澳北溪旁，為當地觀光發展之核心資源。",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "磐石生活科技有限公司",
+      "target": "住宿及餐飲業",
+      "group": "產業關聯",
+      "label": "於南澳經營原食餐廳與體驗館，結合觀光與美食推廣。",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "蔡淑真",
+      "target": "南澳村",
+      "group": "人地關係",
+      "label": "居住於南澳村，致力於段木香菇的高品質栽培。",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "蔡淑真",
+      "target": "段木香菇巴萊（Papak Khoni Balay）評鑑競賽",
+      "group": "活動/行動 參與",
+      "label": "榮獲 2025 年南澳鄉段木香菇評鑑競賽亞軍。",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "鄭瀚彥",
+      "target": "南澳村",
+      "group": "人地關係",
+      "label": "居住於南澳村，為近年參與農業競賽的優質菇農。",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "鄭瀚彥",
+      "target": "段木香菇巴萊（Papak Khoni Balay）評鑑競賽",
+      "group": "活動/行動 參與",
+      "label": "榮獲 2025 年南澳鄉段木香菇評鑑競賽季軍。",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "澳花村",
+      "target": "段木香菇",
+      "group": "產業關聯",
+      "label": "具備豐富民族植物資源與悠久的香菇種植傳統。",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "營建工程業",
+      "target": "南澳鄉公所",
+      "group": "產業關聯",
+      "label": "涉及鄉內基礎建設，如蘇花改後續工程及社區維護。",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "醫療保健及社會工作服務業",
+      "target": "南澳各社區發展協會",
+      "group": "產業關聯",
+      "label": "社區協會辦理之文健站為鄉民照護的重要場所。",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "羅大春",
+      "target": "蘇花古道",
+      "group": "人地關係",
+      "label": "1874年負責開闢宜蘭至花蓮之道路",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "羅大春",
+      "target": "羅大春開路紀念碑",
+      "group": "人地關係",
+      "label": "詳實記載其開山撫番與開闢北路的歷程",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "荷恩",
+      "target": "美利士",
+      "group": "人際關係",
+      "label": "共同主導大南澳拓墾計畫",
+      "info": "",
+      "color": "#457B9D"
+    },
+    {
+      "source": "荷恩",
+      "target": "大南澳侵墾事件",
+      "group": "活動/行動 參與",
+      "label": "率領噶瑪蘭人進入大南澳，引發主權爭議",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "美利士",
+      "target": "大南澳侵墾事件",
+      "group": "活動/行動 參與",
+      "label": "利用外交手段遊走法律邊緣取得開墾許可",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "磐石生活科技有限公司",
+      "target": "段木香菇巴萊體驗館",
+      "group": "人地關係",
+      "label": "致力於南澳農業與「野.山菇」品牌發展",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "段木香菇巴萊體驗館",
+      "target": "段木香菇巴萊評鑑競賽",
+      "group": "事地關係",
+      "label": "結合泰雅文化與推廣林下經濟之活動",
+      "info": "",
+      "color": "#1D3557"
+    },
+    {
+      "source": "南澳觀音像",
+      "target": "南澳車站",
+      "group": "空間關係",
+      "label": "觀音像矗立於車站前，象徵母子情深故事",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "南澳鄉綜合體育場",
+      "target": "南澳鄉全民運動會",
+      "group": "事地關係",
+      "label": "曾辦理全國及鄉鎮級原住民體育盛事",
+      "info": "",
+      "color": "#1D3557"
+    },
+    {
+      "source": "陳宥儒",
+      "target": "那山那谷",
+      "group": "組織關聯",
+      "label": "返鄉創立露營與體驗產業品牌",
+      "info": "",
+      "color": "#2A9D8F"
+    },
+    {
+      "source": "陳安明",
+      "target": "那山那谷",
+      "group": "組織關聯",
+      "label": "與陳宥儒共同經營",
+      "info": "",
+      "color": "#2A9D8F"
+    },
+    {
+      "source": "那山那谷",
+      "target": "部落裡的電影節",
+      "group": "活動/行動 參與",
+      "label": "活動於該場域舉辦",
+      "info": 2025,
+      "color": "#F4A261"
+    },
+    {
+      "source": "SYAX 夏和光文化制作",
+      "target": "部落裡的電影節",
+      "group": "活動/行動 參與",
+      "label": "參與活動策劃與執行",
+      "info": 2025,
+      "color": "#F4A261"
+    },
+    {
+      "source": "部落裡的電影節",
+      "target": "金洋（Kinyan）",
+      "group": "事地關係",
+      "label": "部落走讀活動路線之一",
+      "info": 2025,
+      "color": "#1D3557"
+    },
+    {
+      "source": "部落裡的電影節",
+      "target": "奎諾斯（Rekinus）",
+      "group": "事地關係",
+      "label": "部落走讀活動路線之一",
+      "info": 2025,
+      "color": "#1D3557"
+    },
+    {
+      "source": "宜蘭縣金洋社區發展協會",
+      "target": "水舞雅韻山水季",
+      "group": "活動/行動 參與",
+      "label": "青年發起並由協會推動",
+      "info": 2025,
+      "color": "#F4A261"
+    },
+    {
+      "source": "宜蘭縣金洋社區發展協會",
+      "target": "社造4.0計畫",
+      "group": "活動/行動 參與",
+      "label": "執行社區願景與發展計畫",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "陳芃伶",
+      "target": "Aynomi 愛南澳",
+      "group": "組織關聯",
+      "label": "推動在地文化旅遊品牌",
+      "info": "",
+      "color": "#2A9D8F"
+    },
+    {
+      "source": "陳銘裕",
+      "target": "醒來吧‧SINRAMAT",
+      "group": "組織關聯",
+      "label": "推動原民文化品牌進駐",
+      "info": "",
+      "color": "#2A9D8F"
+    },
+    {
+      "source": "林月英",
+      "target": "醒來吧‧SINRAMAT",
+      "group": "組織關聯",
+      "label": "負責傳統編織與教學",
+      "info": "",
+      "color": "#2A9D8F"
+    },
+    {
+      "source": "醒來吧‧SINRAMAT",
+      "target": "蘭陽原創館",
+      "group": "人地關係",
+      "label": "設立實體店鋪於館內",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "醒來吧‧SINRAMAT",
+      "target": "羊角勾織法",
+      "group": "活動/行動 參與",
+      "label": "傳承泰雅族編織工藝",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "陳芃伶",
+      "target": "羊角勾織法",
+      "group": "活動/行動 參與",
+      "label": "爭取計畫資源推動文化技藝",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "一米地有限公司",
+      "target": "南澳島孵",
+      "group": "組織關聯",
+      "label": "推動老屋活化與青年基地",
+      "info": "",
+      "color": "#2A9D8F"
+    },
+    {
+      "source": "蔡山",
+      "target": "南澳島孵",
+      "group": "組織關聯",
+      "label": "負責營運與發展方向",
+      "info": "",
+      "color": "#2A9D8F"
+    },
+    {
+      "source": "南澳島孵",
+      "target": "蘭陽老屋計畫",
+      "group": "活動/行動 參與",
+      "label": "基地由計畫促成成立",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "南澳島孵",
+      "target": "南澳車站",
+      "group": "人地關係",
+      "label": "位於車站周邊宿舍群",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "南澳島孵",
+      "target": "山小日子",
+      "group": "活動/行動 參與",
+      "label": "經營影音平台記錄地方生活",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "蔡山",
+      "target": "山小日子",
+      "group": "活動/行動 參與",
+      "label": "記錄返鄉與地方實踐過程",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "蔡山",
+      "target": "一米地有限公司",
+      "group": "組織關聯",
+      "label": "參與公司運作與計畫執行",
+      "info": "",
+      "color": "#2A9D8F"
+    },
+    {
+      "source": "陳宇",
+      "target": "比亞豪部落（Pyahaw）",
+      "group": "人地關係",
+      "label": "陳宇為比亞豪部落青年",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "陳宇",
+      "target": "東華大學民族語言與傳播學系",
+      "group": "組織關聯",
+      "label": "主修民族語言與傳播",
+      "info": "",
+      "color": "#2A9D8F"
+    },
+    {
+      "source": "陳宇",
+      "target": "語言文化推廣",
+      "group": "活動/行動 參與",
+      "label": "透過語言復振部落文化",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "林凱恩（Piho Yuhaw）",
+      "target": "南澳布拉格雞",
+      "group": "活動/行動 參與",
+      "label": "帶領部落小農成立品牌",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "Rgayung青年文化傳承團",
+      "target": "青年社區參與行動2.0 Changemaker計畫",
+      "group": "活動/行動 參與",
+      "label": "投入青年社區行動",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "Rgayung青年文化傳承團",
+      "target": "Rgayung文化成長營",
+      "group": "活動/行動 參與",
+      "label": "培養文化認同與青年參與",
+      "info": 2024,
+      "color": "#F4A261"
+    },
+    {
+      "source": "Rgayung青年文化傳承團",
+      "target": "楓樹下音樂會",
+      "group": "活動/行動 參與",
+      "label": "透過音樂促進文化交流",
+      "info": 2025,
+      "color": "#F4A261"
+    },
+    {
+      "source": "金洋青年會",
+      "target": "金洋青年之夜",
+      "group": "活動/行動 參與",
+      "label": "促進青年交流與凝聚",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "那山那谷",
+      "target": "來自未來的聲音",
+      "group": "活動/行動 參與",
+      "label": "結合音樂與文化的活動",
+      "info": 2018,
+      "color": "#F4A261"
+    },
+    {
+      "source": "來自未來的聲音",
+      "target": "莎韻之鐘",
+      "group": "事地關係",
+      "label": "活動結合地方文化地標",
+      "info": 2018,
+      "color": "#1D3557"
+    },
+    {
+      "source": "普及中小企業數位寬頻應用計畫",
+      "target": "張巧融",
+      "group": "活動/行動 參與",
+      "label": "參與計畫推動",
+      "info": 2018,
+      "color": "#F4A261"
+    },
+    {
+      "source": "普及中小企業數位寬頻應用計畫",
+      "target": "黃凱盈",
+      "group": "活動/行動 參與",
+      "label": "邀請鋼琴家參與",
+      "info": 2018,
+      "color": "#F4A261"
+    },
+    {
+      "source": "普及中小企業數位寬頻應用計畫",
+      "target": "米路哈勇",
+      "group": "活動/行動 參與",
+      "label": "結合原民藝術創作",
+      "info": 2018,
+      "color": "#F4A261"
+    },
+    {
+      "source": "普及中小企業數位寬頻應用計畫",
+      "target": "WeWish App",
+      "group": "活動/行動 參與",
+      "label": "發展數位互動平台",
+      "info": 2018,
+      "color": "#F4A261"
+    },
+    {
+      "source": "普及中小企業數位寬頻應用計畫",
+      "target": "WeWish App",
+      "group": "物件關聯",
+      "label": "發展數位互動平台",
+      "info": 2018,
+      "color": "#A8DADC"
+    },
+    {
+      "source": "WeWish App",
+      "target": "流星少女彩繪鋼琴",
+      "group": "物件關聯",
+      "label": "透過任務解鎖音樂互動",
+      "info": 2018,
+      "color": "#A8DADC"
+    },
+    {
+      "source": "那山那谷",
+      "target": "WILDERLAND",
+      "group": "組織關聯",
+      "label": "合作、提供場地，讓山型者WILDER舉辦活動",
+      "info": 2021,
+      "color": "#2A9D8F"
+    },
+    {
+      "source": "那山那谷",
+      "target": "WILDERLAND",
+      "group": "組織關聯",
+      "label": "合作、提供場地，讓山型者WILDER舉辦活動",
+      "info": 2022,
+      "color": "#2A9D8F"
+    },
+    {
+      "source": "那山那谷",
+      "target": "馬告精釀啤酒",
+      "group": "產業關聯",
+      "label": "開發在地品牌商品",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "那山那谷",
+      "target": "Apple Watch錶帶",
+      "group": "推出商品",
+      "label": "結合文化元素設計商品",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "陳芃伶",
+      "target": "Ryohen（流興）舊部落",
+      "group": "人地關係",
+      "label": "推動舊部落文化復振",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "陳芃伶",
+      "target": "回Yaki＆Yutas的家",
+      "group": "人地關係",
+      "label": "舉辦尋根文化活動",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "回Yaki＆Yutas的家",
+      "target": "Ryohen（流興）舊部落",
+      "group": "人地關係",
+      "label": "活動於舊部落進行",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "陳芃伶",
+      "target": "傳統家屋",
+      "group": "人地關係",
+      "label": "推動部落傳統建築復振",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "陳芃伶",
+      "target": "莎韻之鐘",
+      "group": "人地關係",
+      "label": "重建重要文化象徵",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "不打烊體驗文化",
+      "target": "伊柚部落（東岳村）",
+      "group": "人地關係",
+      "label": "以山海環境為基礎發展旅遊",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "不打烊體驗文化",
+      "target": "飛魚季",
+      "group": "活動/行動 參與",
+      "label": "規劃季節性文化體驗活動",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "飛魚季",
+      "target": "飛魚乾製作技術",
+      "group": "活動/行動 參與",
+      "label": "體驗傳統製作工序",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "飛魚乾製作技術",
+      "target": "飛魚辣椒",
+      "group": "產業關聯",
+      "label": "加工製成特色產品",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "陳芃伶",
+      "target": "綠色博覽會",
+      "group": "參與",
+      "label": "參與大型文化與環境活動",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "陳芃伶",
+      "target": "夏曉萱",
+      "group": "活動/行動 參與",
+      "label": "共同推動地方計畫",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "陳潔瑤",
+      "target": "你還記得流星嗎",
+      "group": "活動/行動 參與",
+      "label": "拍攝部落文化紀錄片",
+      "info": 2012,
+      "color": "#F4A261"
+    },
+    {
+      "source": "你還記得流星嗎",
+      "target": "Ryohen（流興）舊部落",
+      "group": "事地關係",
+      "label": "記錄舊部落文化與記憶",
+      "info": 2012,
+      "color": "#1D3557"
+    },
+    {
+      "source": "不一樣的月光",
+      "target": "林慶台",
+      "group": "活動/行動 參與",
+      "label": "參與電影演出",
+      "info": 2011,
+      "color": "#F4A261"
+    },
+    {
+      "source": "鄭惠觀",
+      "target": "泰雅我的健康餐盤",
+      "group": "活動/行動參與",
+      "label": "將傳統食材納入六大類營養分類，並針對南澳在地飲食特點設計衛教教材",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "鄭惠觀",
+      "target": "泰雅健康飲食歌",
+      "group": "活動/行動參與",
+      "label": "將「少油、少鹽、多蔬果」等核心目標編寫成口訣歌曲，讓長者能透過旋律輕鬆記憶健康原則",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "陽明交通大學 USR",
+      "target": "泰雅我的健康餐盤",
+      "group": "活動/行動參與",
+      "label": "計畫團隊結合專業營養知識與地方田調資料，共同研發並產出符合泰雅文化脈絡的餐盤教材",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "泰雅我的健康餐盤",
+      "target": "小米醃肉",
+      "group": "物件關聯",
+      "label": "教案利用餐盤比例圖解說明醃肉包含五花肉油脂、小米澱粉與高鹽分，引導學員建立食用份量觀念",
+      "info": "人-物件算物件關係嗎",
+      "color": "#A8DADC"
+    },
+    {
+      "source": "小米醃肉",
+      "target": "醃漬罐",
+      "group": "物件關聯",
+      "label": "詳述傳統醃製程序中，肉、鹽與小米需在罐中進行常溫發酵一週，此過程賦予醃肉獨特的風味與營養",
+      "info": "物件-空間算啥",
+      "color": "#A8DADC"
+    },
+    {
+      "source": "煎馬告豬肉",
+      "target": "刺蔥",
+      "group": "物件關聯",
+      "label": "建議在烹調此風味料理時增加刺蔥比例，利用植物本身的強烈辛香感降低對食鹽與調味醬料的依賴",
+      "info": "",
+      "color": "#A8DADC"
+    },
+    {
+      "source": "泰雅我的健康餐盤",
+      "target": "昭和草",
+      "group": "物件關聯",
+      "label": "將此在地野菜歸類於餐盤中的蔬菜區塊，建議以多樣化的川燙或少油炒食取代油炸方式增加攝取量",
+      "info": "",
+      "color": "#A8DADC"
+    },
+    {
+      "source": "高血壓",
+      "target": "煎馬告豬肉",
+      "group": "健康議題關係",
+      "label": "教案針對高血壓族群提供具體對策，強調利用馬告取代部分鹽巴調味，並建議攝取量不超過三根手指寬度",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "高血壓",
+      "target": "刺蔥",
+      "group": "健康議題關係",
+      "label": "推薦將刺蔥作為天然調味品，藉此降低日常飲食中的鈉攝取總量，從而穩定並防治高血壓健康問題",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "糖尿病",
+      "target": "小米醃肉",
+      "group": "健康議題關係",
+      "label": "針對糖尿病患者進行精準衛教，提醒必須將小米醃肉中的小米澱粉計算入總醣量攝取中以避免血糖波動",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "糖尿病",
+      "target": "泰雅歌舞動起來",
+      "group": "健康議題關係",
+      "label": "課程透過增加體能律動消耗過剩熱量，旨在協助糖尿病患者透過適當運動改善代謝能力與維持健康",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "彭培恩",
+      "target": "坐式泰雅傳統歌舞運動訓練",
+      "group": "活動/行動參與",
+      "label": "整合泰雅傳統歌舞與現代運動知識，開發適合南澳長者且安全的坐式歌舞介入方案",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "彭培恩",
+      "target": "廖珍琴",
+      "group": "人際關係",
+      "label": "廖老師提供傳統舞相關指導與建議，並鼓勵彭培恩從零開始學習泰雅舞",
+      "info": "",
+      "color": "#457B9D"
+    },
+    {
+      "source": "廖珍琴",
+      "target": "坐式泰雅傳統歌舞運動訓練",
+      "group": "活動/行動參與",
+      "label": "以泰雅舞蹈老師身分提供專業指導，促成方案中結合傳統舞步與肌力訓練動作的成形",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "坐式泰雅傳統歌舞運動訓練",
+      "target": "比亞豪部落",
+      "group": "事地關係",
+      "label": "本研究實際選定南澳鄉比亞豪部落之文化健康站作為運動介入與收案的基地之一",
+      "info": "",
+      "color": "#1D3557"
+    },
+    {
+      "source": "坐式泰雅傳統歌舞運動訓練",
+      "target": "武塔部落",
+      "group": "事地關係",
+      "label": "本研究實際選定南澳鄉武塔部落之文化健康站作為運動介入與收案的基地之一",
+      "info": "",
+      "color": "#1D3557"
+    },
+    {
+      "source": "坐式泰雅傳統歌舞運動訓練",
+      "target": "金岳部落",
+      "group": "事地關係",
+      "label": "本研究實際選定南澳鄉金岳部落之文化健康站作為運動介入與收案的基地之一",
+      "info": "",
+      "color": "#1D3557"
+    },
+    {
+      "source": "坐式泰雅傳統歌舞運動訓練",
+      "target": "金洋部落",
+      "group": "事地關係",
+      "label": "本研究實際選定南澳鄉金洋部落之文化健康站作為運動介入與收案的基地之一",
+      "info": "",
+      "color": "#1D3557"
+    },
+    {
+      "source": "偏鄉智慧健康研究中心",
+      "target": "部落之星計畫",
+      "group": "事地關係",
+      "label": "研究中心透過此計畫將部落智慧數位化，並落實於南澳長者的健康促進實務中",
+      "info": "",
+      "color": "#1D3557"
+    },
+    {
+      "source": "部落之星計畫",
+      "target": "原民 3D 口罩",
+      "group": "活動/行動參與",
+      "label": "團隊在計畫期間研發符合原民長者臉型的立體口罩，並融入在地織布圖騰",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "部落之星計畫",
+      "target": "偏鄉醫學體驗營",
+      "group": "活動/行動參與",
+      "label": "計畫透過營隊活動引導部落青少年認識醫學與健康照護",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "劉影梅",
+      "target": "部落之星計畫",
+      "group": "活動/行動參與",
+      "label": "由劉影梅教授帶領計畫團隊深耕南澳泰雅部落，整合數位科技、醫學與教育資源",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "泰雅獵人",
+      "target": "Gaga",
+      "group": "活動/行動參與",
+      "label": "獵人因遵循傳統規範與道德約束，發展出規律且具文化意義的活動節奏",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "泰雅獵人",
+      "target": "狩獵季",
+      "group": "活動/行動參與",
+      "label": "獵人在每年 10 月至 3 月期間切換為高度規律且具週週期的山林作息模式",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "泰雅獵人",
+      "target": "早起早歸模式",
+      "group": "活動/行動參與",
+      "label": "凌晨 5-6 點出發、下午 2-3 點返回營地，維持高度一致的工作與休息節律",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "泰雅獵人",
+      "target": "陷阱巡視",
+      "group": "活動/行動參與",
+      "label": "每日在山上的主要工作，需全神貫注以維護安全，間接塑造時間運用步調",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "吳子寧",
+      "target": "金岳社區發展協會",
+      "group": "人地關係",
+      "label": "專員在此核心場域執行社群服務、照護長輩，是其作息產生的主要空間",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "吳子寧",
+      "target": "感覺式節律",
+      "group": "活動/行動參與",
+      "label": "提出「吃得下、睡得著」為核心，追求內在身心與部落環境的和諧平衡",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "陳明仁",
+      "target": "碧候部落",
+      "group": "人地關係",
+      "label": "陳大哥居住於此，將藤編工藝製作與傳統智慧傳承融入穩定的日常生活",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "陳明仁",
+      "target": "藤編勞動週期",
+      "group": "活動/行動參與",
+      "label": "透過規律完成背簍的製作進度，建立起退休生活後穩定且具意義的節律",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "陳明仁",
+      "target": "藤編背簍",
+      "group": "活動/行動參與",
+      "label": "藤編背簍的製作過程承載了傳統文化使命",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "陳明仁",
+      "target": "小米酒",
+      "group": "物件關聯",
+      "label": "陳大哥提及小米酒具備文化社交與養生功能，與特定的社交節律活動相關",
+      "info": "",
+      "color": "#A8DADC"
+    },
+    {
+      "source": "日夜節律",
+      "target": "週期性",
+      "group": "物件關聯",
+      "label": "透過每日、每週與年度的循環特徵，展現出穩定且可預測的作息規律",
+      "info": "",
+      "color": "#A8DADC"
+    },
+    {
+      "source": "日夜節律",
+      "target": "內外互動性",
+      "group": "物件關聯",
+      "label": "體現身體內在生理機制與外在日照、氣溫、文化規範等訊號的同步交互",
+      "info": "",
+      "color": "#A8DADC"
+    },
+    {
+      "source": "Gaga",
+      "target": "日夜節律",
+      "group": "物件關聯",
+      "label": "作為指引生活秩序的核心，決定了族人活動節律啟動的時機與倫理動機",
+      "info": "",
+      "color": "#A8DADC"
+    },
+    {
+      "source": "山林智慧",
+      "target": "自然線索 (日照/溫度)",
+      "group": "物件關聯",
+      "label": "獵人依據判斷濕氣、溫度與動物習性等訊號來調整入山與工作的時機",
+      "info": "",
+      "color": "#A8DADC"
+    },
+    {
+      "source": "教會活動 (禮拜天)",
+      "target": "泰雅獵人",
+      "group": "活動/行動參與",
+      "label": "每週六返回部落、週日參與禮拜，標示了山林勞動與部落休息的時間分界",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "採藤",
+      "target": "藤編勞動週期",
+      "group": "物件關聯",
+      "label": "配合季節與個人體力進行的採集工作",
+      "info": "",
+      "color": "#A8DADC"
+    },
+    {
+      "source": "日夜節律",
+      "target": "失眠",
+      "group": "健康議題關係",
+      "label": "節律失調可能導致睡眠障礙",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "日夜節律",
+      "target": "白天嗜睡",
+      "group": "健康議題關係",
+      "label": "節律失調造成日間功能下降",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "日夜節律",
+      "target": "憂鬱症",
+      "group": "健康議題關係",
+      "label": "節律失衡與情緒障礙相關",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "日夜節律",
+      "target": "焦慮",
+      "group": "健康議題關係",
+      "label": "節律與心理健康密切相關",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "日夜節律",
+      "target": "肥胖",
+      "group": "健康議題關係",
+      "label": "節律失調影響代謝",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "日夜節律",
+      "target": "糖尿病",
+      "group": "健康議題關係",
+      "label": "節律與代謝疾病相關",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "日夜節律",
+      "target": "心血管疾病",
+      "group": "健康議題關係",
+      "label": "節律失調提高風險",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "日夜節律",
+      "target": "癌症",
+      "group": "健康議題關係",
+      "label": "長期節律破壞可能增加風險",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "日夜節律",
+      "target": "代謝症候群",
+      "group": "健康議題關係",
+      "label": "節律與代謝異常相關",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "夜班工作",
+      "target": "日夜節律",
+      "group": "健康議題關係",
+      "label": "夜班打亂生理時鐘",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "夜班工作",
+      "target": "職業倦怠",
+      "group": "健康議題關係",
+      "label": "長期輪班造成工作壓力",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "夜班工作",
+      "target": "心血管疾病",
+      "group": "健康議題關係",
+      "label": "夜班與慢性病相關",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "夜班工作",
+      "target": "代謝症候群",
+      "group": "健康議題關係",
+      "label": "影響代謝健康",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "社會時差",
+      "target": "日夜節律",
+      "group": "健康議題關係",
+      "label": "內在時鐘與社會時間不一致",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "光照療法",
+      "target": "憂鬱症",
+      "group": "健康議題關係",
+      "label": "可作為非藥物治療",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "光照療法",
+      "target": "失眠",
+      "group": "健康議題關係",
+      "label": "調整睡眠節律",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "光照療法",
+      "target": "失智症",
+      "group": "健康議題關係",
+      "label": "改善認知與睡眠問題",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "光復能",
+      "target": "日夜節律",
+      "group": "健康議題關係",
+      "label": "透過光照恢復節律",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "光復能",
+      "target": "失智症",
+      "group": "健康議題關係",
+      "label": "改善長者睡眠與認知",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "光復能",
+      "target": "憂鬱症",
+      "group": "健康議題關係",
+      "label": "情緒調節應用",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "晨間光照",
+      "target": "日夜節律",
+      "group": "物件關聯",
+      "label": "重設生理時鐘",
+      "info": "",
+      "color": "#A8DADC"
+    },
+    {
+      "source": "晨間光照",
+      "target": "失智症",
+      "group": "健康議題關係",
+      "label": "提升認知與睡眠",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "晨間光照",
+      "target": "情緒狀態",
+      "group": "健康議題關係",
+      "label": "提升情緒穩定",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "健康照明",
+      "target": "日夜節律",
+      "group": "物件關聯",
+      "label": "設計光環境促進健康",
+      "info": "",
+      "color": "#A8DADC"
+    },
+    {
+      "source": "健康照明",
+      "target": "長照環境",
+      "group": "物件關聯",
+      "label": "改善照護品質",
+      "info": "",
+      "color": "#A8DADC"
+    },
+    {
+      "source": "好眠燈",
+      "target": "光復能",
+      "group": "健康議題關係",
+      "label": "用於睡眠改善",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "好眠燈",
+      "target": "失眠",
+      "group": "健康議題關係",
+      "label": "幫助長者睡眠",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "快樂燈",
+      "target": "光復能",
+      "group": "物件關聯",
+      "label": "用於情緒調節",
+      "info": "",
+      "color": "#A8DADC"
+    },
+    {
+      "source": "快樂燈",
+      "target": "憂鬱症",
+      "group": "健康議題關係",
+      "label": "提升情緒",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "兒童與青少年",
+      "target": "近視",
+      "group": "健康議題關係",
+      "label": "戶外光不足導致近視",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "兒童與青少年",
+      "target": "失眠",
+      "group": "健康議題關係",
+      "label": "作息不規律影響睡眠",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "失智長者",
+      "target": "光照療法",
+      "group": "活動/行動參與",
+      "label": "重要治療族群",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "失智長者",
+      "target": "光復能",
+      "group": "活動/行動參與",
+      "label": "光照應用族群",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "泰雅族",
+      "target": "日出而作、日落而息",
+      "group": "活動/行動參與",
+      "label": "順應自然節律生活",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "泰雅族",
+      "target": "清晨勞作儀式",
+      "group": "活動/行動參與",
+      "label": "與自然節律同步",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "健康作息運動",
+      "target": "日夜節律",
+      "group": "活動/行動參與",
+      "label": "建立規律作息",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "健康作息運動",
+      "target": "失眠",
+      "group": "健康議題關係",
+      "label": "提升睡眠品質",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "社區健康照護研究所",
+      "target": "健康照明",
+      "group": "活動/行動參與",
+      "label": "推動健康照明應用",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "社區健康照護研究所",
+      "target": "光照療法",
+      "group": "活動/行動參與",
+      "label": "關注光與健康",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "台灣大學護理學研究所",
+      "target": "光照療法",
+      "group": "活動/行動參與",
+      "label": "相關研究訓練",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "光復能",
+      "target": "日夜節律",
+      "group": "活動/行動參與",
+      "label": "透過光照介入調節生理時鐘",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "光復能",
+      "target": "睡眠品質不佳",
+      "group": "健康議題關係",
+      "label": "提升長者睡眠品質",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "光復能",
+      "target": "日夜節律失調",
+      "group": "健康議題關係",
+      "label": "修正節律失衡問題",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "光復能",
+      "target": "原鄉健康促進",
+      "group": "健康議題關係",
+      "label": "作為原鄉健康介入核心策略",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "光復能",
+      "target": "節律健康促進模式",
+      "group": "物件關聯",
+      "label": "為健康促進模式核心技術",
+      "info": "",
+      "color": "#A8DADC"
+    },
+    {
+      "source": "日夜節律",
+      "target": "睡眠品質不佳",
+      "group": "健康議題關係",
+      "label": "節律失調影響睡眠品質",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "日夜節律",
+      "target": "日夜節律失調",
+      "group": "健康議題關係",
+      "label": "內在時鐘異常狀態",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "日夜節律",
+      "target": "光照不足",
+      "group": "健康議題關係",
+      "label": "光照不足導致節律錯亂",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "光照不足",
+      "target": "日夜節律失調",
+      "group": "健康議題關係",
+      "label": "缺乏光照造成節律失衡",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "光照不足",
+      "target": "睡眠品質不佳",
+      "group": "健康議題關係",
+      "label": "影響睡眠品質",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "室內活動為主",
+      "target": "光照不足",
+      "group": "健康議題關係",
+      "label": "減少日照暴露",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "長時間看電視",
+      "target": "日夜節律失調",
+      "group": "健康議題關係",
+      "label": "影響褪黑激素分泌",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "文化健康站",
+      "target": "文健站長者",
+      "group": "人地關係",
+      "label": "提供健康促進場域",
+      "info": "",
+      "color": "#F4A261"
+    },
+    {
+      "source": "文化健康站",
+      "target": "光復能",
+      "group": "事地關係",
+      "label": "導入光復能介入",
+      "info": "",
+      "color": "#1D3557"
+    },
+    {
+      "source": "文化健康站",
+      "target": "獵光基地",
+      "group": "空間關係",
+      "label": "作為光照應用據點之一",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "武塔日光角 Nanu-Wagi",
+      "target": "文化健康站",
+      "group": "空間關係",
+      "label": "建置於文健站中",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "武塔日光角 Nanu-Wagi",
+      "target": "節律健康促進模式",
+      "group": "健康議題關係",
+      "label": "作為示範據點",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "武塔部落",
+      "target": "文化健康站",
+      "group": "空間關係",
+      "label": "位於部落內",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "武塔部落",
+      "target": "光環境量測",
+      "group": "活動/行動參與",
+      "label": "進行光照研究",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "武塔部落",
+      "target": "原鄉健康促進",
+      "group": "活動/行動參與",
+      "label": "健康促進實施地",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "泰雅族",
+      "target": "日夜節律",
+      "group": "物件關聯",
+      "label": "傳統生活順應自然節律",
+      "info": "",
+      "color": "#A8DADC"
+    },
+    {
+      "source": "泰雅族",
+      "target": "清晨勞作儀式",
+      "group": "活動/行動參與",
+      "label": "（若之後有這個node可補）",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "文健站長者",
+      "target": "睡眠品質不佳",
+      "group": "健康議題關係",
+      "label": "主要健康問題之一",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "文健站長者",
+      "target": "光照不足",
+      "group": "健康議題關係",
+      "label": "日照時間不足",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "文健站長者",
+      "target": "日夜節律失調",
+      "group": "健康議題關係",
+      "label": "節律失衡",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "文健站長者",
+      "target": "光復能",
+      "group": "活動/行動參與",
+      "label": "主要應用族群",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "小學生",
+      "target": "日夜節律手冊（小學生版）",
+      "group": "活動/行動參與",
+      "label": "作為教材",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "文健站長者",
+      "target": "日夜節律手冊（長者版）",
+      "group": "活動/行動參與",
+      "label": "健康教育教材",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "衛教宣導影片",
+      "target": "日夜節律",
+      "group": "物件關聯",
+      "label": "將節律概念轉譯",
+      "info": "",
+      "color": "#A8DADC"
+    },
+    {
+      "source": "衛教宣導影片",
+      "target": "光復能",
+      "group": "物件關聯",
+      "label": "介紹光復能應用",
+      "info": "",
+      "color": "#A8DADC"
+    },
+    {
+      "source": "光照地圖",
+      "target": "光環境量測",
+      "group": "物件關聯",
+      "label": "由量測資料建立",
+      "info": "",
+      "color": "#A8DADC"
+    },
+    {
+      "source": "光照地圖",
+      "target": "文化健康站",
+      "group": "事地關係",
+      "label": "指引有效光照地點",
+      "info": "",
+      "color": "#1D3557"
+    },
+    {
+      "source": "紫外線變色吊飾照片",
+      "target": "光照地圖",
+      "group": "物件關聯",
+      "label": "協助光照教育",
+      "info": "",
+      "color": "#A8DADC"
+    },
+    {
+      "source": "畫出我的一天",
+      "target": "光環境量測",
+      "group": "物件關聯",
+      "label": "記錄作息與光照暴露",
+      "info": "",
+      "color": "#A8DADC"
+    },
+    {
+      "source": "畫出我的一天",
+      "target": "社區光環境資料",
+      "group": "物件關聯",
+      "label": "形成分析資料",
+      "info": "",
+      "color": "#A8DADC"
+    },
+    {
+      "source": "光環境量測",
+      "target": "社區光環境資料",
+      "group": "物件關聯",
+      "label": "蒐集四季光照數據",
+      "info": "",
+      "color": "#A8DADC"
+    },
+    {
+      "source": "光環境量測",
+      "target": "健康照明設計",
+      "group": "物件關聯",
+      "label": "提供設計基礎",
+      "info": "",
+      "color": "#A8DADC"
+    },
+    {
+      "source": "健康照明設計",
+      "target": "光復能",
+      "group": "物件關聯",
+      "label": "實踐光照介入",
+      "info": "",
+      "color": "#A8DADC"
+    },
+    {
+      "source": "健康照明設計",
+      "target": "原鄉健康促進",
+      "group": "物件關聯",
+      "label": "改善生活環境",
+      "info": "",
+      "color": "#A8DADC"
+    },
+    {
+      "source": "光復能評估量表",
+      "target": "日夜節律",
+      "group": "物件關聯",
+      "label": "測量節律狀態",
+      "info": "",
+      "color": "#A8DADC"
+    },
+    {
+      "source": "光復能評估量表",
+      "target": "文健站長者",
+      "group": "活動/行動參與",
+      "label": "評估長者需求",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "節律健康促進模式",
+      "target": "原鄉健康促進",
+      "group": "物件關聯",
+      "label": "整體策略架構",
+      "info": "",
+      "color": "#A8DADC"
+    },
+    {
+      "source": "節律健康促進模式",
+      "target": "光復能",
+      "group": "物件關聯",
+      "label": "整合光照技術",
+      "info": "",
+      "color": "#A8DADC"
+    },
+    {
+      "source": "南澳數位發展中心",
+      "target": "衛教宣導影片",
+      "group": "物件關聯",
+      "label": "推動內容保存",
+      "info": "",
+      "color": "#A8DADC"
+    },
+    {
+      "source": "南澳數位發展中心",
+      "target": "日夜節律手冊（長者版）",
+      "group": "物件關聯",
+      "label": "教材保存",
+      "info": "",
+      "color": "#A8DADC"
+    },
+    {
+      "source": "南澳數位發展中心",
+      "target": "日夜節律手冊（小學生版）",
+      "group": "物件關聯",
+      "label": "教材保存",
+      "info": "",
+      "color": "#A8DADC"
+    },
+    {
+      "source": "獵光基地",
+      "target": "教會",
+      "group": "空間關係",
+      "label": "教會為據點之一",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "獵光基地",
+      "target": "文化健康站",
+      "group": "空間關係",
+      "label": "文健站為據點之一",
+      "info": "",
+      "color": "#E63946"
+    },
+    {
+      "source": "自助集點卡",
+      "target": "文健站長者",
+      "group": "活動/行動參與",
+      "label": "鼓勵參與活動",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "原鄉新生四重奏計畫",
+      "target": "人因智慧光復能計畫",
+      "group": "活動/行動參與",
+      "label": "光復能為整體計畫中的節律與健康子計畫",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "人因智慧光復能計畫",
+      "target": "武塔部落",
+      "group": "活動/行動參與",
+      "label": "研究於南澳武塔部落進行",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "人因智慧光復能計畫",
+      "target": "宜蘭縣南澳鄉武塔社區發展協會",
+      "group": "活動/行動參與",
+      "label": "由社區發展協會協助執行",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "人因智慧光復能計畫",
+      "target": "文化健康站",
+      "group": "活動/行動參與",
+      "label": "照光介入主要於文健站進行",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "文化健康站",
+      "target": "文健站長者",
+      "group": "活動/行動參與",
+      "label": "文健站主要服務部落長者",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "文化健康站",
+      "target": "照顧服務員",
+      "group": "活動/行動參與",
+      "label": "照服員於此參與照光與照護工作",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "人因智慧光復能計畫",
+      "target": "團體照光介入",
+      "group": "活動/行動參與",
+      "label": "採標準化照光流程",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "人因智慧光復能計畫",
+      "target": "個人化照光介入",
+      "group": "活動/行動參與",
+      "label": "依個體節律調整照光方式",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "團體照光介入",
+      "target": "文化健康站",
+      "group": "活動/行動參與",
+      "label": "每日於文健站進行照光",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "個人化照光介入",
+      "target": "文健站長者",
+      "group": "活動/行動參與",
+      "label": "依長者節律調整照光",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "團體照光介入",
+      "target": "日夜節律",
+      "group": "活動/行動參與",
+      "label": "透過光照調整生理時鐘",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "個人化照光介入",
+      "target": "日夜節律",
+      "group": "活動/行動參與",
+      "label": "精準調整節律系統",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "日夜節律",
+      "target": "褪黑激素",
+      "group": "物件關聯",
+      "label": "節律調控褪黑激素分泌",
+      "info": "",
+      "color": "#A8DADC"
+    },
+    {
+      "source": "褪黑激素",
+      "target": "睡眠品質",
+      "group": "物件關聯",
+      "label": "影響入睡與睡眠穩定性",
+      "info": "",
+      "color": "#A8DADC"
+    },
+    {
+      "source": "日夜節律",
+      "target": "睡眠品質",
+      "group": "物件關聯",
+      "label": "節律穩定有助於睡眠品質",
+      "info": "",
+      "color": "#A8DADC"
+    },
+    {
+      "source": "日夜節律",
+      "target": "憂鬱",
+      "group": "健康議題關係",
+      "label": "節律失調與情緒低落相關",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "日夜節律",
+      "target": "血糖異常",
+      "group": "健康議題關係",
+      "label": "節律影響代謝與血糖",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "日夜節律",
+      "target": "失能風險",
+      "group": "健康議題關係",
+      "label": "長期失調可能增加功能退化",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "團體照光介入",
+      "target": "睡眠品質",
+      "group": "健康議題關係",
+      "label": "照光有助提升睡眠品質",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "團體照光介入",
+      "target": "憂鬱",
+      "group": "健康議題關係",
+      "label": "改善情緒狀態",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "團體照光介入",
+      "target": "血糖異常",
+      "group": "健康議題關係",
+      "label": "改善代謝相關指標",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "團體照光介入",
+      "target": "失能風險",
+      "group": "健康議題關係",
+      "label": "延緩長者功能退化",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "個人化照光介入",
+      "target": "睡眠品質",
+      "group": "健康議題關係",
+      "label": "提升個別睡眠狀況",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "個人化照光介入",
+      "target": "憂鬱",
+      "group": "健康議題關係",
+      "label": "改善心理健康",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "個人化照光介入",
+      "target": "血糖異常",
+      "group": "健康議題關係",
+      "label": "調整個別代謝狀況",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "文健站長者",
+      "target": "睡眠品質",
+      "group": "健康議題關係",
+      "label": " ",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "文健站長者",
+      "target": "憂鬱",
+      "group": "健康議題關係",
+      "label": "觀察情緒變化",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "文健站長者",
+      "target": "失能風險",
+      "group": "健康議題關係",
+      "label": "評估功能能力變化",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "照顧服務員",
+      "target": "團體照光介入",
+      "group": "健康議題關係",
+      "label": "協助執行照光活動",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "照顧服務員",
+      "target": "健康促進",
+      "group": "健康議題關係",
+      "label": "參與健康促進過程",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "睡眠日誌",
+      "target": "睡眠品質",
+      "group": "物件關聯",
+      "label": "用於記錄睡眠狀況",
+      "info": "",
+      "color": "#A8DADC"
+    },
+    {
+      "source": "睡眠活動紀錄器",
+      "target": "日夜節律",
+      "group": "物件關聯",
+      "label": "記錄活動與節律",
+      "info": "",
+      "color": "#A8DADC"
+    },
+    {
+      "source": "照度計",
+      "target": "日夜節律",
+      "group": "物件關聯",
+      "label": "測量光照暴露",
+      "info": "",
+      "color": "#A8DADC"
+    },
+    {
+      "source": "心律頻譜",
+      "target": "日夜節律",
+      "group": "物件關聯",
+      "label": "評估自律神經節律",
+      "info": "",
+      "color": "#A8DADC"
+    },
+    {
+      "source": "睡眠活動紀錄器",
+      "target": "睡眠品質",
+      "group": "物件關聯",
+      "label": "分析睡眠狀態",
+      "info": "",
+      "color": "#A8DADC"
+    },
+    {
+      "source": "照度計",
+      "target": "團體照光介入",
+      "group": "物件關聯",
+      "label": "監測光照強度",
+      "info": "",
+      "color": "#A8DADC"
+    },
+    {
+      "source": "節律健康調整",
+      "target": "日夜節律",
+      "group": "物件關聯",
+      "label": "恢復正常生理節律",
+      "info": "",
+      "color": "#A8DADC"
+    },
+    {
+      "source": "節律健康調整",
+      "target": "健康促進",
+      "group": "物件關聯",
+      "label": "作為健康促進核心方法",
+      "info": "",
+      "color": "#A8DADC"
+    },
+    {
+      "source": "健康促進",
+      "target": "文健站長者",
+      "group": "健康議題關係",
+      "label": "提升長者整體健康",
+      "info": "",
+      "color": "#999999"
+    },
+    {
+      "source": "健康促進",
+      "target": "武塔部落",
+      "group": "事地關係",
+      "label": "促進部落健康發展",
+      "info": "",
+      "color": "#1D3557"
+    }
+  ],
+  "legend": [
+    {
+      "label": "人物",
+      "color": "#E63946"
+    },
+    {
+      "label": "政府機關",
+      "color": "#FF8E8E"
+    },
+    {
+      "label": "非營利組織",
+      "color": "#4CC9F0"
+    },
+    {
+      "label": "私人企業",
+      "color": "#F4A261"
+    },
+    {
+      "label": "大學",
+      "color": "#A8DABB"
+    },
+    {
+      "label": "空間",
+      "color": "#2A9D8F"
+    },
+    {
+      "label": "事件",
+      "color": "#E9C46A"
+    },
+    {
+      "label": "物件",
+      "color": "#83C5BE"
+    },
+    {
+      "label": "產業",
+      "color": "#A8DADC"
+    },
+    {
+      "label": "行動/活動",
+      "color": "#9D4EDD"
+    },
+    {
+      "label": "族群",
+      "color": "#CCCCCC"
+    },
+    {
+      "label": "健康議題",
+      "color": "#CCCCCC"
+    },
+    {
+      "label": "群體",
+      "color": "#CCCCCC"
+    }
+  ]
+}
