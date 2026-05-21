@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
 
-const DATA_URL = './data.json';
+// 資料來源切換：Apps Script 自動推送到 data/graph.json (repo 根目錄)
+// 在 dev 與 build 環境下，data/ 資料夾透過 vite.config.js 的 staticDataPlugin 提供
+const DATA_URL = './data/graph.json';
 
 export function useGraphData() {
   const [data, setData] = useState(null);
