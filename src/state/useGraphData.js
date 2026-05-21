@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { normalizeGraph } from './normalizeGraph.js';
 
 // 資料來源切換：Apps Script 自動推送到 data/graph.json (repo 根目錄)
 // 在 dev 與 build 環境下，data/ 資料夾透過 vite.config.js 的 staticDataPlugin 提供
@@ -17,8 +18,10 @@ export function useGraphData() {
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
         return r.json();
       })
-      .then((j) => {
+      .then((raw) => {
         if (!alive) return;
+        // 正規化遠端（舊版）格式為內部 schema
+        const j = normalizeGraph(raw);
         // 用 id 建立 lookup map (給 link source/target 解析用)
         j._byId = new Map(j.nodes.map((n) => [n.id, n]));
         setData(j);
